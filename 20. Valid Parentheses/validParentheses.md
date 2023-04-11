@@ -29,9 +29,40 @@ An input string is valid if:
 
 <img src='https://img.shields.io/badge/JavaScript-F7DF1E.svg?style=for-the-badge&logo=JavaScript&logoColor=black' />
 
+### Stats
+| Type | Metric | Percentile |
+| --- | --- | --- |
+| Runtime | 64 ms | 62.84% |
+| Memory | 42.8 MB | 33.48% |
+
+### Time and Space Complexity
+ - Time Complexity: `O(n)`
+ - Space Complexity: `O(n)`
+
 ### Input, Output, Constraints, Edge (IOCE)
 
  - I: string containing various open and closed parentheses/brackets
  - O: boolean validating whether these parentheses are closed properly
  - C: N/A
  - E: empty string should be true
+
+### Strategy
+- if it is an open parentheses, then add it to the stack
+- if it is a closed parentheses, then check the stack to see if the next one out is the correct open parentheses
+  - if it is correct, then pop off the valid open parentheses from the stack and proceed along the string
+  - if it is incorrect, then return false
+- return if the stack length is 0
+
+### Pseudocode
+- create an object that correlates the open and closed parentheses pairing
+- create an empty stack
+- iterate through the string
+  - if the character is a variation of the open parentheses
+    - then add to the stack
+  - if the character is a variation of the closed parentheses
+    - then check the stack for the corresponding open parentheses
+    - if the last character of the stack matches the corresponding open parentheses
+      - then pop off the last character
+    - if it does not match
+      - then return false
+- return if the stack's length is 0

@@ -66,3 +66,12 @@ An input string is valid if:
     - if it does not match
       - then return false
 - return if the stack's length is 0
+
+## <a href='./validParentheses.test.js'>About the Tests</a>
+
+<img src='https://img.shields.io/badge/Jest-C21325.svg?style=for-the-badge&logo=Jest&logoColor=white' />
+
+Test cases are run through the LeetCode platform and locally with Jest using:
+```
+npm run test
+```

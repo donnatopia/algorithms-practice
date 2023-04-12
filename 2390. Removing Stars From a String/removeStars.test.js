@@ -1,4 +1,3 @@
-// import the function
 const removeStars = require('./removeStars.js');
 
 // change to describe.only to test only this suite

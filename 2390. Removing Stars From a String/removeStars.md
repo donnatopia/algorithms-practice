@@ -35,19 +35,16 @@ Note:
 
 <img src='https://img.shields.io/badge/JavaScript-F7DF1E.svg?style=for-the-badge&logo=JavaScript&logoColor=black' />
 
-<!-- Add Metrics from LeetCode -->
 ### Stats
 | Type | Metric | Percentile |
 | --- | --- | --- |
-| Runtime |  |  |
-| Memory |  |  |
+| Runtime | 107 ms | 32.34% |
+| Memory | 57.1 MB | 32.34% |
 
-<!-- Change Time and Space Complexity -->
 ### Time and Space Complexity
  - Time Complexity: `O(n)`
  - Space Complexity: `O(n)`
 
-<!-- Planning -->
 ### Input, Output, Constraints, Edge (IOCE)
 
  - I: string consisting of lowercase letters and stars
@@ -71,7 +68,6 @@ Note:
     - add char to the stack
 - return stack with join operation
 
-<!-- Add the link to the test -->
 ## <a href='removeStars.test.js'>About the Tests</a>
 
 <img src='https://img.shields.io/badge/Jest-C21325.svg?style=for-the-badge&logo=Jest&logoColor=white' />

@@ -12,6 +12,7 @@
 
 | # | Problem | Difficulty | Pattern | Progress |
 | --- | --- | --- | --- | --- |
+| 516 | [Longest Palindromic Subsequence](/516.%20Longest%20Palindromic%20Subsequence/longestPalindromeSubseq.md) | Medium | Dynamic Programming | :white_check_mark: [Solution](/516.%20Longest%20Palindromic%20Subsequence/longestPalindromeSubseq.js) |
 | 964 | [Validate Stack Sequences](/964.%20Validate%20Stack%20Sequences/validateStackSequences.md) | Medium | Stack | :white_check_mark: [Solution](/964.%20Validate%20Stack%20Sequences/validateStackSequences.js) |
 | 2390 | [Removing Stars From a String](/2390.%20Removing%20Stars%20From%20a%20String/removeStars.md) | Medium | Stack | :white_check_mark: [Solution](/2390.%20Removing%20Stars%20From%20a%20String/removeStars.js) |
 | 20 | [Valid Parentheses](/20.%20Valid%20Parentheses/validParentheses.md) | Easy | Stack | :white_check_mark: [Solution](/20.%20Valid%20Parentheses/validParentheses.js) |

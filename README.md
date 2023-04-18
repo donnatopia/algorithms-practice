@@ -12,6 +12,7 @@
 
 | # | Problem | Difficulty | Pattern | Progress |
 | --- | --- | --- | --- | --- |
+| 1768 | [Merge Strings Alternately](/1768.%20Merge%20Strings%20Alternately/mergeAlternately.md) | Easy | Two Pointers | :white_check_mark: [Solution](/1768.%20Merge%20Strings%20Alternately/mergeAlternately.js) |
 | 2218 | [Maximum Value of K Coins From Piles](/2218.%20Maximum%20Value%20of%20K%20Coins%20From%20Piles/maxValueOfCoins.md) | Hard | Dynamic Programming | :x: [Solution](/2218.%20Maximum%20Value%20of%20K%20Coins%20From%20Piles/maxValueOfCoins.js) |
 | 516 | [Longest Palindromic Subsequence](/516.%20Longest%20Palindromic%20Subsequence/longestPalindromeSubseq.md) | Medium | Dynamic Programming | :white_check_mark: [Solution](/516.%20Longest%20Palindromic%20Subsequence/longestPalindromeSubseq.js) |
 | 964 | [Validate Stack Sequences](/964.%20Validate%20Stack%20Sequences/validateStackSequences.md) | Medium | Stack | :white_check_mark: [Solution](/964.%20Validate%20Stack%20Sequences/validateStackSequences.js) |

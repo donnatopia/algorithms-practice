@@ -1,6 +1,6 @@
 const lastStoneWeight = require('./lastStoneWeight.js');
 
-describe.only('Last Stone Weight', () => {
+describe('Last Stone Weight', () => {
 
   it('should calculate the last stone remaining', () => {
     expect(lastStoneWeight([2,7,4,1,8,1])).toBe(1);

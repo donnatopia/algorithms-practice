@@ -28,19 +28,17 @@ Given a list `piles`, where `piles[i]` is a list of integers denoting the compos
 
 <img src='https://img.shields.io/badge/JavaScript-F7DF1E.svg?style=for-the-badge&logo=JavaScript&logoColor=black' />
 
-<!-- Add Metrics from LeetCode -->
 ### Stats
 | Type | Metric | Percentile |
 | --- | --- | --- |
-| Runtime |  |  |
-| Memory |  |  |
+| Runtime | 491 ms | 20.27% |
+| Memory | 73.8 ms | 15.73% |
 
 <!-- Change Time and Space Complexity -->
 ### Time and Space Complexity
- - Time Complexity: `O(n)`
- - Space Complexity: `O(n)`
+ - Time Complexity: `O(n * k)`
+ - Space Complexity: `O(n * k)`
 
-<!-- Planning -->
 ### Input, Output, Constraints, Edge (IOCE)
 
 - I:

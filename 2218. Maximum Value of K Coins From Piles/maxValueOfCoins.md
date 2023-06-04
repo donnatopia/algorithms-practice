@@ -43,16 +43,36 @@ Given a list `piles`, where `piles[i]` is a list of integers denoting the compos
 <!-- Planning -->
 ### Input, Output, Constraints, Edge (IOCE)
 
- - I:
- - O:
- - C:
- - E:
+- I:
+  - piles (number[][]): denotes all the piles and integers from top to bottom
+  - k (number): the number of times to draw a coin
+- O:
+  - the maximum total after optimally selecting k coins
+- C: N/A
+- E: N/A
 
 ### Strategy
 - use dynamic programming
 
 ### Pseudocode
--
+- create a depth first search (dfs) function
+  - i is the current piles index
+  - coins is the number of coins left to be removed
+
+  - base case where current piles index (i) must be less than the number of piles
+  - create a variable to store the maximum total of coins obtained so far
+  - define it as when we skip the current pile and move onto the next pile
+
+  - start a case where we iterate through the current pile
+  - calculate the running total with curPile
+
+  - iterate for the remainder of the current pile or the number of coins remaining
+    - add the value from the current pile
+    - recursively call the dfs to find the max value from pulling from an adjacent pile
+
+  - return the maximum total of coins obtained so far
+
+- call the dfs function on the first pile with all the coins remaining
 
 ## <a href='./maxValueOfCoins.test.js'>About the Tests</a>
 

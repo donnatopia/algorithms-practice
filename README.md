@@ -12,6 +12,7 @@
 
 | # | Problem | Difficulty | Pattern | Progress |
 | --- | --- | --- | --- | --- |
+| 547 | [Number of Provinces](/547.%20Number%20of%20Provinces/findCircleNum.md) | Medium | - | :white_check_mark: [Solution](/547.%20Number%20of%20Provinces/findCircleNum.js) |
 | 1046 | [Last Stone Weight](/1046.%20Last%20Stone%20Weight/lastStoneWeight.md) | Easy | Greedy | :white_check_mark: [Solution](/1046.%20Last%20Stone%20Weight/lastStoneWeight.js) |
 | 3| [Longest Substring Without Repeating Characters](/3.%20Longest%20Substring%20Without%20Repeating%20Characters/lengthOfLongestSubstring.md) | Medium | Sliding Window | :white_check_mark: [Solution](%20Longest%20Substring%20Without%20Repeating%20Characters/lengthOfLongestSubstring.js) |
 | 1768 | [Merge Strings Alternately](/1768.%20Merge%20Strings%20Alternately/mergeAlternately.md) | Easy | Two Pointers | :white_check_mark: [Solution](/1768.%20Merge%20Strings%20Alternately/mergeAlternately.js) |

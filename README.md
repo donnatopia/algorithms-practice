@@ -8,7 +8,7 @@
   <img src='https://img.shields.io/badge/ESLint-4B32C3.svg?style=for-the-badge&logo=ESLint&logoColor=white' />
 </div>
 
-## My LeetCode Progress
+## LeetCode Problems
 
 | # | Problem | Difficulty | Notes | Solution |
 | --- | --- | --- | --- | --- |

@@ -12,6 +12,7 @@
 
 | # | Problem | Difficulty | Pattern | Progress |
 | --- | --- | --- | --- | --- |
+| 1232 | [Check If It is a Straight Line](/1232.%20Check%20If%20It%20Is%20a%20Straight%20Line/checkStraightLine.md) | Easy | - | :white_check_mark: [Solution](/1232.%20Check%20If%20It%20Is%20a%20Straight%20Line/checkStraightLine.js) |
 | 547 | [Number of Provinces](/547.%20Number%20of%20Provinces/findCircleNum.md) | Medium | - | :white_check_mark: [Solution](/547.%20Number%20of%20Provinces/findCircleNum.js) |
 | 1046 | [Last Stone Weight](/1046.%20Last%20Stone%20Weight/lastStoneWeight.md) | Easy | Greedy | :white_check_mark: [Solution](/1046.%20Last%20Stone%20Weight/lastStoneWeight.js) |
 | 3| [Longest Substring Without Repeating Characters](/3.%20Longest%20Substring%20Without%20Repeating%20Characters/lengthOfLongestSubstring.md) | Medium | Sliding Window | :white_check_mark: [Solution](%20Longest%20Substring%20Without%20Repeating%20Characters/lengthOfLongestSubstring.js) |

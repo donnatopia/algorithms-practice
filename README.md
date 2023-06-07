@@ -12,6 +12,7 @@
 
 | # | Problem | Difficulty | Notes | Solution |
 | --- | --- | --- | --- | --- |
+| 1318 | [Minimum Flips to Make a OR b Equal to c](/1318.%20Minimum%20Flips%20to%20Make%20a%20OR%20b%20Equal%20to%20c/minFlips.md) | Medium | Binary Numbers | [:yellow_circle:](/1318.%20Minimum%20Flips%20to%20Make%20a%20OR%20b%20Equal%20to%20c/minFlips.js) |
 | 1502 | [Can Make Arithmetic Progression From Sequence](/1502.%20Can%20Make%20Arithmetic%20Progression%20From%20Sequence/canMakeArithmeticProgression.md) | Easy | - | [:green_circle:](/1502.%20Can%20Make%20Arithmetic%20Progression%20From%20Sequence/canMakeArithmeticProgression.js) |
 | 1372 | [Longest ZigZag Path in a Binary Tree](/1372.%20Longest%20ZigZag%20Path%20in%20a%20Binary%20Tree/longestZigZag.md) | Medium | Recursion, Binary Tree |  [:yellow_circle:](/1372.%20Longest%20ZigZag%20Path%20in%20a%20Binary%20Tree/longestZigZag.js) |
 | 1232 | [Check If It is a Straight Line](/1232.%20Check%20If%20It%20Is%20a%20Straight%20Line/checkStraightLine.md) | Easy | - | [:green_circle:](/1232.%20Check%20If%20It%20Is%20a%20Straight%20Line/checkStraightLine.js) |

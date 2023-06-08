@@ -1,4 +1,4 @@
-# LeetCode
+# Algorithms Practice
 
 <div>
   <img src='https://img.shields.io/badge/LeetCode-FFA116.svg?style=for-the-badge&logo=LeetCode&logoColor=white' />

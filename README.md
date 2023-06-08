@@ -27,6 +27,14 @@
 | 2390 | [Removing Stars From a String](/leetcode/2390.%20Removing%20Stars%20From%20a%20String/removeStars.md) | Medium | Stack | [:green_circle:](/leetcode/2390.%20Removing%20Stars%20From%20a%20String/removeStars.js) |
 | 20 | [Valid Parentheses](/leetcode/20.%20Valid%20Parentheses/validParentheses.md) | Easy | Stack | [:green_circle:](/leetcode/20.%20Valid%20Parentheses/validParentheses.js) |
 
+## Blind 75
+
+### Arrays & Hashing
+
+| # | Problem | Difficulty | Solution |
+| --- | --- | --- | --- |
+| 217 | [Contains Duplicates](/leetcode/217.%20Contains%20Duplicates//containsDuplicates.md) | Easy | [:green_circle:](/leetcode/217.%20Contains%20Duplicates/containsDuplicates.js) |
+
 ## Solution Legend
 
 Clicking on the symbols above will route you to the solution file.

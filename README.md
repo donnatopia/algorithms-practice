@@ -35,6 +35,7 @@
 | # | Problem | Difficulty | Solution |
 | --- | --- | --- | --- |
 | 217 | [Contains Duplicates](/leetcode/217.%20Contains%20Duplicates//containsDuplicates.md) | Easy | [:green_circle:](/leetcode/217.%20Contains%20Duplicates/containsDuplicates.js) |
+| 242 | [Valid Anagram](/leetcode/242.%20Valid%20Anagram/isAnagram.md) | Easy | [:green_circle:](/leetcode/242.%20Valid%20Anagram/isAnagram.js) |
 
 ## Solution Legend
 

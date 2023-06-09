@@ -77,6 +77,9 @@ An Anagram is a word or phrase formed by rearranging the letters of a different 
     - return false
 - return if the dictionary object keys length is 0
 
+### Notes
+  - can sort s and t and then return if the sorted strings equal each other, but slower time complexity
+
 ## <a href='./isAnagram.test.js'>About the Tests</a>
 
 <img src='https://img.shields.io/badge/Jest-C21325.svg?style=for-the-badge&logo=Jest&logoColor=white' />

@@ -31,8 +31,8 @@ Return the smallest character in `letters` that is lexicographically greater tha
 ### Stats
 | Type | Metric | Percentile |
 | --- | --- | --- |
-| Runtime | 67 ms | 34.79% |
-| Memory | 44.6 MB | 15.48% |
+| Runtime | 66 ms | 41.35% |
+| Memory | 43.6 MB | 80.87% |
 
 ### Time and Space Complexity
  - Time Complexity: `O(letters.length)`
@@ -63,7 +63,16 @@ Return the smallest character in `letters` that is lexicographically greater tha
   - if after the iteration of the letters array nothing is returned, that means that none of the letters' orders are lexographically greater than the target
   - that means, i should return the first character of the letters array
 
+- to optimize, utilize the fact that it is sorted => binary search algorithm
+  - default set the result to the first element of the array
+  - search from the midpoint and check to see if the midpoint is greater than the target
+    - afterwards, shift the search to the left half to check to see if there is a lesser value that is still greater than the target
+  - if the midpoint is less than the target, then search the right half to check to see if a value greater than the target exists
+  - continue narrowing the window of search while the window is still valid (meaning the left pointer is less than the right pointer)
+  - return the value recorded
+
 ### Pseudocode
+- brute force
 - create an alphabet array
 - define the index of the target as the targetOrder
 - iterate through the entire letters array
@@ -71,6 +80,19 @@ Return the smallest character in `letters` that is lexicographically greater tha
   - if the currentOrder is greater than the targetOrder
     - then return the current letter
 - return the first element of the letters array
+
+- optimization with binary search algo
+- define the left pointer as 0
+- define the right pointer as the length of the letters array
+- define the result as the first item in the array
+- while the left pointer is less than right pointer
+  - define the midpoint as the floor value of the right + left divided by 2
+  - if the value at the midpoint is greater than the target
+    - update the result to the value at the midpoint
+    - update the right pointer to the index before the midpoint
+  - else
+    - update the left pointer to the index after the midpoint
+- return the result variable
 
 ## <a href='./nextGreatestLetter.test.js'>About the Tests</a>
 

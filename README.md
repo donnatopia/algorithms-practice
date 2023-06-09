@@ -12,6 +12,7 @@
 
 | # | Problem | Difficulty | Notes | Solution |
 | --- | --- | --- | --- | --- |
+| 744 | [Find Smallest Letter Greater than Target](/leetcode/744.%20Find%20Smallest%20Letter%20Greater%20than%20Target/nextGreatestLetter.md) | Easy | Binary Search | [:green_circle:](/leetcode/744.%20Find%20Smallest%20Letter%20Greater%20than%20Target/nextGreatestLetter.js) |
 | 1351 | [Count Negative Numbers in a Sorted Matrix](/leetcode/1351.%20Count%20Negative%20Numbers%20in%20a%20Sorted%20Matrix/countNegatives.md) | Easy | - | [:green_circle:](/leetcode/1351.%20Count%20Negative%20Numbers%20in%20a%20Sorted%20Matrix/countNegatives.js) |
 | 1318 | [Minimum Flips to Make a OR b Equal to c](/leetcode/1318.%20Minimum%20Flips%20to%20Make%20a%20OR%20b%20Equal%20to%20c/minFlips.md) | Medium | Binary Numbers | [:yellow_circle:](/leetcode/1318.%20Minimum%20Flips%20to%20Make%20a%20OR%20b%20Equal%20to%20c/minFlips.js) |
 | 1502 | [Can Make Arithmetic Progression From Sequence](/leetcode/1502.%20Can%20Make%20Arithmetic%20Progression%20From%20Sequence/canMakeArithmeticProgression.md) | Easy | - | [:green_circle:](/leetcode/1502.%20Can%20Make%20Arithmetic%20Progression%20From%20Sequence/canMakeArithmeticProgression.js) |

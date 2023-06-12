@@ -12,6 +12,7 @@
 
 | # | Problem | Difficulty | Notes | Solution |
 | --- | --- | --- | --- | --- |
+| 1146 | [Snapshot Array](/leetcode/1146.%20Snapshot%20Array/snapshotArray.js) | Medium | Initialize | [:red_circle:](/leetcode/1146.%20Snapshot%20Array/snapshotArray.js) |
 | 1802 | [Maximum Value at a Given Index in a Bounded Array](/leetcode/1802.%20Maximum%20Value%20at%20a%20Given%20Index%20in%20a%20Bounded%20Array/maxValue.md) | Medium | - | [:red_circle:](/leetcode/1802.%20Maximum%20Value%20at%20a%20Given%20Index%20in%20a%20Bounded%20Array/maxValue.js) |
 | 744 | [Find Smallest Letter Greater than Target](/leetcode/744.%20Find%20Smallest%20Letter%20Greater%20than%20Target/nextGreatestLetter.md) | Easy | Binary Search | [:green_circle:](/leetcode/744.%20Find%20Smallest%20Letter%20Greater%20than%20Target/nextGreatestLetter.js) |
 | 1351 | [Count Negative Numbers in a Sorted Matrix](/leetcode/1351.%20Count%20Negative%20Numbers%20in%20a%20Sorted%20Matrix/countNegatives.md) | Easy | - | [:green_circle:](/leetcode/1351.%20Count%20Negative%20Numbers%20in%20a%20Sorted%20Matrix/countNegatives.js) |

@@ -12,6 +12,7 @@
 
 | # | Problem | Difficulty | Notes | Solution |
 | --- | --- | --- | --- | --- |
+| 2352 | [Equal Row and Column Piars](/leetcode/2352.%20Equal%20Row%20and%20Column%20Pairs/equalPairs.md) | Medium | Matrix | [:yellow_circle:](/leetcode/2352.%20Equal%20Row%20and%20Column%20Pairs/equalPairs.js) |
 | 228 | [Summary Ranges](/leetcode/228.%20Summary%20Ranges/summaryRanges.md) | Easy | - | [:green_circle:](/leetcode/228.%20Summary%20Ranges/summaryRanges.js) |
 | 1146 | [Snapshot Array](/leetcode/1146.%20Snapshot%20Array/snapshotArray.md) | Medium | Initialize | [:red_circle:](/leetcode/1146.%20Snapshot%20Array/snapshotArray.js) |
 | 1802 | [Maximum Value at a Given Index in a Bounded Array](/leetcode/1802.%20Maximum%20Value%20at%20a%20Given%20Index%20in%20a%20Bounded%20Array/maxValue.md) | Medium | - | [:red_circle:](/leetcode/1802.%20Maximum%20Value%20at%20a%20Given%20Index%20in%20a%20Bounded%20Array/maxValue.js) |

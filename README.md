@@ -12,6 +12,7 @@
 
 | # | Problem | Difficulty | Notes | Solution |
 | --- | --- | --- | --- | --- |
+| 530 | [Minimum Absolute Difference in BST](/leetcode/530.%20Minimum%20Absolute%20Difference%20in%20BST/getMinimumDifference.md) | Easy | Binary Search Tree | [:yellow_circle:](/leetcode/530.%20Minimum%20Absolute%20Difference%20in%20BST/getMinimumDifference.js) |
 | 2352 | [Equal Row and Column Piars](/leetcode/2352.%20Equal%20Row%20and%20Column%20Pairs/equalPairs.md) | Medium | Matrix | [:yellow_circle:](/leetcode/2352.%20Equal%20Row%20and%20Column%20Pairs/equalPairs.js) |
 | 228 | [Summary Ranges](/leetcode/228.%20Summary%20Ranges/summaryRanges.md) | Easy | - | [:green_circle:](/leetcode/228.%20Summary%20Ranges/summaryRanges.js) |
 | 1146 | [Snapshot Array](/leetcode/1146.%20Snapshot%20Array/snapshotArray.md) | Medium | Initialize | [:red_circle:](/leetcode/1146.%20Snapshot%20Array/snapshotArray.js) |

@@ -20,7 +20,6 @@ Return the minimum total cost such that all the elements of the array `nums` bec
 | --- | --- | --- |
 | 1 | `nums = [1,3,5,2], cost = [2,3,1,14]` | `8` |
 | 2 | `nums = [2,2,2,2,2], cost = [4,2,8,1,3]` | `0` |
-| 3 |  |  |
 
 ### Constraints:
 
@@ -32,19 +31,22 @@ Return the minimum total cost such that all the elements of the array `nums` bec
 
 <img src='https://img.shields.io/badge/JavaScript-F7DF1E.svg?style=for-the-badge&logo=JavaScript&logoColor=black' />
 
-<!-- Add Metrics from LeetCode -->
 ### Stats
 | Type | Metric | Percentile |
 | --- | --- | --- |
-| Runtime |  |  |
-| Memory |  |  |
+| Runtime | 125 ms | 50.06% |
+| Memory | 59.31 MB | 46.28% |
 
-<!-- Change Time and Space Complexity -->
 ### Time and Space Complexity
- - Time Complexity: `O(n)`
+ - Time Complexity: `O(n*log(n))`
+  - creating the copy of the array using the map function has a time complexity of O(n)
+  - Sorting the array has a time complexity of O(n*log(n))
+  - while loop has a time complexity of O(n)
+  - The time complexity is O(n*log(n) + 2n), which simplifies to O(n * log(n))
  - Space Complexity: `O(n)`
+  - the variable nums_costs is size dependent of nums length, which means that the space complexity is O(n)
+  - other variables require constant space
 
-<!-- Planning -->
 ### Input, Output, Constraints, Edge (IOCE)
 
  - I:
@@ -60,28 +62,58 @@ Return the minimum total cost such that all the elements of the array `nums` bec
   - if all the elements in nums are already equal, then the output is 0
 
 ### Strategy
-- keep a running variable for the minimum cost
-- iterate through all the elements of nums
-  - use the current number index as the blueprint as the number to make the rest of the nums array to equate
-  - calculate the cost of turning all the nums in the array into the current index number
-    - if the running total already exceeds the minimum cost, then move onto the next number index
-  - update the minimum cost with the total
-- return the running variable
+- the goal is to equalize all the numbers in the array to a target element such that the cost is minimize
+- cost is based on the individual cost associated with the number element in the array and the difference between the current element and the target element
 
-- alterative ideas
-- probably should sort the arrays such that nums and cost is in descending cost order
+- we need to find a way to minimize both the difference and the individual cost
+- we can sort the array and use the 2 pointers method to meet in the middle as a way of minimizing the difference towards the end of our loop
+
+- most likely that the target element is closer to the average value between the minimum and the maximum
+- as we compare the left pointer and the right pointer (while valid)
+  - the difference is fixed to change the left pointer value to the right pointer value, so we would choose to change the element that has the lower individual cost associated with it
+    - we would need to increment the cost accrued by the difference between the two elements and the unit cost
+    - we would now need to shift the left pointer up an index or the right pointer down an index
+    - we now need to update the unit cost by including the cost of the shifted pointer value
+- return the total sum
+
+- example:
+  - sort the array
+  - nums: [1, 2, 3, 5], costs: [2, 14, 3, 1]
+
+| nums | left_index | right_index | left_cost | right_cost | accrued_cost |
+| --- | --- | --- | --- | --- | --- |
+| [1, 2, 3, 5] | 0 | 3 | 2 | 1 | 0 |
+| [1, 2, 3, 3] | 0 | 2 | 2 | 3 + 1 = <br>4</br> | (5 - 3) * 1 = <br>2</br> |
+| [2, 2, 3, 3] | 1 | 2 | 2 + 14 = <br>16</br> | 4 | (2 - 1) * 2 = <br>2</br> |
+| [3, 3, 3, 3] | 1 | 1 | 16 | 4 + 14 = <br>18</br> | (3 - 2) * 4 = <br>4</br> |
+
+total_cost = 2 + 2 + 4 = 8
 
 ### Pseudocode
-- create a variable for min cost and set to Number.POSITIVE_INFINITY
-- itereate through nums (i)
-  - iterate through nums (j)
-    - if the nums (i) index is equal to nums (j) index, then skip this index
-    - get the absolute value difference between nums (i) and nums (j)
-    - if the cost times difference at the corresponding index is greater than min
-      - break the j loop
-    - else
-      - update the min variable
-- return min
+- create a variable called nums_and_costs and set the map value of sorted nums with their associated costs in tuples
+- sort nums_and_costs using the sort function in ascending order of nums
+
+- define left_index as 0
+- define right_index as the last index value
+- define left_cost as the cost at left_index
+- define right_cost as the cost at right_index
+- define total_cost as 0
+
+- create a while loop for while the right index is greater than the left index
+  - if the left_cost is less than the right_cost -> then this means we need to change the left value to the next lowest value
+    - define the current value at the left pointer
+    - define the next lowest value as the value 1 increment higher than the left index
+    - add to the total cost the difference between the current value and the next lowest value times the left cost
+    - increment the left index
+    - increment the left cost by the cost associated with the new left index
+  - else -> this means we need to change the right value to the next highest value
+    - define the current value at the right pointer
+    - define the next highest value as the value 1 increment lower than the right index
+    - add to the total cost the difference between the current value and the next highest value times the right cost
+    - decrement the right index
+    - increment the right cost by the cost associated with the new right index
+
+- return the total value
 
 ## <a href='./minCost.test.js'>About the Tests</a>
 

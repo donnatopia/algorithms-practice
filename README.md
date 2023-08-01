@@ -12,6 +12,8 @@
 
 | # | Problem | Difficulty | Notes | Solution |
 | --- | --- | --- | --- | --- |
+| 77 | [Combinations](/leetcode/77.%20Combinations/combine.md) | Medium | - | [:yellow_circle:](/leetcode/77.%20Combinations/combine.js) |
+| 2141 | [Maximum Running Time of N Computers](/leetcode/2141.%20Maximum%20Running%20Time%20of%20N%20Computers/maxRunTime.md) | Hard | Greedy | [:green_circle:](/leetcode/2141.%20Maximum%20Running%20Time%20of%20N%20Computers/maxRunTime.js) |
 | 2448 | [Minimum Cost to Make Array Equal](/leetcode/2448.%20Minimum%20Cost%20to%20Make%20Array%20Equal/minCost.md) | Hard | Two Pointers | [:green_circle:](/leetcode/2448.%20Minimum%20Cost%20to%20Make%20Array%20Equal/minCost.js) |
 | 1161 | [Maximum Level Sum of a Binary Tree](/leetcode/1161.%20Maximum%20Level%20Sum%20of%20a%20Binary%20Tree/maxLevelSum.md) | Medium | Binary Tree | [:green_circle:](/leetcode/1161.%20Maximum%20Level%20Sum%20of%20a%20Binary%20Tree/maxLevelSum.js) |
 | 530 | [Minimum Absolute Difference in BST](/leetcode/530.%20Minimum%20Absolute%20Difference%20in%20BST/getMinimumDifference.md) | Easy | Binary Search Tree | [:yellow_circle:](/leetcode/530.%20Minimum%20Absolute%20Difference%20in%20BST/getMinimumDifference.js) |

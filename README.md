@@ -12,7 +12,8 @@
 
 | # | Problem | Difficulty | Notes | Solution |
 | --- | --- | --- | --- | --- |
-| 77 | [Combinations](/leetcode/77.%20Combinations/combine.md) | Medium | - | [:yellow_circle:](/leetcode/77.%20Combinations/combine.js) |
+| 2090 | [K Radius Subarray Averages](/leetcode/2090.%20K%20Radius%20Subarray%20Averages/getAverages.md) | Medium | Sliding Window | [:green_circle:](/leetcode/2090.%20K%20Radius%20Subarray%20Averages/getAverages.js) |
+| 77 | [Combinations](/leetcode/77.%20Combinations/combine.md) | Medium | Backtracking | [:yellow_circle:](/leetcode/77.%20Combinations/combine.js) |
 | 2141 | [Maximum Running Time of N Computers](/leetcode/2141.%20Maximum%20Running%20Time%20of%20N%20Computers/maxRunTime.md) | Hard | Greedy | [:green_circle:](/leetcode/2141.%20Maximum%20Running%20Time%20of%20N%20Computers/maxRunTime.js) |
 | 2448 | [Minimum Cost to Make Array Equal](/leetcode/2448.%20Minimum%20Cost%20to%20Make%20Array%20Equal/minCost.md) | Hard | Two Pointers | [:green_circle:](/leetcode/2448.%20Minimum%20Cost%20to%20Make%20Array%20Equal/minCost.js) |
 | 1161 | [Maximum Level Sum of a Binary Tree](/leetcode/1161.%20Maximum%20Level%20Sum%20of%20a%20Binary%20Tree/maxLevelSum.md) | Medium | Binary Tree | [:green_circle:](/leetcode/1161.%20Maximum%20Level%20Sum%20of%20a%20Binary%20Tree/maxLevelSum.js) |

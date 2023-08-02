@@ -12,6 +12,7 @@
 
 | # | Problem | Difficulty | Notes | Solution |
 | --- | --- | --- | --- | --- |
+| 46 | [Permutations](/leetcode/46.%20Permutations/permute.md) | Medium | Backtracking | [:green_circle:](/leetcode/46.%20Permutations/permute.js) |
 | 2090 | [K Radius Subarray Averages](/leetcode/2090.%20K%20Radius%20Subarray%20Averages/getAverages.md) | Medium | Sliding Window | [:green_circle:](/leetcode/2090.%20K%20Radius%20Subarray%20Averages/getAverages.js) |
 | 77 | [Combinations](/leetcode/77.%20Combinations/combine.md) | Medium | Backtracking | [:yellow_circle:](/leetcode/77.%20Combinations/combine.js) |
 | 2141 | [Maximum Running Time of N Computers](/leetcode/2141.%20Maximum%20Running%20Time%20of%20N%20Computers/maxRunTime.md) | Hard | Greedy | [:green_circle:](/leetcode/2141.%20Maximum%20Running%20Time%20of%20N%20Computers/maxRunTime.js) |

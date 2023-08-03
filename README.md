@@ -48,6 +48,12 @@
 | 217 | [Contains Duplicates](/leetcode/217.%20Contains%20Duplicates//containsDuplicates.md) | Easy | [:green_circle:](/leetcode/217.%20Contains%20Duplicates/containsDuplicates.js) |
 | 242 | [Valid Anagram](/leetcode/242.%20Valid%20Anagram/isAnagram.md) | Easy | [:green_circle:](/leetcode/242.%20Valid%20Anagram/isAnagram.js) |
 
+## Toy Problems
+
+| # | Problem | Pattern | Solution |
+| --- | --- | --- | --- |
+| 7 | [Merge Sort](/toy-problems/7.%20Merge%20Sort/mergeSort.md) | Divide and Conquer | [:yellow_circle:](/toy-problems/7.%20Merge%20Sort/mergeSort.js) |
+
 ## Solution Legend
 
 Clicking on the symbols above will route you to the solution file.

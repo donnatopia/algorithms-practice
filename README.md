@@ -13,7 +13,7 @@
 | # | Problem | Difficulty | Notes | Solution |
 | --- | --- | --- | --- | --- |
 | 74 | [Search a 2D Matrix](/leetcode/74.%20Search%20a%202D%20Matrix/searchMatrix.md) | Medium | Binary Search | [:yellow_circle:](/leetcode/74.%20Search%20a%202D%20Matrix/searchMatrix.test.js) |
-| 139 | [Word Break](/leetcode/139.%20Word%20Break/wordBreak.md) | Medium | - | [:green_circle:](/leetcode/139.%20Word%20Break/wordBreak.js) |
+| 139 | [Word Break](/leetcode/139.%20Word%20Break/wordBreak.md) | Medium | Dynamic Programming | [:green_circle:](/leetcode/139.%20Word%20Break/wordBreak.js) |
 | 17 | [Letter Combinations of a Phone Number](/leetcode/17.%20Letter%20Combinations%20of%20a%20Phone%20Number/letterCombinations.md) | Medium | Backtracking | [:green_circle:](/leetcode/17.%20Letter%20Combinations%20of%20a%20Phone%20Number/letterCombinations.js) |
 | 46 | [Permutations](/leetcode/46.%20Permutations/permute.md) | Medium | Backtracking | [:green_circle:](/leetcode/46.%20Permutations/permute.js) |
 | 2090 | [K Radius Subarray Averages](/leetcode/2090.%20K%20Radius%20Subarray%20Averages/getAverages.md) | Medium | Sliding Window | [:green_circle:](/leetcode/2090.%20K%20Radius%20Subarray%20Averages/getAverages.js) |

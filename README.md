@@ -12,6 +12,7 @@
 
 | # | Problem | Difficulty | Notes | Solution |
 | --- | --- | --- | --- | --- |
+| 33 | [Search in Rotated Sorted Array](/leetcode/33.%20Search%20in%20Rotated%20Sorted%20Array/search.md) | Medium | Modified Binary Search | [:yellow_circle:](/leetcode/33.%20Search%20in%20Rotated%20Sorted%20Array/search.js) |
 | 74 | [Search a 2D Matrix](/leetcode/74.%20Search%20a%202D%20Matrix/searchMatrix.md) | Medium | Binary Search | [:yellow_circle:](/leetcode/74.%20Search%20a%202D%20Matrix/searchMatrix.test.js) |
 | 139 | [Word Break](/leetcode/139.%20Word%20Break/wordBreak.md) | Medium | Dynamic Programming | [:green_circle:](/leetcode/139.%20Word%20Break/wordBreak.js) |
 | 17 | [Letter Combinations of a Phone Number](/leetcode/17.%20Letter%20Combinations%20of%20a%20Phone%20Number/letterCombinations.md) | Medium | Backtracking | [:green_circle:](/leetcode/17.%20Letter%20Combinations%20of%20a%20Phone%20Number/letterCombinations.js) |

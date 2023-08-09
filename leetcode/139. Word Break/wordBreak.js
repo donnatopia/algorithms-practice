@@ -5,31 +5,20 @@
  */
 
 module.exports = (s, wordDict) => {
-  let tempDict = new Set();
-  for (let wordDictIndex in wordDict) {
-    let word = wordDict[wordDictIndex];
-    let i = 0;
-    let wordFound = false;
+  const wordSet = new Set(wordDict);
+  const n = s.length;
+  let dp = Array(n).fill(false);
+  dp[0] = wordSet.has(s[0]);
 
-    for (let j = 0; j < s.length; j++) {
-      if (s[j] === word[i]) {
-        if (i === word.length - 1) {
-          wordFound = true;
-          tempDict.add(word);
-          s = s.replace(word, "");
-          console.log('j', j);
-          break;
-        }
-        i++;
-      } else {
-        i = 0;
+  for(let end = 1; end < n; end++) {
+    for (let start = 0; start <= end; start++) {
+      const word = s.slice(start, end + 1);
+      if (wordSet.has(word) && (start === 0 || dp[start - 1] === true)) {
+        dp[end] = true;
+        break;
       }
-    }
-
-    if (wordFound === false) {
-      return false;
     }
   }
 
-  return s === "";
+  return dp[n - 1];
 }

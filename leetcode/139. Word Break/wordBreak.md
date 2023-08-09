@@ -28,17 +28,28 @@ Note that the same word in the dictionary may be reused multiple times in the se
 
 <img src='https://img.shields.io/badge/JavaScript-F7DF1E.svg?style=for-the-badge&logo=JavaScript&logoColor=black' />
 
-<!-- Add Metrics from LeetCode -->
 ### Stats
 | Type | Metric | Percentile |
 | --- | --- | --- |
-| Runtime |  |  |
-| Memory |  |  |
+| Runtime | 67 ms | 34.97% |
+| Memory | 44.06 MB | 36.13% |
 
-<!-- Change Time and Space Complexity -->
 ### Time and Space Complexity
- - Time Complexity: `O(n)`
+ - Time Complexity: `O(n^2)`
+  - creating the wordSet has a linear time complexity
+  - creating the dp has a linear time complexity
+  - searching through a set with the has function has a constant time complexity
+  - the outer for loop has a linear time complexity
+    - the interior for loop has a variable linear time complexity which increases over time
+      - the conditional all have constant time complexity
+      - the assignment of the dp has constant time complexity
+  - returning a variable from an array is constant time complexity
+  - overall, the time complexity is O(n^2 + 2n)
+    - since the for loop is leading the time complexity, this can be simplified to O(n^2)
  - Space Complexity: `O(n)`
+  - the size of wordSet is dependent on the number of variables in wordDict
+  - the size of dp is dependent on the length of s
+  - since there are variables that are dependent on the size of s and wordDict, the space complexity is O(n)
 
 ### Input, Output, Constraints, Edge (IOCE)
 
@@ -65,6 +76,18 @@ Note that the same word in the dictionary may be reused multiple times in the se
   - else
     - return true
 
+- Plan B: (dynamic programming)
+  - create a set from the wordDict
+    - creation of the set would have a time complexity of O(n)
+    - a set would make search in the wordDict at constant time complexity
+  - goal is to create a dp array which indicates if a valid split can occur at the current index
+    - a valid split means that when the current index is split from s, the word yielded is present in the wordDict set
+  - iterate through the length of s and consider all the different substrings that can be created from index 0 to the current index
+    - if the substring is present in the wordDict AND the starting index is 0 OR dp at the previous end index is true
+      - then mark the current end index as true
+      - finish the loop
+  - return the dp at the end index to show if there are valid word splits
+
 ### Pseudocode
 - Plan A:
   - create a running dictionary variable and set to an empty set
@@ -85,6 +108,19 @@ Note that the same word in the dictionary may be reused multiple times in the se
     - if wordFound is false && currentWord is not in runningDictionary
       - return false
   - return whether or not s is an empty string
+
+- Plan B:
+  - define wordSet as a set created from the wordDict array
+  - define dp as an array of length of s where all the variables are false
+  - iterate through the length of s starting from 1
+    - iteration element will be known as the end index
+    - iterate from 0 to the end index
+      - iteration element will be known as the start index
+      - create a word from the section of the start index to the end index
+      - if the wordSet has the word AND the start index is 0 OR dp is true for the index before the start index
+        - set the dp at the current end index as true
+        - break the cycle and move onto the next end index
+  - return the boolean at the last index of dp
 
 ## <a href='./wordBreak.test.js'>About the Tests</a>
 

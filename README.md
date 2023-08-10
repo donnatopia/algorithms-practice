@@ -12,6 +12,7 @@
 
 | # | Problem | Difficulty | Notes | Solution |
 | --- | --- | --- | --- | --- |
+| 2616 | [Minimize the Maximum Difference of Pairs](/leetcode/2616.%20Minimize%20the%20Maximum%20Difference%20of%20Pairs/minimizeMax.md) | Medium | - | [:red_circle:](/leetcode/2616.%20Minimize%20the%20Maximum%20Difference%20of%20Pairs/minimizeMax.js) |
 | 33 | [Search in Rotated Sorted Array](/leetcode/33.%20Search%20in%20Rotated%20Sorted%20Array/search.md) | Medium | Modified Binary Search | [:yellow_circle:](/leetcode/33.%20Search%20in%20Rotated%20Sorted%20Array/search.js) |
 | 74 | [Search a 2D Matrix](/leetcode/74.%20Search%20a%202D%20Matrix/searchMatrix.md) | Medium | Binary Search | [:yellow_circle:](/leetcode/74.%20Search%20a%202D%20Matrix/searchMatrix.test.js) |
 | 139 | [Word Break](/leetcode/139.%20Word%20Break/wordBreak.md) | Medium | Dynamic Programming | [:green_circle:](/leetcode/139.%20Word%20Break/wordBreak.js) |

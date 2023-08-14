@@ -29,14 +29,18 @@ Can you solve it without sorting?
 ### Stats
 | Type | Metric | Percentile |
 | --- | --- | --- |
-| Runtime | 148 ms | 55.40% |
-| Memory | 51.86 MB | 38.64% |
+| Runtime | 110 ms | 81.05% |
+| Memory | 51.37 MB | 60.63% |
 
 ### Time and Space Complexity
- - Time Complexity: `O(n log n)`
-  - sorting has a time complexity of O(n log n)
+ - Time Complexity: `O(n)`
+  - at each iteration of quickSelect, a partitioning step is performed, which is linear time to rearrange all the elements
+  - subsequent calls to the function reduces the problem size at the pivotIndex, which on average is half the size of the input array at each recursive calls
+  - pivot strategy used is last element pivot strategy, which can result in the worse-case scenario, which is O(n<sup>2</sup>) calls to the function
+  - however, on average, the time complexity performs closer to O(n)
  - Space Complexity: `O(n)`
-  - sorting has a space complexity of O(log n)
+  - the space complexity is dependent on the recursion depth of the quickSelect function
+  - worse case is n calls to the quickSelect function, which results in space complexity of O(n)
 
 ### Input, Output, Constraints, Edge (IOCE)
 
@@ -55,10 +59,47 @@ Can you solve it without sorting?
   - sort the array
   - return the kth element in the array - 0-indexed array
 
+- Plan B (quick select):
+  - pick a pivot index that sorts the values roughly as values less than the current value and values greater than the current value
+  - if the pivot index is equal to k
+    - then return the value at the current index
+  - else if the pivot index is greater than k
+    - then resort the values but decrease the right range to pivot index - 1
+  - else if the pivot index is less than k
+    - then resort the values but increase the left range to pivot index + 1
+
 ### Pseudocode
 - Plan A (includes sorting):
   - sort the array in descending order
   - return the (k - 1)th element in the sorted array
+
+- Plan B (quick select):
+  - create a function called quickSelect
+  - call the function quickSelect
+    - left range is set to 0
+    - right range is set to the length of num - 1
+    - index to search for is k - 1 (since arrays are zero-indexed)
+
+  - quickSelect
+    - define a variable called the pivotValue and set to value at right
+    - define a variable called pivotIndex and set to left
+    - for loop from left until right
+      - if the value at current index is greater than the pivotValue
+        - switch the value at the currentIndex with the value at the pivotIndex
+        - increment the pivotIndex
+    - switch the value at the pivotIndex with the value at right
+    - if the pivotIndex is equal to index to search for
+      - return the value at pivotIndex
+    - else if the pivotIndex is less than the index to search for
+      - recursively call the quickSelect
+        - left range is set to pivotIndex + 1
+        - right range is set to right
+        - index to search for is k - 1
+    - else if the pivotIndex is greater than the index to search for
+      - recursively call the quickSelect
+        - left range is set to left
+        - right range is set to pivotIndex - 1
+        - index to search for is k - 1
 
 ## <a href='./findKthLargest.test.js'>About the Tests</a>
 

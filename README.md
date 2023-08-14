@@ -12,6 +12,7 @@
 
 | # | Problem | Difficulty | Notes | Solution |
 | --- | --- | --- | --- | --- |
+| 215 | [Kth Largest Element in an Array](/leetcode/215.%20Kth%20Largest%20Element%20in%20an%20Array/findKthLargest.md) | Medium | sorting | [:yellow_circle:](/leetcode/215.%20Kth%20Largest%20Element%20in%20an%20Array/findKthLargest.js) |
 | 81 | [Search in Rotated Sorted Array](/leetcode/81.%20Search%20in%20Rotated%20Sorted%20Array%20II/search.md) | Medium | Modified Binary Search | [:green_circle:](/leetcode/81.%20Search%20in%20Rotated%20Sorted%20Array%20II/search.js) |
 | 2616 | [Minimize the Maximum Difference of Pairs](/leetcode/2616.%20Minimize%20the%20Maximum%20Difference%20of%20Pairs/minimizeMax.md) | Medium | - | [:red_circle:](/leetcode/2616.%20Minimize%20the%20Maximum%20Difference%20of%20Pairs/minimizeMax.js) |
 | 33 | [Search in Rotated Sorted Array](/leetcode/33.%20Search%20in%20Rotated%20Sorted%20Array/search.md) | Medium | Modified Binary Search | [:yellow_circle:](/leetcode/33.%20Search%20in%20Rotated%20Sorted%20Array/search.js) |

@@ -15,7 +15,7 @@
 | 2369 | [Check if There is a Valid Partition For the Array](/leetcode/2369.%20Check%20if%20There%20is%20a%20Valid%20Partition%20For%20The%20Array/validPartition.md) | Medium | - | [:red_circle:](/leetcode/2369.%20Check%20if%20There%20is%20a%20Valid%20Partition%20For%20The%20Array/validPartition.js) |
 | 63 | [Unique Paths II](/leetcode/63.%20Unique%20Paths%20II/uniquePathsWithObstacles.md) | Medium | - | [:red_circle:](/leetcode/63.%20Unique%20Paths%20II/uniquePathsWithObstacles.js) |
 | 920 | [Number of Music Playlists](/leetcode/920.%20Number%20of%20Music%20Playlists/numMusicPlaylists.md) | Hard | - | [:red_circle:](/leetcode/920.%20Number%20of%20Music%20Playlists/numMusicPlaylists.js) |
-| 95 | [Unique Binary Search Trees II](/leetcode/95.%20Unique%20Binary%20Search%20Trees%20II/generateTrees.md) | Medium | BST | [:red_circle:](/leetcode/95.%20Unique%20Binary%20Search%20Trees%20II/generateTrees.js) |
+| 95 | [Unique Binary Search Trees II](/leetcode/95.%20Unique%20Binary%20Search%20Trees%20II/generateTrees.md) | Medium | BST, Recursion, Maps, Memoization | [:yellow_circle:](/leetcode/95.%20Unique%20Binary%20Search%20Trees%20II/generateTrees.js) |
 | 86 | [Partition List](/leetcode/86.%20Partition%20List/partition.md) | Medium | Singly-Linked List | [:yellow_circle:](/leetcode/86.%20Partition%20List/partition.js) |
 | 518 | [Coin Change II](/leetcode/518.%20Coin%20Change%20II/change.md) | Medium | Dynamic Programming | [:yellow_circle:](/leetcode/518.%20Coin%20Change%20II/change.js) |
 | 215 | [Kth Largest Element in an Array](/leetcode/215.%20Kth%20Largest%20Element%20in%20an%20Array/findKthLargest.md) | Medium | Quick Select | [:yellow_circle:](/leetcode/215.%20Kth%20Largest%20Element%20in%20an%20Array/findKthLargest.js) |

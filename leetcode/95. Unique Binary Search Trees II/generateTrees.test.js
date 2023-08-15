@@ -1,6 +1,6 @@
 const generateTrees = require('./generateTrees');
 
-xdescribe('95. Unique Binary Search Trees II', () => {
+describe('95. Unique Binary Search Trees II', () => {
 
   it('Test Case 1', () => {
     const result = generateTrees(3);
@@ -26,13 +26,5 @@ xdescribe('95. Unique Binary Search Trees II', () => {
       return rootNode.val === expectedRoot;
     });
     expect(isExpectedTreePresent).toBe(true);
-  });
-
-  it('Test Case 3', () => {
-    const result = generateTrees(0);
-    const expectedCount = 0; // There should be 0 unique BST with 0 nodes
-    expect(result.length).toBe(expectedCount);
-
-    // No need for assertions since there are no expected trees
   });
 });

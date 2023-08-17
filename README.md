@@ -12,6 +12,7 @@
 
 | # | Problem | Difficulty | Notes | Solution |
 | --- | --- | --- | --- | --- |
+| 239 | [Sliding Window Maximum](/leetcode/239.%20Sliding%20Window%20Maximum/maxSlidingWindow.md) | Hard | Sliding Window | [:yellow_circle:](/leetcode/239.%20Sliding%20Window%20Maximum/maxSlidingWindow.js) |
 | 2369 | [Check if There is a Valid Partition For the Array](/leetcode/2369.%20Check%20if%20There%20is%20a%20Valid%20Partition%20For%20The%20Array/validPartition.md) | Medium | - | [:red_circle:](/leetcode/2369.%20Check%20if%20There%20is%20a%20Valid%20Partition%20For%20The%20Array/validPartition.js) |
 | 63 | [Unique Paths II](/leetcode/63.%20Unique%20Paths%20II/uniquePathsWithObstacles.md) | Medium | - | [:red_circle:](/leetcode/63.%20Unique%20Paths%20II/uniquePathsWithObstacles.js) |
 | 920 | [Number of Music Playlists](/leetcode/920.%20Number%20of%20Music%20Playlists/numMusicPlaylists.md) | Hard | - | [:red_circle:](/leetcode/920.%20Number%20of%20Music%20Playlists/numMusicPlaylists.js) |

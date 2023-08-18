@@ -12,6 +12,7 @@
 
 | # | Problem | Difficulty | Notes | Solution |
 | --- | --- | --- | --- | --- |
+| 542 | [01 Matrix](/leetcode/542.%2001%20Matrix/updateMatrix.md) | Medium | Dynamic Programming | [:red_circle:](/leetcode/542.%2001%20Matrix/updateMatrix.js) |
 | 239 | [Sliding Window Maximum](/leetcode/239.%20Sliding%20Window%20Maximum/maxSlidingWindow.md) | Hard | Sliding Window | [:yellow_circle:](/leetcode/239.%20Sliding%20Window%20Maximum/maxSlidingWindow.js) |
 | 2369 | [Check if There is a Valid Partition For the Array](/leetcode/2369.%20Check%20if%20There%20is%20a%20Valid%20Partition%20For%20The%20Array/validPartition.md) | Medium | - | [:red_circle:](/leetcode/2369.%20Check%20if%20There%20is%20a%20Valid%20Partition%20For%20The%20Array/validPartition.js) |
 | 63 | [Unique Paths II](/leetcode/63.%20Unique%20Paths%20II/uniquePathsWithObstacles.md) | Medium | - | [:red_circle:](/leetcode/63.%20Unique%20Paths%20II/uniquePathsWithObstacles.js) |

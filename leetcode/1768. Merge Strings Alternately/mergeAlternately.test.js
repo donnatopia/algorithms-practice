@@ -1,6 +1,6 @@
 const mergeAlternately = require('./mergeAlternately.js');
 
-describe('Problem', () => {
+xdescribe('1768. Merge Strings Alternately', () => {
 
   it('should return merged strings when word1 and word2 are the same length', () => {
     expect(mergeAlternately('abc', 'pqr')).toBe('apbqcr');

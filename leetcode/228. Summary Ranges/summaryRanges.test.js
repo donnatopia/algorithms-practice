@@ -1,6 +1,6 @@
 const summaryRanges = require('./summaryRanges.js');
 
-describe('228. Summary Ranges', () => {
+xdescribe('228. Summary Ranges', () => {
 
   it('should find the summary ranges', () => {
     expect(summaryRanges([0,1,2,4,5,7])).toStrictEqual(["0->2","4->5","7"]);

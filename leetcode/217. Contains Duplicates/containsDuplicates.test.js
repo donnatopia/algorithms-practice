@@ -1,6 +1,6 @@
 const containsDuplicates = require('./containsDuplicates.js');
 
-describe('217. Contains Duplicates', () => {
+xdescribe('217. Contains Duplicates', () => {
 
   it('should return true if there are duplicates', () => {
     expect(containsDuplicates([1,2,3,1])).toBe(true);

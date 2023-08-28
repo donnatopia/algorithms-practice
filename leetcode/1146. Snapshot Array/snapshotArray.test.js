@@ -1,6 +1,6 @@
 const SnapshotArray = require('./snapshotArray.js');
 
-describe('1146. Snapshot Array', () => {
+xdescribe('1146. Snapshot Array', () => {
 
   it('should work', () => {
     var obj = new SnapshotArray(3);

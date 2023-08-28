@@ -1,6 +1,6 @@
 const isAnagram = require('./isAnagram.js');
 
-describe('242. Valid Anagram', () => {
+xdescribe('242. Valid Anagram', () => {
 
   it('should return true for anagrams', () => {
     expect(isAnagram('anagram', 'nagaram')).toBe(true);

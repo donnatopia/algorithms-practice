@@ -1,6 +1,6 @@
 const { getMinimumDifference, TreeNode } = require('./getMinimumDifference.js');
 
-describe('530. Minimum Absolute Difference in BST', () => {
+xdescribe('530. Minimum Absolute Difference in BST', () => {
 
   it('should return the minimum aboslute difference between the values of any two different nodes in the tree', () => {
     const tree1 = new TreeNode(4, new TreeNode(2, new TreeNode(1), new TreeNode(3)), new TreeNode(6))

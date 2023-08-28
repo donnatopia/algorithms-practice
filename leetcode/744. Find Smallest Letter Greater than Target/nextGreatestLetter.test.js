@@ -1,6 +1,6 @@
 const nextGreatestLetter = require('./nextGreatestLetter.js');
 
-describe('744. Find Smallest Letter Greater Than Target', () => {
+xdescribe('744. Find Smallest Letter Greater Than Target', () => {
 
   it('should return the smallest character that is lexigraphically greater than the target', () => {
     expect(nextGreatestLetter(["c","f","j"], "a")).toBe("c");

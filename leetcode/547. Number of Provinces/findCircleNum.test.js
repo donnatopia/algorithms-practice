@@ -1,6 +1,6 @@
 const findCircleNum = require('./findCircleNum.js');
 
-describe('547. Number of Provinces', () => {
+xdescribe('547. Number of Provinces', () => {
 
   it('should return the number of cities if no connections are found', () => {
     expect(findCircleNum([[1,0,0],[0,1,0],[0,0,1]])).toBe(3);

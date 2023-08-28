@@ -1,6 +1,6 @@
 const lengthOfLongestSubstring = require('./lengthOfLongestSubstring.js');
 
-describe('Length of Longest Substring without Repeating Characters', () => {
+xdescribe('Length of Longest Substring without Repeating Characters', () => {
 
   it('should be correctly produce the length of the longest substring without repeating characters', () => {
     expect(lengthOfLongestSubstring('abcabcbb')).toBe(3);

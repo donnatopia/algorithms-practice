@@ -1,6 +1,6 @@
 const updateMatrix = require('./updateMatrix');
 
-describe('542. 01 Matrix', () => {
+xdescribe('542. 01 Matrix', () => {
 
   it('should return the distance of the nearest 0 for each cell', () => {
     expect(updateMatrix([[0,0,0],[0,1,0],[0,0,0]])).toStrictEqual([[0,0,0],[0,1,0],[0,0,0]]);

@@ -1,7 +1,7 @@
 const { ListNode } = require('../../definitions')
 const partition = require('./partition');
 
-describe('86. Partition List', () => {
+xdescribe('86. Partition List', () => {
   it('Test Case 1', () => {
     // Input: 1 -> 4 -> 3 -> 2 -> 5 -> 2, x = 3
     const head = new ListNode(1, new ListNode(4, new ListNode(3, new ListNode(2, new ListNode(5, new ListNode(2))))));

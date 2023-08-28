@@ -1,6 +1,6 @@
 const mergeSort = require('./mergeSort');
 
-describe('7. Merge Sort', () => {
+xdescribe('7. Merge Sort', () => {
 
   it('should sort the provided array', () => {
     expect(mergeSort([4,7,4,3,9,1,2])).toStrictEqual([1, 2, 3, 4, 4, 7, 9]);

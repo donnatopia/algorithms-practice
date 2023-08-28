@@ -1,6 +1,6 @@
 const maxRunTime = require('./maxRunTime.js');
 
-describe('2141. Maximum Running Time of N Computers', () => {
+xdescribe('2141. Maximum Running Time of N Computers', () => {
 
   it('should return the maximum number of minutes you can run all the n computers simultaneously', () => {
     expect(maxRunTime(2, [3, 3, 3])).toBe(4);

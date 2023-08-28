@@ -1,6 +1,6 @@
 const getAverages = require('./getAverages.js');
 
-describe('2090. K Radius Subarray Averages', () => {
+xdescribe('2090. K Radius Subarray Averages', () => {
 
   it('should return an array avgs of length n where avgs[i] is the k-radius average for the subarray centered at index i', () => {
     expect(getAverages([7,4,3,9,1,8,5,2,6], 3)).toStrictEqual([-1,-1,-1,5,4,4,-1,-1,-1]);

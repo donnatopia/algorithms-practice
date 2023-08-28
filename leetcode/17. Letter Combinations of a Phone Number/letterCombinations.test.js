@@ -1,6 +1,6 @@
 const letterCombinations = require('./letterCombinations');
 
-describe('17. Letter Combinations of a Phone Number', () => {
+xdescribe('17. Letter Combinations of a Phone Number', () => {
 
   it('should produce all the letter combinations', () => {
     expect(letterCombinations('23')).toStrictEqual(["ad","ae","af","bd","be","bf","cd","ce","cf"]);

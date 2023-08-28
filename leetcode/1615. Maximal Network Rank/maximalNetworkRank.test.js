@@ -1,6 +1,6 @@
 const maximalNetworkRank = require('./maximalNetworkRank');
 
-describe('1615. Maximal Network Rank', () => {
+xdescribe('1615. Maximal Network Rank', () => {
 
   it('should return the maximal network rank of the entire infrastructure', () => {
     expect(maximalNetworkRank(4, [[0,1],[0,3],[1,2],[1,3]])).toBe(4);

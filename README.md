@@ -68,7 +68,7 @@
 
 | # | Problem | Pattern | Solution |
 | --- | --- | --- | --- |
-| 7 | [Merge Sort](/toy-problems/7.%20Merge%20Sort/mergeSort.md) | Divide and Conquer | [:yellow_circle:](/toy-problems/7.%20Merge%20Sort/mergeSort.js) |
+| 7 | [Merge Sort](/toy-problems/7.%20Merge%20Sort/mergeSort.md) | Sorting, Divide and Conquer | [:green_circle:](/toy-problems/7.%20Merge%20Sort/mergeSort.js) |
 
 ## Solution Legend
 

@@ -135,6 +135,31 @@ Illustration of a recursive approach:
         - increment the right pointer
     - return the sorted array
 
+  - second practice attempt
+    - I: unsorted array
+    - O: sorted array using the merge sort algo
+    - C: use the merge sort algo
+    - E:
+      - array of length 0 and 1 returns the same array
+
+    - use recursion
+      - handle base case
+        - return the same array if the length is less than or equal to 1
+      - split the array in half
+      - run the function to each of the half
+      - combine the two halves of the array
+      - return the merged array
+
+    - what does it mean to merge two array
+    - define result as an empty array
+    - define a left and right pointer and set to 0
+      - each pointer will run the length of the left and right half of the array, respectively
+      - while the left pointer is less than the length of the left array and right pointer is less than the right pointer
+        - add the lesser value at the respective pointer to the result array
+        - increment the pointer
+      - whichever pointer is not at the length of their respective half to the remainder of the result array
+      - return the result array
+
 ## <a href='./mergeSort.test.js'>About the Tests</a>
 
 <img src='https://img.shields.io/badge/Jest-C21325.svg?style=for-the-badge&logo=Jest&logoColor=white' />

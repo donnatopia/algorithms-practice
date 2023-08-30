@@ -43,15 +43,36 @@ A stable sort must return `{value: 5, order: 1}, {value:5, order: 2}` in that or
 ### Input, Output, Constraints, Edge (IOCE)
 
  - I:
+  - array of numbers
  - O:
+  - original array of numbers, but sorted in ascending order
  - C:
+  - should use stable sort, which means that relative order of numbers are retained
  - E:
+  - empty array would return empty array
+  - should be able to handle presorted array
+  - should be able to handle negative elements
 
 ### Strategy
--
+- Plan A (two pointers):
+  - iterate through the length of nums
+    - iterate through the nums from 0 to the current index
+      - if the number at the current index is less than number in the internal loop
+        - then remove the value at the current index and place it before the interior index value
+        - keep track if the number has been inserted in
+    - if number has not been inserted in the correct space and deleted
+      - then splice before the current index
+  - return the original array
 
 ### Pseudocode
--
+- Plan A:
+  - iterate through the length of nums starting at the first index (currentIndex)
+    - iterate from 0 to the currentIndex (subIndex)
+      - if the value at the currentIndex is less than the value at the subIndex
+        - remove the value at the currentIndex
+        - insert the removed value before the subIndex
+        - break from the loop
+  - return nums
 
 ## <a href='./insertionSort.test.js'>About the Tests</a>
 

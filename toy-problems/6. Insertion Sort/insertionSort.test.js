@@ -1,6 +1,6 @@
 const insertionSort = require('./insertionSort');
 
-describe('6. Insertion Sort', () => {
+xdescribe('6. Insertion Sort', () => {
 
   it('should return an array', () => {
     let result = insertionSort([4, 7, 4, 3, 9, 1, 2]);

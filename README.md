@@ -71,7 +71,7 @@
 | 6 | [Insertion Sort](/toy-problems/6.%20Insertion%20Sort/insertionSort.md) | Sorting | [:yellow_circle:](/toy-problems/6.%20Insertion%20Sort/insertionSort.js) |
 | 7 | [Merge Sort](/toy-problems/7.%20Merge%20Sort/mergeSort.md) | Sorting, Divide and Conquer | [:green_circle:](/toy-problems/7.%20Merge%20Sort/mergeSort.js) |
 | 25 | [LRU Cache](/toy-problems/25.%20Lru%20Cache/lruCache.md) | Data Structure, Doubly-Linked List | [:yellow_circle:](/toy-problems/25.%20Lru%20Cache/lruCache.js) |
-| 36 | [Edit Distance](/toy-problems/36.%20Edit%20Distance/editDistance.md) | - | [:red_circle:](/toy-problems/36.%20Edit%20Distance/editDistance.js) |
+| 36 | [Edit Distance](/toy-problems/36.%20Edit%20Distance/editDistance.md) | - | [:yellow_circle:](/toy-problems/36.%20Edit%20Distance/editDistance.js) |
 
 ## Solution Legend
 

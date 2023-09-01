@@ -23,24 +23,43 @@ Target time complexity: O(log(array.length))
 
 <img src='https://img.shields.io/badge/JavaScript-F7DF1E.svg?style=for-the-badge&logo=JavaScript&logoColor=black' />
 
-<!-- Add Time and Space Complexity -->
 ### Time and Space Complexity
- - Time Complexity: `O(n)`
- - Space Complexity: `O(n)`
+ - Time Complexity: `O(log n)`
+  - binary search has a time complexity of log n because each instance the search window is cut in half
+ - Space Complexity: `O(1)`
+  - all stored variables has constant space storage regardless of array size
 
-<!-- Planning -->
 ### Input, Output, Constraints, Edge (IOCE)
 
  - I:
+  - number[]: represents an array of numbers that are sorted but rotated at a random pivot point
+  - number: target to locate within the given array
  - O:
+  - index of the target or null if not present
  - C:
+  - complete in log(n) time, so need to use binary search
  - E:
+  - no duplicates present
+  - empty array returns null
 
-### Strategy
--
-
-### Pseudocode
--
+### Strategy / Pseudocode
+- Plan A (modified binary search):
+  - define a left pointer and set to 0
+  - define a right pointer and set to the length of the array - 1
+  - while the left is less than or equal to the right pointer
+    - check to see if value at mid is equal to the target
+      - return index
+    - check to see if valid range, i.e. value at left is less than the value at right
+      - if the value at mid is less than target
+        - set left to mid + 1
+      - else
+        - set right to mid - 1
+    - else
+      - if the value at mid is less than target
+        - set left to mid + 1
+      - else
+        - set right to mid - 1
+  - return null
 
 ## <a href='./rotatedArraySearch.test.js'>About the Tests</a>
 

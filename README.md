@@ -73,7 +73,7 @@
 | 7 | [Merge Sort](/toy-problems/7.%20Merge%20Sort/mergeSort.md) | Sorting, Divide and Conquer | [:green_circle:](/toy-problems/7.%20Merge%20Sort/mergeSort.js) |
 | 25 | [LRU Cache](/toy-problems/25.%20Lru%20Cache/lruCache.md) | Data Structure, Doubly-Linked List | [:yellow_circle:](/toy-problems/25.%20Lru%20Cache/lruCache.js) |
 | 36 | [Edit Distance](/toy-problems/36.%20Edit%20Distance/editDistance.md) | DP | [:yellow_circle:](/toy-problems/36.%20Edit%20Distance/editDistance.js) |
-| 37 | [Rotated Array Search](/toy-problems/37.%20Rotated%20Array%20Search/rotatedArraySearch.md) | - | [:red_circle:](/toy-problems/37.%20Rotated%20Array%20Search/rotatedArraySearch.js) |
+| 37 | [Rotated Array Search](/toy-problems/37.%20Rotated%20Array%20Search/rotatedArraySearch.md) | Modified Binary Search | [:yellow_circle:](/toy-problems/37.%20Rotated%20Array%20Search/rotatedArraySearch.js) |
 
 ## Solution Legend
 

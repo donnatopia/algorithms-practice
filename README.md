@@ -74,6 +74,7 @@
 | 25 | [LRU Cache](/toy-problems/25.%20Lru%20Cache/lruCache.md) | Data Structure, Doubly-Linked List | [:yellow_circle:](/toy-problems/25.%20Lru%20Cache/lruCache.js) |
 | 36 | [Edit Distance](/toy-problems/36.%20Edit%20Distance/editDistance.md) | DP | [:yellow_circle:](/toy-problems/36.%20Edit%20Distance/editDistance.js) |
 | 37 | [Rotated Array Search](/toy-problems/37.%20Rotated%20Array%20Search/rotatedArraySearch.md) | Modified Binary Search | [:yellow_circle:](/toy-problems/37.%20Rotated%20Array%20Search/rotatedArraySearch.js) |
+| 38 | [Spiral Traversal](/toy-problems/38.%20Spiral%20Traversal/spiralTraversal.md) | - | [:red_circle:](/toy-problems/38.%20Spiral%20Traversal/spiralTraversal.js) |
 
 ## Solution Legend
 

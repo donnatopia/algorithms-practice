@@ -12,22 +12,22 @@
 
 | # | Problem | Difficulty | Notes | Solution |
 | --- | --- | --- | --- | --- |
-| 338 | [Counting Bits](/leetcode/338.%20Counting%20Bits/countBits.md) | Easy | - | [:red_circle:](/leetcode/338.%20Counting%20Bits/countBits.js) |
+| 338 | [Counting Bits](/leetcode/338.%20Counting%20Bits/countBits.md) | Easy | Binary, DP | [:yellow_circle:](/leetcode/338.%20Counting%20Bits/countBits.js) |
 | 1615 | [Maximal Network Rank](/leetcode/1615.%20Maximal%20Network%20Rank/maximalNetworkRank.md) | Medium | - | [:yellow_circle:](/leetcode/1615.%20Maximal%20Network%20Rank/maximalNetworkRank.js) |
-| 542 | [01 Matrix](/leetcode/542.%2001%20Matrix/updateMatrix.md) | Medium | Dynamic Programming | [:red_circle:](/leetcode/542.%2001%20Matrix/updateMatrix.js) |
+| 542 | [01 Matrix](/leetcode/542.%2001%20Matrix/updateMatrix.md) | Medium | DP | [:red_circle:](/leetcode/542.%2001%20Matrix/updateMatrix.js) |
 | 239 | [Sliding Window Maximum](/leetcode/239.%20Sliding%20Window%20Maximum/maxSlidingWindow.md) | Hard | Sliding Window | [:yellow_circle:](/leetcode/239.%20Sliding%20Window%20Maximum/maxSlidingWindow.js) |
 | 2369 | [Check if There is a Valid Partition For the Array](/leetcode/2369.%20Check%20if%20There%20is%20a%20Valid%20Partition%20For%20The%20Array/validPartition.md) | Medium | - | [:red_circle:](/leetcode/2369.%20Check%20if%20There%20is%20a%20Valid%20Partition%20For%20The%20Array/validPartition.js) |
 | 63 | [Unique Paths II](/leetcode/63.%20Unique%20Paths%20II/uniquePathsWithObstacles.md) | Medium | - | [:red_circle:](/leetcode/63.%20Unique%20Paths%20II/uniquePathsWithObstacles.js) |
 | 920 | [Number of Music Playlists](/leetcode/920.%20Number%20of%20Music%20Playlists/numMusicPlaylists.md) | Hard | - | [:red_circle:](/leetcode/920.%20Number%20of%20Music%20Playlists/numMusicPlaylists.js) |
 | 95 | [Unique Binary Search Trees II](/leetcode/95.%20Unique%20Binary%20Search%20Trees%20II/generateTrees.md) | Medium | BST, Recursion, Maps, Memoization | [:yellow_circle:](/leetcode/95.%20Unique%20Binary%20Search%20Trees%20II/generateTrees.js) |
 | 86 | [Partition List](/leetcode/86.%20Partition%20List/partition.md) | Medium | Singly-Linked List | [:yellow_circle:](/leetcode/86.%20Partition%20List/partition.js) |
-| 518 | [Coin Change II](/leetcode/518.%20Coin%20Change%20II/change.md) | Medium | Dynamic Programming | [:yellow_circle:](/leetcode/518.%20Coin%20Change%20II/change.js) |
+| 518 | [Coin Change II](/leetcode/518.%20Coin%20Change%20II/change.md) | Medium | DP | [:yellow_circle:](/leetcode/518.%20Coin%20Change%20II/change.js) |
 | 215 | [Kth Largest Element in an Array](/leetcode/215.%20Kth%20Largest%20Element%20in%20an%20Array/findKthLargest.md) | Medium | Quick Select | [:yellow_circle:](/leetcode/215.%20Kth%20Largest%20Element%20in%20an%20Array/findKthLargest.js) |
 | 81 | [Search in Rotated Sorted Array II](/leetcode/81.%20Search%20in%20Rotated%20Sorted%20Array%20II/search.md) | Medium | Modified Binary Search | [:green_circle:](/leetcode/81.%20Search%20in%20Rotated%20Sorted%20Array%20II/search.js) |
 | 2616 | [Minimize the Maximum Difference of Pairs](/leetcode/2616.%20Minimize%20the%20Maximum%20Difference%20of%20Pairs/minimizeMax.md) | Medium | - | [:red_circle:](/leetcode/2616.%20Minimize%20the%20Maximum%20Difference%20of%20Pairs/minimizeMax.js) |
 | 33 | [Search in Rotated Sorted Array](/leetcode/33.%20Search%20in%20Rotated%20Sorted%20Array/search.md) | Medium | Modified Binary Search | [:yellow_circle:](/leetcode/33.%20Search%20in%20Rotated%20Sorted%20Array/search.js) |
 | 74 | [Search a 2D Matrix](/leetcode/74.%20Search%20a%202D%20Matrix/searchMatrix.md) | Medium | Binary Search | [:yellow_circle:](/leetcode/74.%20Search%20a%202D%20Matrix/searchMatrix.test.js) |
-| 139 | [Word Break](/leetcode/139.%20Word%20Break/wordBreak.md) | Medium | Dynamic Programming | [:green_circle:](/leetcode/139.%20Word%20Break/wordBreak.js) |
+| 139 | [Word Break](/leetcode/139.%20Word%20Break/wordBreak.md) | Medium | DP | [:green_circle:](/leetcode/139.%20Word%20Break/wordBreak.js) |
 | 17 | [Letter Combinations of a Phone Number](/leetcode/17.%20Letter%20Combinations%20of%20a%20Phone%20Number/letterCombinations.md) | Medium | Backtracking | [:green_circle:](/leetcode/17.%20Letter%20Combinations%20of%20a%20Phone%20Number/letterCombinations.js) |
 | 46 | [Permutations](/leetcode/46.%20Permutations/permute.md) | Medium | Backtracking | [:green_circle:](/leetcode/46.%20Permutations/permute.js) |
 | 2090 | [K Radius Subarray Averages](/leetcode/2090.%20K%20Radius%20Subarray%20Averages/getAverages.md) | Medium | Sliding Window | [:green_circle:](/leetcode/2090.%20K%20Radius%20Subarray%20Averages/getAverages.js) |
@@ -50,8 +50,8 @@
 | 1046 | [Last Stone Weight](/leetcode/1046.%20Last%20Stone%20Weight/lastStoneWeight.md) | Easy | Greedy | [:green_circle:](/leetcode/1046.%20Last%20Stone%20Weight/lastStoneWeight.js) |
 | 3| [Longest Substring Without Repeating Characters](/leetcode/3.%20Longest%20Substring%20Without%20Repeating%20Characters/lengthOfLongestSubstring.md) | Medium | Sliding Window | [:green_circle:](/leetcode/3.%20Longest%20Substring%20Without%20Repeating%20Characters/lengthOfLongestSubstring.js) |
 | 1768 | [Merge Strings Alternately](/leetcode/1768.%20Merge%20Strings%20Alternately/mergeAlternately.md) | Easy | Two Pointers |  [:green_circle:](/leetcode/1768.%20Merge%20Strings%20Alternately/mergeAlternately.js) |
-| 2218 | [Maximum Value of K Coins From Piles](/leetcode/2218.%20Maximum%20Value%20of%20K%20Coins%20From%20Piles/maxValueOfCoins.md) | Hard | Dynamic Programming | [:yellow_circle:](/leetcode/2218.%20Maximum%20Value%20of%20K%20Coins%20From%20Piles/maxValueOfCoins.js) |
-| 516 | [Longest Palindromic Subsequence](/leetcode/516.%20Longest%20Palindromic%20Subsequence/longestPalindromeSubseq.md) | Medium | Dynamic Programming | [:green_circle:](/leetcode/516.%20Longest%20Palindromic%20Subsequence/longestPalindromeSubseq.js) |
+| 2218 | [Maximum Value of K Coins From Piles](/leetcode/2218.%20Maximum%20Value%20of%20K%20Coins%20From%20Piles/maxValueOfCoins.md) | Hard | DP | [:yellow_circle:](/leetcode/2218.%20Maximum%20Value%20of%20K%20Coins%20From%20Piles/maxValueOfCoins.js) |
+| 516 | [Longest Palindromic Subsequence](/leetcode/516.%20Longest%20Palindromic%20Subsequence/longestPalindromeSubseq.md) | Medium | DP | [:green_circle:](/leetcode/516.%20Longest%20Palindromic%20Subsequence/longestPalindromeSubseq.js) |
 | 964 | [Validate Stack Sequences](/leetcode/964.%20Validate%20Stack%20Sequences/validateStackSequences.md) | Medium | Stack | [:green_circle:](/leetcode/964.%20Validate%20Stack%20Sequences/validateStackSequences.js) |
 | 2390 | [Removing Stars From a String](/leetcode/2390.%20Removing%20Stars%20From%20a%20String/removeStars.md) | Medium | Stack | [:green_circle:](/leetcode/2390.%20Removing%20Stars%20From%20a%20String/removeStars.js) |
 | 20 | [Valid Parentheses](/leetcode/20.%20Valid%20Parentheses/validParentheses.md) | Easy | Stack | [:green_circle:](/leetcode/20.%20Valid%20Parentheses/validParentheses.js) |
@@ -72,7 +72,7 @@
 | 6 | [Insertion Sort](/toy-problems/6.%20Insertion%20Sort/insertionSort.md) | Sorting | [:yellow_circle:](/toy-problems/6.%20Insertion%20Sort/insertionSort.js) |
 | 7 | [Merge Sort](/toy-problems/7.%20Merge%20Sort/mergeSort.md) | Sorting, Divide and Conquer | [:green_circle:](/toy-problems/7.%20Merge%20Sort/mergeSort.js) |
 | 25 | [LRU Cache](/toy-problems/25.%20Lru%20Cache/lruCache.md) | Data Structure, Doubly-Linked List | [:yellow_circle:](/toy-problems/25.%20Lru%20Cache/lruCache.js) |
-| 36 | [Edit Distance](/toy-problems/36.%20Edit%20Distance/editDistance.md) | Dynamic Programming | [:yellow_circle:](/toy-problems/36.%20Edit%20Distance/editDistance.js) |
+| 36 | [Edit Distance](/toy-problems/36.%20Edit%20Distance/editDistance.md) | DP | [:yellow_circle:](/toy-problems/36.%20Edit%20Distance/editDistance.js) |
 | 37 | [Rotated Array Search](/toy-problems/37.%20Rotated%20Array%20Search/rotatedArraySearch.md) | - | [:red_circle:](/toy-problems/37.%20Rotated%20Array%20Search/rotatedArraySearch.js) |
 
 ## Solution Legend

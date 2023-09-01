@@ -26,31 +26,47 @@ Given an integer `n`, return an array `ans` of length `n + 1` such that for each
 
 <img src='https://img.shields.io/badge/JavaScript-F7DF1E.svg?style=for-the-badge&logo=JavaScript&logoColor=black' />
 
-<!-- Add Metrics from LeetCode -->
 ### Stats
 | Type | Metric | Percentile |
 | --- | --- | --- |
-| Runtime |  |  |
-| Memory |  |  |
+| Runtime | 59 ms | 98.40% |
+| Memory | 48.18 MB | 75.35% |
 
-<!-- Change Time and Space Complexity -->
 ### Time and Space Complexity
   - Time Complexity: `O(n)`
+    - iterate from 1 to n, so time is linear
   - Space Complexity: `O(n)`
+    - array data structure for the dp is dependent on the size of n, so space is linear
 
-<!-- Planning -->
 ### Input, Output, Constraints, Edge (IOCE)
 
-  - I:
-  - O:
+  - I: n (number)
+  - O: number[], where each element indicates the number of 1s present in the binary representation of the index
   - C:
+    - do it in O(n) time complexity?
   - E:
+    - 0 => [0]
+    - 1 => [0, 1]
+    - 2 => [0, 1, 1]
 
 ### Strategy
--
+- Plan A (dp):
+  - create a dp where each element represents the number of occurrence of 1s in the binary representation of the number
+  - need to keep track of the exponential values of 2 (i.e. 1, 2, 4, 8, 16)
+    - the values of these indices will be 1 in the array cause their bit-wise representation will be (i.e. 10000)
+  - for the values in between the exponential values of 2, the occurrence of 1s can be calculated based on the dp value after taking the current number minus the nearest exponential less than the current number
+  - you would also need to add one to account for the nearest exponential value less than the current number
+  - return this dp
 
 ### Pseudocode
--
+- Plan A (dp):
+  - create an array from 0 to n and fill the values with 1
+  - keep a variable called exponentialSum and set to 0
+  - iterate from 1 to n
+    - if the exponentialSum times 2 is equal to the index <= this means that the next exponential sum has arisen
+      - then set the exponentialSum to the index
+    - set the dp at the current index to be dp at (current index - exponentialSum) + 1
+  - return dp
 
 ## <a href='./countBits.test.js'>About the Tests</a>
 

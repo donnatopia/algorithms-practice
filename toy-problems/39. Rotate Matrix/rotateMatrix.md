@@ -58,10 +58,11 @@
 
 <img src='https://img.shields.io/badge/JavaScript-F7DF1E.svg?style=for-the-badge&logo=JavaScript&logoColor=black' />
 
-<!-- Add Time and Space Complexity -->
 ### Time and Space Complexity
- - Time Complexity: `O(n)`
- - Space Complexity: `O(n)`
+ - Time Complexity: `O(n^2)`
+  - time complexity is dependent on size of the n x n matrix as each element is visited exactly once
+ - Space Complexity: `O(n^2)`
+  - space complexity is dependent on the size of the n x n matrix
 
 ### Input, Output, Constraints, Edge (IOCE)
 

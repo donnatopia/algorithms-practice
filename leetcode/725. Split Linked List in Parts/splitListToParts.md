@@ -29,12 +29,11 @@ Return an array of the `k` parts.
 
 <img src='https://img.shields.io/badge/JavaScript-F7DF1E.svg?style=for-the-badge&logo=JavaScript&logoColor=black' />
 
-<!-- Add Metrics from LeetCode -->
 ### Stats
 | Type | Metric | Percentile |
 | --- | --- | --- |
-| Runtime |  |  |
-| Memory |  |  |
+| Runtime | 58 ms | 79.80% |
+| Memory | 44.98 MB | 14.14% |
 
 <!-- Change Time and Space Complexity -->
 ### Time and Space Complexity
@@ -44,16 +43,56 @@ Return an array of the `k` parts.
 <!-- Planning -->
 ### Input, Output, Constraints, Edge (IOCE)
 
-  - I:
-  - O:
+  - I: head (ListNode), which contains a val and next (which points to another ListNode or null)
+  - O: ListNode[] with a length of k
   - C:
+    - each LinkedList part can only be 1+ greater in size
+    - the larger parts are always in the front
   - E:
+    - empty head would return the k number of empty LinkedLists
 
 ### Strategy
--
+- Plan A (iterative):
+  - iterate through all the elements in the list
+  - place a reference to the node in a map as well as the index as the key
+  - determine the size of the map
+  - determine the size of each LinkedList part by dividing the size of the map with number of parts
+  - store the value of the remainder
+  - create an array
+  - based on the size of each LinkedList, change the reference to the last item of that respective part and point to null
+    - if there is still remainder, then add one more item to the last item
+    - decrement the remainder
+  - add the head of the newly truncated list to the array
+  - move onto the next part and repeat the process
+  - if there is no more parts, then just add null to the array
+  - return the array
 
 ### Pseudocode
--
+- Plan A (iterative):
+  - create a map of nodes
+  - define the currentNode as the head
+  - define the nodeIndex as 0
+  - while the currentNode exists
+    - add the currentNode to the map with the nodeIndex as the key
+    - increment the nodeIndex
+    - update the currentNode to the nextNode
+  - define the partsLength as the floor value of the size of the map divided by k
+  - define the remainder as the modulo of the size divided by k
+  - define a result array
+  - if the partsLength is 0...
+  - iterate from 0 to k, exclusive, incremeneted by partsLength
+    - define the partHead as the node at the key of the iteration value
+    - if partsHead does not exist
+      - push an empty List to the array
+      - break
+    - if the value of remainder greater than 0
+      - then define the partTail as the node at the iteration value + partsLength + 1
+      - decrement the remainder
+    - else
+      - define the partsTail as node at teh iteration value + partsLength
+    - set the next value at the partsTail to be null
+    - add the partsHead to the array
+  - return result array
 
 ## <a href='./splitListToParts.test.js'>About the Tests</a>
 

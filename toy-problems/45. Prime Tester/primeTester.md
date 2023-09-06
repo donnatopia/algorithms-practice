@@ -21,24 +21,35 @@ Write a function that generates a list of all prime numbers in a user-specified 
 
 <img src='https://img.shields.io/badge/JavaScript-F7DF1E.svg?style=for-the-badge&logo=JavaScript&logoColor=black' />
 
-<!-- Add Time and Space Complexity -->
 ### Time and Space Complexity
- - Time Complexity: `O(n)`
- - Space Complexity: `O(n)`
+ - Time Complexity: `O(Math.sqrt(n))`
+  - from the for loop
+ - Space Complexity: `O(1)`
+  - no data structures
 
-<!-- Planning -->
 ### Input, Output, Constraints, Edge (IOCE)
 
- - I:
- - O:
- - C:
+ - I: n (number)
+ - O: boolean if the number is a prime number
+ - C: N/A
  - E:
+  - 1 is not a prime number
 
 ### Strategy
--
+- Plan A:
+  - set base case that 1 is not a prime number
+  - iterate from 2 to the half of the number
+    - divide the input number by the iteration value
+    - if the value is a whole number => return false
+  - return true
 
 ### Pseudocode
--
+- Plan A (iterative):
+  - if input is less than 2, then return false
+  - iterate from 2 to upper value of sqrt of the input number, inclusive
+    - if the modulo 1 of the quotient of the input and iteration number is 0
+      - return false
+  - return true
 
 ## <a href='./primeTester.test.js'>About the Tests</a>
 

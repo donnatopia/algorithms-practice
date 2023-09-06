@@ -80,7 +80,7 @@
 | 40 | [Common Ancestor](/toy-problems/40.%20Common%20Ancestor/commonAncestor.md) | Tree | [:yellow_circle:](/toy-problems/40.%20Common%20Ancestor/commonAncestor.js) |
 | 41 | [Robot Paths](/toy-problems/41.%20Robot%20Paths/robotPaths.md) | Recursive Backtracking | [:green_circle:](/toy-problems/41.%20Robot%20Paths/robotPaths.js) |
 | 42 | [Island Count](/toy-problems/42.%20Island%20Count/islandCount.md) | DFS | [:yellow_circle:](/toy-problems/42.%20Island%20Count/islandCount.js) |
-| 45 | [Prime Tester](/toy-problems/45.%20Prime%20Tester/primeTester.md) | - | [:red_circle:](/toy-problems/45.%20Prime%20Tester/primeTester.js) |
+| 45 | [Prime Tester](/toy-problems/45.%20Prime%20Tester/primeTester.md) | Math | [:yellow_circle:](/toy-problems/45.%20Prime%20Tester/primeTester.js) |
 
 ## Solution Legend
 

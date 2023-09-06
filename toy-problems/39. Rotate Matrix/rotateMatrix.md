@@ -63,19 +63,27 @@
  - Time Complexity: `O(n)`
  - Space Complexity: `O(n)`
 
-<!-- Planning -->
 ### Input, Output, Constraints, Edge (IOCE)
 
- - I:
- - O:
- - C:
+ - I: matrix
+ - O: matrix, rotated 90 degrees
+ - C: N/A
  - E:
+  - singular element would yield the same element
 
 ### Strategy
--
+- Plan A (iterative):
+  - create a new matrix
+  - every row is the the reverse column elements at the same index
 
 ### Pseudocode
--
+- define rotated as an empty array
+- iterate from 0 to the length of a matrix row (col)
+  - define row as an empty array
+  - iterate from the length of the matrix to 0, decrementing (row)
+    - add element at the iterative row and colum to row
+  - push row to rotated array
+- return rotated
 
 ## <a href='./rotateMatrix.test.js'>About the Tests</a>
 

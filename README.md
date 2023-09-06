@@ -78,6 +78,7 @@
 | 38 | [Spiral Traversal](/toy-problems/38.%20Spiral%20Traversal/spiralTraversal.md) | - | [:yellow_circle:](/toy-problems/38.%20Spiral%20Traversal/spiralTraversal.js) |
 | 39| [Rotate Matrix](/toy-problems/39.%20Rotate%20Matrix/rotateMatrix.md) | - | [:green_circle:](/toy-problems/39.%20Rotate%20Matrix/rotateMatrix.js) |
 | 40 | [Common Ancestor](/toy-problems/40.%20Common%20Ancestor/commonAncestor.md) | Tree | [:yellow_circle:](/toy-problems/40.%20Common%20Ancestor/commonAncestor.js) |
+| 41 | [Robot Paths](/toy-problems/41.%20Robot%20Paths/robotPaths.md) | Recursive Backtracking | [:green_circle:](/toy-problems/41.%20Robot%20Paths/robotPaths.js) |
 
 ## Solution Legend
 

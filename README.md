@@ -12,6 +12,7 @@
 
 | # | Problem | Difficulty | Notes | Solution |
 | --- | --- | --- | --- | --- |
+| 725 | [Split Linked List in Parts](/leetcode/725.%20Split%20Linked%20List%20in%20Parts/splitListToParts.md) | Medium | Linked List | [:red_circle:](/leetcode/725.%20Split%20Linked%20List%20in%20Parts/splitListToParts.js) |
 | 338 | [Counting Bits](/leetcode/338.%20Counting%20Bits/countBits.md) | Easy | Binary, DP | [:yellow_circle:](/leetcode/338.%20Counting%20Bits/countBits.js) |
 | 1615 | [Maximal Network Rank](/leetcode/1615.%20Maximal%20Network%20Rank/maximalNetworkRank.md) | Medium | - | [:yellow_circle:](/leetcode/1615.%20Maximal%20Network%20Rank/maximalNetworkRank.js) |
 | 542 | [01 Matrix](/leetcode/542.%2001%20Matrix/updateMatrix.md) | Medium | DP | [:red_circle:](/leetcode/542.%2001%20Matrix/updateMatrix.js) |

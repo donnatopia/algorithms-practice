@@ -2,13 +2,27 @@ var Tree = function() {
   this.children = [];
 };
 
-
 /**
- * @param { Tree } relative
+ * @param { Tree } n1
+ * @param { Tree } n2
  * @return { Tree }
 */
-Tree.prototype.getClosestCommonAncestor = function(relative) {
+Tree.prototype.getClosestCommonAncestor = function(node1, node2) {
+  const path1 = this.getAncestorPath(node1);
+  const path2 = this.getAncestorPath(node2);
 
+  if (!path1 || !path2) return null;
+
+  let commonAncestor = null;
+  for (let i = 0; i < Math.min(path1.length, path2.length); i++) {
+    if (path1[i] === path2[i]) {
+      commonAncestor = path1[i];
+    } else {
+      break;
+    }
+  }
+
+  return commonAncestor;
 };
 
 /**
@@ -16,7 +30,26 @@ Tree.prototype.getClosestCommonAncestor = function(relative) {
  * @return { Tree[]}
 */
 Tree.prototype.getAncestorPath = function(relative) {
+  let ancestorPath = [];
 
+  (function search(node) {
+    ancestorPath.push(node);
+    if (node === relative) {
+      return true;
+    }
+
+    for (let i = 0; i < node.children.length; i++) {
+      if (search(node.children[i])) {
+        return true;
+      }
+    }
+
+    ancestorPath.pop();
+
+    return false;
+  })(this);
+
+  return ancestorPath.includes(relative) ? ancestorPath : null;
 };
 
 /**

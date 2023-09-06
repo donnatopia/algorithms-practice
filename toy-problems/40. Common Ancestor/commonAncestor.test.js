@@ -1,6 +1,6 @@
 const Tree = require('./commonAncestor');
 
-xdescribe('40. Common Ancestor', () => {
+xdescribe('Common Ancestor', () => {
 
   it('should get ancestor path between two nodes', () => {
     var greatGrandma = new Tree();
@@ -34,13 +34,13 @@ xdescribe('40. Common Ancestor', () => {
     mom.addChild(me);
     mom.addChild(brother);
 
-    expect(me.getClosestCommonAncestor(brother)).toStrictEqual(mom);
+    expect(grandma.getClosestCommonAncestor(me, brother)).toStrictEqual(mom);
   });
 
   it('should return null if no common ancestor exists between two nodes', () => {
     var me = new Tree();
     var stranger = new Tree();
-    expect(me.getClosestCommonAncestor(stranger)).toBe(null);
+    expect(me.getClosestCommonAncestor(me, stranger)).toBe(null);
   })
 
 });

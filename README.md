@@ -77,6 +77,7 @@
 | 37 | [Rotated Array Search](/toy-problems/37.%20Rotated%20Array%20Search/rotatedArraySearch.md) | Modified Binary Search | [:yellow_circle:](/toy-problems/37.%20Rotated%20Array%20Search/rotatedArraySearch.js) |
 | 38 | [Spiral Traversal](/toy-problems/38.%20Spiral%20Traversal/spiralTraversal.md) | - | [:yellow_circle:](/toy-problems/38.%20Spiral%20Traversal/spiralTraversal.js) |
 | 39| [Rotate Matrix](/toy-problems/39.%20Rotate%20Matrix/rotateMatrix.md) | - | [:green_circle:](/toy-problems/39.%20Rotate%20Matrix/rotateMatrix.js) |
+| 40 | [Common Ancestor](/toy-problems/40.%20Common%20Ancestor/commonAncestor.md) | Tree | [:red_circle:](/toy-problems/40.%20Common%20Ancestor/commonAncestor.js) |
 
 ## Solution Legend
 

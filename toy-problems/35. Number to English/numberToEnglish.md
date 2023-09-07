@@ -21,24 +21,53 @@ Make your function support decimals.
 
 <img src='https://img.shields.io/badge/JavaScript-F7DF1E.svg?style=for-the-badge&logo=JavaScript&logoColor=black' />
 
-<!-- Add Time and Space Complexity -->
 ### Time and Space Complexity
- - Time Complexity: `O(n)`
- - Space Complexity: `O(n)`
+ - Time Complexity: `O(log 10 n)`
+  - recursive calls to function occurs at log 10 of the size of n
+ - Space Complexity: `O(log 10 n)`
+  - recursion depth is dependent on size of n, which is reduced by 10 fold each run
 
-<!-- Planning -->
 ### Input, Output, Constraints, Edge (IOCE)
 
- - I:
- - O:
- - C:
- - E:
+ - I: n (number)
+ - O: string representation of n
+ - C: N/A
+ - E: N/A
 
-### Strategy
--
-
-### Pseudocode
--
+### Strategy / Pseudocode
+- Plan A (iterative):
+  - create a library of numbersToPlace
+    - hundred
+    - thousand
+    - million
+    - billion
+  - create a libray of numbersToWords
+    - one
+    - two
+    - ...
+    - ten
+    - eleven
+    - ...
+    - twenty
+    - thirty
+    - forty
+    - ...
+    - ninety
+  - if value is empty
+    - return empty string
+  - if value is less than 20
+    - return value from numbersToWords
+  - if value is less than 100
+    - divide the value by 10
+    - pull value from numbersToWords
+    - add to string value, '-', and function on remaining value
+  - find the upper 10th value (i.e. thousand, hundred, tens, ones)
+  - start from the upper 10th value
+    - make sure number divided by place value is greater than 1
+    - take the floor value of quotient and run it through function
+    - add the value to the growing string with place word
+    - subtract from the total with the string representation of number and run the value through function
+  - return string
 
 ## <a href='./numberToEnglish.test.js'>About the Tests</a>
 

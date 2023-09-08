@@ -12,6 +12,7 @@
 
 | # | Problem | Difficulty | Notes | Solution |
 | --- | --- | --- | --- | --- |
+| 118 | [Pascal's Triangle](/leetcode/118.%20Pascal's%20Triangle/generate.md) | Easy | - | [:red_circle:](/leetcode/118.%20Pascal's%20Triangle/generate.js) |
 | 92 | [Reverse Linked List II](/leetcode/92.%20Reverse%20Linked%20List%20II/reverseBetween.md) | Medium | Two Pointers, Linked List | [:yellow_circle:](/leetcode/92.%20Reverse%20Linked%20List%20II/reverseBetween.js) |
 | 725 | [Split Linked List in Parts](/leetcode/725.%20Split%20Linked%20List%20in%20Parts/splitListToParts.md) | Medium | Linked List | [:green_circle:](/leetcode/725.%20Split%20Linked%20List%20in%20Parts/splitListToParts.js) |
 | 338 | [Counting Bits](/leetcode/338.%20Counting%20Bits/countBits.md) | Easy | Binary, DP | [:yellow_circle:](/leetcode/338.%20Counting%20Bits/countBits.js) |

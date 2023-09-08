@@ -16,9 +16,13 @@ xdescribe('13. All Anagrams', () => {
 
     expect(generatedAnagrams).toEqual(expect.arrayContaining(expectedAnagrams));
     expect(generatedAnagrams.length).toBe(expectedAnagrams.length);
+  });
+
+  it('should return an array with an empty string for empty string input', () => {
+    expect(allAnagrams('')).toStrictEqual(['']);
   })
 
-  xit('should return all unique unique anagrams for strings with repeated characters', () => {
+  it('should return all unique unique anagrams for strings with repeated characters', () => {
     const expectedAnagrams = [
       'apps', 'apsp', 'aspp', 'paps', 'pasp', 'ppas', 'ppsa', 'psap', 'pspa', 'sapp', 'spap', 'sppa'
     ];

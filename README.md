@@ -76,6 +76,7 @@
 | 6 | [Insertion Sort](/toy-problems/6.%20Insertion%20Sort/insertionSort.md) | Sorting | [:yellow_circle:](/toy-problems/6.%20Insertion%20Sort/insertionSort.js) |
 | 7 | [Merge Sort](/toy-problems/7.%20Merge%20Sort/mergeSort.md) | Sorting, Divide and Conquer | [:green_circle:](/toy-problems/7.%20Merge%20Sort/mergeSort.js) |
 | 13 | [All Anagrams](/toy-problems/13.%20All%20Anagrams/allAnagrams.md) | Recursion | [:green_circle:](/toy-problems/13.%20All%20Anagrams/allAnagrams.js) |
+| 14 | [Power Set](/toy-problems/14.%20Power%20Set/powerSet.md) | - | [:red_circle:](/toy-problems/14.%20Power%20Set/powerSet.js) |
 | 25 | [LRU Cache](/toy-problems/25.%20Lru%20Cache/lruCache.md) | Data Structure, Doubly-Linked List | [:yellow_circle:](/toy-problems/25.%20Lru%20Cache/lruCache.js) |
 | 33 | [Fraction Converter](/toy-problems/33.%20Fraction%20Converter/fractionConverter.md) | - | [:red_circle:](/toy-problems/33.%20Fraction%20Converter/fractionConverter.js) |
 | 34 | [Sum Array](/toy-problems/34.%20Sum%20Array/sumArray.md) | - | [:yellow_circle:](/toy-problems/34.%20Sum%20Array/sumArray.js) |

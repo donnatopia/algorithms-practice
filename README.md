@@ -12,7 +12,7 @@
 
 | # | Problem | Difficulty | Notes | Solution |
 | --- | --- | --- | --- | --- |
-| 377 | [Combination Sum IV](/leetcode/377.%20Combination%20Sum%20IV/combinationSum4.md) | Medium | - | [:red_circle:](/leetcode/377.%20Combination%20Sum%20IV/combinationSum4.js) |
+| 377 | [Combination Sum IV](/leetcode/377.%20Combination%20Sum%20IV/combinationSum4.md) | Medium | DP | [:yellow_circle:](/leetcode/377.%20Combination%20Sum%20IV/combinationSum4.js) |
 | 118 | [Pascal's Triangle](/leetcode/118.%20Pascal's%20Triangle/generate.md) | Easy | DP | [:green_circle:](/leetcode/118.%20Pascal's%20Triangle/generate.js) |
 | 92 | [Reverse Linked List II](/leetcode/92.%20Reverse%20Linked%20List%20II/reverseBetween.md) | Medium | Two Pointers, Linked List | [:yellow_circle:](/leetcode/92.%20Reverse%20Linked%20List%20II/reverseBetween.js) |
 | 725 | [Split Linked List in Parts](/leetcode/725.%20Split%20Linked%20List%20in%20Parts/splitListToParts.md) | Medium | Linked List | [:green_circle:](/leetcode/725.%20Split%20Linked%20List%20in%20Parts/splitListToParts.js) |

@@ -21,21 +21,14 @@ Note:
 <img src='https://img.shields.io/badge/JavaScript-F7DF1E.svg?style=for-the-badge&logo=JavaScript&logoColor=black' />
 
 ### Time and Space Complexity
- - Time Complexity: `O(n)`
-  - time complexity for creating letters is O(n^2)
-    - splitting the string takes O(n)
-    - creating a set is O(n)
-  - creating sorted array from set is O(n)
-  - creating sorted string is O(n^2 log n)
-    - sorting has O(n log n) time complexity
-    - joining has O(n) time complexity
-  - iterating through the length of sorted is O(n)
-    - recursive calls has n! time complexity
-    - iterating through teh results of generatedpowerSet is O(n!)
-  - overall time complexity is led by leading coeffient O(n^2 log n + 3n! + n) =>
- - Space Complexity: `O(n * n!)`
-  - set size is dependent on teh size of str, so O(n)
-  - recursive call deck is O(n!)
+ - Time Complexity: `O(n log n + 2^n)`
+  - sorting has a time complexity of n log(n)
+    - splitting and joining the string/array has a time complexity of O(n) each but n log(n) leads the formation of sorted unique string
+    - iteration thorugh recursive function has 2^n call because for each character, we have the choice to either include or exclude it in the subset, which results in 2^n time complexity
+    - overall time complexity is n log n + 2^n
+ - Space Complexity: `O(2^n)`
+  - space is determined by the number subsets that can be included within powerSet
+  - since each subset is created through recursion, this results in space complexity of O(2^n)
 
 ### Input, Output, Constraints, Edge (IOCE)
 

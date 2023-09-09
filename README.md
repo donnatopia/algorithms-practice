@@ -78,6 +78,7 @@
 | 13 | [All Anagrams](/toy-problems/13.%20All%20Anagrams/allAnagrams.md) | Recursion | [:green_circle:](/toy-problems/13.%20All%20Anagrams/allAnagrams.js) |
 | 15 | [Power Set](/toy-problems/14.%20Power%20Set/powerSet.md) | Recursion | [:green_circle:](/toy-problems/14.%20Power%20Set/powerSet.js) |
 | 21 | [Function Bind](/toy-problems/21.%20Function%20Bind/functionBind.md) | Contexts | [:green_circle:](/toy-problems/21.%20Function%20Bind/functionBind.js) |
+| 23 | [Common Characters](/toy-problems/23.%20Common%20Characters/commonCharacters.md) | - | [:red_circle:](/toy-problems/23.%20Common%20Characters/commonCharacters.js) |
 | 25 | [LRU Cache](/toy-problems/25.%20Lru%20Cache/lruCache.md) | Data Structure, Doubly-Linked List | [:yellow_circle:](/toy-problems/25.%20Lru%20Cache/lruCache.js) |
 | 33 | [Fraction Converter](/toy-problems/33.%20Fraction%20Converter/fractionConverter.md) | - | [:red_circle:](/toy-problems/33.%20Fraction%20Converter/fractionConverter.js) |
 | 34 | [Sum Array](/toy-problems/34.%20Sum%20Array/sumArray.md) | - | [:yellow_circle:](/toy-problems/34.%20Sum%20Array/sumArray.js) |

@@ -1,4 +1,4 @@
-# 14. Power Set
+# 15. Power Set
 
 ## About the Problem
 

@@ -1,13 +1,5 @@
-
-const bind = (fn, ...args) => {
-
-}
-
-Function.prototype.bind = (...args) => {
-
-}
-
-module.exports = {
-  bind,
-  Function
+const bind = (fn, context, ...args) => {
+  return (...additionalArgs) => fn.apply(context, args.concat(additionalArgs))
 };
+
+module.exports = bind;

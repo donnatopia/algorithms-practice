@@ -25,50 +25,28 @@ function bind():
   result === 'foobar'; // true
 
 
-Function.prototype.bind:
-
- example 1:
-
-  var alice = {
-    name: 'alice',
-    shout: function(){
-      alert(this.name);
-    }
-  }
-  var boundShout = alice.shout.bind(alice);
-  boundShout(); // alerts 'alice'
-  boundShout = alice.shout.bind({name: 'bob'});
-  boundShout(); // alerts 'bob'
-
- example 2:
-
-  var func = function(a, b){ return a + b };
-  var boundFunc = func.bind(null, 'foo');
-  var result = boundFunc('bar');
-  result === 'foobar'; // true
-
 ## <a href='./functionBind.js'>About the Solution</a>
 
 <img src='https://img.shields.io/badge/JavaScript-F7DF1E.svg?style=for-the-badge&logo=JavaScript&logoColor=black' />
 
-<!-- Add Time and Space Complexity -->
 ### Time and Space Complexity
- - Time Complexity: `O(n)`
- - Space Complexity: `O(n)`
+ - Time Complexity: `O(n + m)`
+  - n is the length of args
+  - m is the length of additionalArgs
+ - Space Complexity: `O(n + m)`
+    - n is the length of args
+  - m is the length of additionalArgs
 
-<!-- Planning -->
 ### Input, Output, Constraints, Edge (IOCE)
 
- - I:
- - O:
- - C:
- - E:
+  - I: function, context, ..args
+  - O: function bound to a specified context
+    - when invoked, can call upon additional arguments
+  - C: N/A
+  - E: incorrect params given?
 
-### Strategy
--
-
-### Pseudocode
--
+### Strategy / Pseudocode
+- return the function bound to the specified context using the apply function and calling upon previously defined arguments and input arguments
 
 ## <a href='./functionBind.test.js'>About the Tests</a>
 

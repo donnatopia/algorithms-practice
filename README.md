@@ -77,7 +77,7 @@
 | 13 | [All Anagrams](/toy-problems/13.%20All%20Anagrams/allAnagrams.md) | Recursion | [:green_circle:](/toy-problems/13.%20All%20Anagrams/allAnagrams.js) |
 | 25 | [LRU Cache](/toy-problems/25.%20Lru%20Cache/lruCache.md) | Data Structure, Doubly-Linked List | [:yellow_circle:](/toy-problems/25.%20Lru%20Cache/lruCache.js) |
 | 33 | [Fraction Converter](/toy-problems/33.%20Fraction%20Converter/fractionConverter.md) | - | [:red_circle:](/toy-problems/33.%20Fraction%20Converter/fractionConverter.js) |
-| 34 | [Sum Array](/toy-problems/34.%20Sum%20Array/sumArray.md) | - | [:red_circle:](/toy-problems/34.%20Sum%20Array/sumArray.js) |
+| 34 | [Sum Array](/toy-problems/34.%20Sum%20Array/sumArray.md) | - | [:yellow_circle:](/toy-problems/34.%20Sum%20Array/sumArray.js) |
 | 35 | [Number to English](/toy-problems/35.%20Number%20to%20English/numberToEnglish.md) | Recursion | [:yellow_circle:](/toy-problems/35.%20Number%20to%20English/numberToEnglish.js) |
 | 36 | [Edit Distance](/toy-problems/36.%20Edit%20Distance/editDistance.md) | DP | [:yellow_circle:](/toy-problems/36.%20Edit%20Distance/editDistance.js) |
 | 37 | [Rotated Array Search](/toy-problems/37.%20Rotated%20Array%20Search/rotatedArraySearch.md) | Modified Binary Search | [:yellow_circle:](/toy-problems/37.%20Rotated%20Array%20Search/rotatedArraySearch.js) |

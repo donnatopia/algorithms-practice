@@ -10,4 +10,10 @@ xdescribe('34. Sum Array', () => {
     expect(sumArray([10, -11, 11])).toBe(11);
   });
 
+  it('should return the greatest contigous sum that are less than or equal to 0', () => {
+    expect(sumArray([0])).toBe(0);
+    expect(sumArray([0, -10])).toBe(0);
+    expect(sumArray([-1, -2, -3, -4])).toBe(-1);
+  })
+
 });

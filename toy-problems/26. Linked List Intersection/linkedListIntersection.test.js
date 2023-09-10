@@ -19,14 +19,14 @@ xdescribe('26. Linked List Intersection', () => {
   });
 
   it('should return the node of intersection for two lists of the different lengths', () => {
-    var list1 = Node('A');
-    var nodeB = list1.next = Node('B');
-    var nodeC = nodeB.next = Node('C');
-    var nodeD = nodeC.next = Node('D');
-    var nodeE = nodeD.next = Node('E');
-    var nodeF = nodeE.next = Node('F');
-    var list2 = Node('X');
-    var nodeY = list2.next = Node('Y');
+    var list1 = new ListNode('A');
+    var nodeB = list1.next = new ListNode('B');
+    var nodeC = nodeB.next = new ListNode('C');
+    var nodeD = nodeC.next = new ListNode('D');
+    var nodeE = nodeD.next = new ListNode('E');
+    var nodeF = nodeE.next = new ListNode('F');
+    var list2 = new ListNode('X');
+    var nodeY = list2.next = new ListNode('Y');
     nodeY.next = nodeD;
 
     expect(linkedListIntersection(list1, list2)).toStrictEqual(nodeD);

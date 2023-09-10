@@ -21,24 +21,38 @@ Given the following two linked lists list1 and list2, linkedListIntersection(lis
 
 <img src='https://img.shields.io/badge/JavaScript-F7DF1E.svg?style=for-the-badge&logo=JavaScript&logoColor=black' />
 
-<!-- Add Time and Space Complexity -->
 ### Time and Space Complexity
-  - Time Complexity: `O(n)`
-  - Space Complexity: `O(n)`
+  - Time Complexity: `O(n * m)`
+    - iteration through list1 is O(n), where n is the number of nodes in list1
+    - iteration through list2 is O(m), where m is the number of nodes in list2
+  - Space Complexity: `O(1)`
+    - no additional data structures
 
-<!-- Planning -->
 ### Input, Output, Constraints, Edge (IOCE)
 
   - I:
+    - list1 (ListNode)
+    - list2 (ListNode)
   - O:
-  - C:
+    - ListNode of where the two lists intersect
+    - else null
+  - C: N/A
   - E:
+    - common node value, but not the same node (for the sake of simplicity, every node value is distinct)
 
 ### Strategy
--
+- Plan A (brute force):
+  - compare every single node until you find a commonality
+  - return null otherwise
 
 ### Pseudocode
--
+- Plan A (brute force):
+  - iterate through all the nodes of list1
+    - iterate through all the nodes of list2
+      - check to see if the value of the node1 and node2 are equal
+        - return node1
+    - run it through the function LinkedListIntersection of the next node and list2
+  - return null
 
 ## <a href='./linkedListIntersection.test.js'>About the Tests</a>
 

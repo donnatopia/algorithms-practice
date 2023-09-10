@@ -47,24 +47,76 @@ evenNumbers.includes(3) should be false
 
 <img src='https://img.shields.io/badge/JavaScript-F7DF1E.svg?style=for-the-badge&logo=JavaScript&logoColor=black' />
 
-<!-- Add Time and Space Complexity -->
 ### Time and Space Complexity
-  - Time Complexity: `O(n)`
-  - Space Complexity: `O(n)`
+  - Time Complexity:
+    - size is constant `O(1)`
+    - each is based on the size of the range `O(n)`
+    - includes is constant `O(1)`
+  - Space Complexity: `O(1)`
 
-<!-- Planning -->
 ### Input, Output, Constraints, Edge (IOCE)
 
+- Range constructor
   - I:
+    - start (number)
+    - end (number)
+    - step (number)
   - O:
+    - constructor
   - C:
+    - use constant space
   - E:
+    - no start, return null
+    - if no step provided, assume 1
+    - if start > end, decrement step
+    - negative step
+    - only start provided
 
-### Strategy
--
+- size
+  - I: N/A
+  - O: number
+  - C: constant space
+  - E:
+    - return null if no start
 
-### Pseudocode
--
+- each
+  - I: cb (function)
+  - O: N/A
+  - C: constant space
+  - E: no start
+
+- includes
+  - I: val (number)
+  - O: boolean if val is in range
+  - C: constant space
+  - E: no start
+
+### Strategy / Pseudocode
+- constructor
+  - set start to start
+  - set end to either end or start
+  - set step to step or 1
+
+- size
+  - get the absolute difference between the start and end
+  - divide the absolute difference by the step
+  - the valid elements between start and end is the floor value of the quotient
+
+- each
+  - determine if we are decrementing or incrementing
+    - decrementing
+      - start > end OR step is negative
+    - else incrementing
+  - for decrementing
+    - create a for loop starting at the starting value until the end value (inclusive), decrementing
+      - invoke the cb function on the iteration value
+  - for incrementing
+    - create a for loop starting the starting value until the end (inclusive), incrementing
+      - invoke the cb function on iteration value
+
+- includes
+  - check to see if the value lies between start and end
+    - return whether the modulo value of the start and step AND teh modulo value of the val and step are equal
 
 ## <a href='./rangeClass.test.js'>About the Tests</a>
 

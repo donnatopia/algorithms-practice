@@ -97,7 +97,7 @@
 | 21 | [Function Bind](/toy-problems/21.%20Function%20Bind/functionBind.md) | Contexts | [:green_circle:](/toy-problems/21.%20Function%20Bind/functionBind.js) |
 | 22 | [Binary Heap](/toy-problems/23.%20Binary%20Heap/binaryHeap.md) | - | [:red_circle:](/toy-problems/23.%20Binary%20Heap/binaryHeap.js) |
 | 23 | [Common Characters](/toy-problems/23.%20Common%20Characters/commonCharacters.md) | - | [:green_circle:](/toy-problems/23.%20Common%20Characters/commonCharacters.js) |
-| 24 | [Range Class](/toy-problems/24.%20Range%20Class/rangeClass.md) | - | [:red_circle:](/toy-problems/24.%20Range%20Class/rangeClass.js) |
+| 24 | [Range Class](/toy-problems/24.%20Range%20Class/rangeClass.md) | Constructor | [:yellow_circle:](/toy-problems/24.%20Range%20Class/rangeClass.js) |
 | 25 | [LRU Cache](/toy-problems/25.%20Lru%20Cache/lruCache.md) | Data Structure, Doubly-Linked List | [:yellow_circle:](/toy-problems/25.%20Lru%20Cache/lruCache.js) |
 | 26 | [Linked List Intersection](/toy-problems/26.%20Linked%20List%20Intersection/linkedListIntersection.md) | Linked List | [:green_circle:](/toy-problems/26.%20Linked%20List%20Intersection/linkedListIntersection.js) |
 | 27 | [Roman Numeral Translator](/toy-problems/27.%20Roman%20Numeral%20Translator/romanNumeralTranslator.md) | - | [:red_circle:](/toy-problems/27.%20Roman%20Numeral%20Translator/romanNumeralTranslator.js) |

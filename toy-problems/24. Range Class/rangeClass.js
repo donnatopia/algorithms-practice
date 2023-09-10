@@ -1,20 +1,32 @@
 /**
  * @param {number} start
- * @param {number} end
- * @param {number} step
+ * @param {number | null} end
+ * @param {number | null} step
  * @constructor
  */
 
-const Range = (start, end, step) => {
+var Range = function(start, end, step) {
+  this.start = start;
+  if (end === undefined) {
+    this.end = start;
+  } else {
+    this.end = end;
+  }
 
+  if (step === undefined) {
+    this.step = (this.start <= this.end) ? 1 : -1;
+  } else {
+    this.step = step;
+  }
 }
 
 /**
  * @return {number}
  */
 
-Range.prototype.size = () => {
-
+Range.prototype.size = function () {
+  let diff = Math.abs(this.end - this.start);
+  return Math.floor(diff / Math.abs(this.step)) + 1
 }
 
 /**
@@ -22,7 +34,15 @@ Range.prototype.size = () => {
  */
 
 Range.prototype.each = (cb) => {
-
+  if (this.step < 0) {
+    for (let i = this.start; i >= this.end; i -= this.step) {
+      cb(i);
+    }
+  } else {
+    for (let i = this.start; i <= this.end; i += this.step) {
+      cb(i);
+    }
+  }
 }
 
 /**
@@ -30,8 +50,14 @@ Range.prototype.each = (cb) => {
  * @return {boolean}
  */
 
-Range.prototype.includes = (val) => {
+Range.prototype.includes = function(val) {
+  let validElement = ((val - this.start) / this.step) % 1 === 0;
 
+  if (this.step > 0) {
+    return (val >= this.start && val <= this.end) && validElement;
+  } else {
+    return (val <= this.start && val >= this.end) && validElement;
+  }
 }
 
 module.exports = Range;

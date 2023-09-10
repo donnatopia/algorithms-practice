@@ -26,31 +26,38 @@ Since the answer may be too large, return it modulo 10^9 + 7.
 
 <img src='https://img.shields.io/badge/JavaScript-F7DF1E.svg?style=for-the-badge&logo=JavaScript&logoColor=black' />
 
-<!-- Add Metrics from LeetCode -->
 ### Stats
 | Type | Metric | Percentile |
 | --- | --- | --- |
-| Runtime |  |  |
-| Memory |  |  |
+| Runtime | 46 ms | 92.31% |
+| Memory | 41.96 MB | 69.23% |
 
-<!-- Change Time and Space Complexity -->
 ### Time and Space Complexity
   - Time Complexity: `O(n)`
-  - Space Complexity: `O(n)`
+    - iteration through the length of n has linear time complexity
+  - Space Complexity: `O(1)`
+    - no additional data structures created
 
-<!-- Planning -->
 ### Input, Output, Constraints, Edge (IOCE)
 
-  - I:
-  - O:
-  - C:
-  - E:
+  - I: n (number)
+  - O: number of possible sequences
+  - C: return as modulo 10^9 + 7
+  - E: N/A
 
-### Strategy
--
-
-### Pseudocode
--
+### Strategy / Pseudocode
+- Plan A (math):
+  - set base case that when n = 1, there is only 1 combination
+  - iterate from 2 to n to generate the remaining orders
+    - for every iteration, there are 2i possible positions for pick up and delivery
+    - for pick up, this can go in any position except the last position
+      - so the possible combinations for pick up is 2*i - 1
+    - for delivery, this can only go in positions after the delivery
+      - so the possible combinations for delivery is i
+    - the total number of combinations for a specific iteration would be the product of the previous iteration, possible combinations for pick up, and possible combinations for delivery
+  - store each number as a modulo of 10^9 + 7
+  - since each number only relies on the previous number and not a subproblem
+    - then we can just keep building up the number from the base 1
 
 ## <a href='./countOrders.test.js'>About the Tests</a>
 

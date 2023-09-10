@@ -74,38 +74,38 @@
 
 | # | Problem | Notes | Solution |
 | --- | --- | --- | --- |
-| 1 | [Rock Paper Scissors] | - | [:red_circle:] |
-| 2 | [Even Occurrence] | - | [:red_circle:] |
-| 3 | [Hash Table Resizing] | - | [:red_circle:] |
-| 4 | [Constant Time Stack Min] | - | [:red_circle:] |
-| 5 | [Quicksort] | - | [:red_circle:] |
+| 1 | [Rock Paper Scissors](/toy-problems/1.%20Rock%20Paper%20Scissors/rockPaperScissors.md) | - | [:red_circle:](/toy-problems/1.%20Rock%20Paper%20Scissors/rockPaperScissors.js) |
+| 2 | [Even Occurrence](/toy-problems/2.%20Even%20Occurrence/evenOccurrence.md) | - | [:red_circle:](/toy-problems/2.%20Even%20Occurrence/evenOccurrence.js) |
+| 3 | [Hash Table Resizing](/toy-problems/3.%20Hash%20Table%20Resizing/hashTableResizing.md) | - | [:red_circle:](/toy-problems/3.%20Hash%20Table%20Resizing/hashTableResizing.js) |
+| 4 | [Constant Time Stack Min](/toy-problems/4.%20Constant%20Time%20Stack%20Min/constantTimeStackMin.md) | - | [:red_circle:](/toy-problems/4.%20Constant%20Time%20Stack%20Min/constantTimeStackMin.js) |
+| 5 | [Quick Sort](/toy-problems/5.%20Quick%20Sort/quickSort.md) | - | [:red_circle:](/toy-problems/5.%20Quick%20Sort/quickSort.js) |
 | 6 | [Insertion Sort](/toy-problems/6.%20Insertion%20Sort/insertionSort.md) | Sorting | [:yellow_circle:](/toy-problems/6.%20Insertion%20Sort/insertionSort.js) |
 | 7 | [Merge Sort](/toy-problems/7.%20Merge%20Sort/mergeSort.md) | Sorting, Divide and Conquer | [:green_circle:](/toy-problems/7.%20Merge%20Sort/mergeSort.js) |
-| 8 | [Shuffle Deck] | - | [:red_circle:] |
-| 9 | [Nonrepeated Character] | - | [:red_circle:] |
-| 10 | [Telephone Words] | - | [:red_circle:] |
-| 11 | [Tree Count Leaves] | - | [:red_circle:] |
-| 12 | [Coin Sums] | - | [:red_circle:] |
+| 8 | [Shuffle Deck](/toy-problems/8.%20Shuffle%20Deck/shuffleDeck.md) | - | [:red_circle:](/toy-problems/8.%20Shuffle%20Deck/shuffleDeck.js) |
+| 9 | [Nonrepeated Character](/toy-problems/9.%20Nonrepeated%20Character/nonrepeatedCharacter.md) | - | [:red_circle:](/toy-problems/9.%20Nonrepeated%20Character/nonrepeatedCharacter.js) |
+| 10 | [Telephone Words](/toy-problems/10.%20Telephone%20Words/telephoneWords.md) | - | [:red_circle:](/toy-problems/10.%20Telephone%20Words/telephoneWords.js) |
+| 11 | [Tree Count Leaves](/toy-problems/11.%20Tree%20Count%20Leaves/treeCountLeaves.md) | - | [:red_circle:](/toy-problems/11.%20Tree%20Count%20Leaves/treeCountLeaves.js) |
+| 12 | [Coin Sums](/toy-problems/12.%20Coin%20Sums/coinSums.md) | - | [:red_circle:](/toy-problems/12.%20Coin%20Sums/coinSums.js) |
 | 13 | [All Anagrams](/toy-problems/13.%20All%20Anagrams/allAnagrams.md) | Recursion | [:green_circle:](/toy-problems/13.%20All%20Anagrams/allAnagrams.js) |
-| 14 | [Binary Search Array] | - | [:red_circle:] |
+| 14 | [Binary Search Array](/toy-problems/14.%20Binary%20Search%20Array/binarySearchArray.md) | - | [:red_circle:](/toy-problems/14.%20Binary%20Search%20Array/binarySearchArray.js) |
 | 15 | [Power Set](/toy-problems/14.%20Power%20Set/powerSet.md) | Recursion | [:green_circle:](/toy-problems/14.%20Power%20Set/powerSet.js) |
-| 16 | [Deep Equality] | - | [:red_circle:] |
-| 17 | [Tree B F Select] | - | [:red_circle:] |
-| 18 | [Async Map] | - | [:red_circle:] |
-| 19 | [Compose Pipe] | - | [:red_circle:] |
-| 20 | [Eventing Library] | - | [:red_circle:] |
+| 16 | [Deep Equality](/toy-problems/16.%20Deep%20Equality/deepEquality.md) | - | [:red_circle:](/toy-problems/16.%20Deep%20Equality/deepEquality.js) |
+| 17 | [Tree B F Select](/toy-problems/17.%20Tree%20B%20F%20Select/treeBFSelect.md) | - | [:red_circle:](/toy-problems/17.%20Tree%20B%20F%20Select/treeBFSelect.js) |
+| 18 | [Async Map](/toy-problems/18.%20Async%20Map/asyncMap.md) | - | [:red_circle:](/toy-problems/18.%20Async%20Map/asyncMap.js) |
+| 19 | [Compose Pipe](/toy-problems/19.%20Compose%20Pipe/composePipe.md) | - | [:red_circle:](/toy-problems/19.%20Compose%20Pipe/composePipe.js) |
+| 20 | [Eventing Library](/toy-problems/20.%20Eventing%20Library/eventingLibrary.md) | - | [:red_circle:](/toy-problems/20.%20Eventing%20Library/eventingLibrary.js) |
 | 21 | [Function Bind](/toy-problems/21.%20Function%20Bind/functionBind.md) | Contexts | [:green_circle:](/toy-problems/21.%20Function%20Bind/functionBind.js) |
-| 22 | [Binary Heap] | - | [:red_circle:] |
+| 22 | [Binary Heap](/toy-problems/23.%20Binary%20Heap/binaryHeap.md) | - | [:red_circle:](/toy-problems/23.%20Binary%20Heap/binaryHeap.js) |
 | 23 | [Common Characters](/toy-problems/23.%20Common%20Characters/commonCharacters.md) | - | [:green_circle:](/toy-problems/23.%20Common%20Characters/commonCharacters.js) |
-| 24 | [Range Class] | - | [:red_circle:] |
+| 24 | [Range Class](/toy-problems/24.%20Range%20Class/rangeClass.md) | - | [:red_circle:](/toy-problems/24.%20Range%20Class/rangeClass.js) |
 | 25 | [LRU Cache](/toy-problems/25.%20Lru%20Cache/lruCache.md) | Data Structure, Doubly-Linked List | [:yellow_circle:](/toy-problems/25.%20Lru%20Cache/lruCache.js) |
-| 26 | [Linked List Intersection] | - | [:red_circle:] |
-| 27 | [Roman Numeral Translator] | - | [:red_circle:] |
-| 28 | [Largest Product of Three] | - | [:red_circle:] |
-| 29 | [Sudoku Checker] | - | [:red_circle:] |
-| 30 | [Integer Reverse] | - | [:red_circle:] |
-| 31 | [Character Frequency] | - | [:red_circle:] |
-| 32 | [nthFibonacci] | - | [:red_circle:] |
+| 26 | [Linked List Intersection](/toy-problems/26.%20Linked%20List%20Intersection/linkedListIntersection.md) | - | [:red_circle:](/toy-problems/26.%20Linked%20List%20Intersection/linkedListIntersection.js) |
+| 27 | [Roman Numeral Translator](/toy-problems/27.%20Roman%20Numeral%20Translator/romanNumeralTranslator.md) | - | [:red_circle:](/toy-problems/27.%20Roman%20Numeral%20Translator/romanNumeralTranslator.js) |
+| 28 | [Largest Product of Three](/toy-problems/28.%20Largest%20Product%20of%20Three/largestProductOfThree.md) | - | [:red_circle:](/toy-problems/28.%20Largest%20Product%20of%20Three/largestProductOfThree.js) |
+| 29 | [Sudoku Checker](/toy-problems/29.%20Sudoku%20Checker/sudokuChecker.md) | - | [:red_circle:](/toy-problems/29.%20Sudoku%20Checker/sudokuChecker.js) |
+| 30 | [Integer Reverse](/toy-problems/30.%20Integer%20Reverse/integerReverse.md) | - | [:red_circle:](/toy-problems/30.%20Integer%20Reverse/integerReverse.js) |
+| 31 | [Character Frequency](/toy-problems/31.%20Character%20Frequency/characterFrequency.md) | - | [:red_circle:](/toy-problems/31.%20Character%20Frequency/characterFrequency.js) |
+| 32 | [nthFibonacci](/toy-problems/32.%20nthFibonacci/nthFibonacci.md) | - | [:red_circle:](/toy-problems/32.%20nthFibonacci/nthFibonacci.js) |
 | 33 | [Fraction Converter](/toy-problems/33.%20Fraction%20Converter/fractionConverter.md) | - | [:red_circle:](/toy-problems/33.%20Fraction%20Converter/fractionConverter.js) |
 | 34 | [Sum Array](/toy-problems/34.%20Sum%20Array/sumArray.md) | - | [:yellow_circle:](/toy-problems/34.%20Sum%20Array/sumArray.js) |
 | 35 | [Number to English](/toy-problems/35.%20Number%20to%20English/numberToEnglish.md) | Recursion | [:yellow_circle:](/toy-problems/35.%20Number%20to%20English/numberToEnglish.js) |
@@ -116,8 +116,8 @@
 | 40 | [Common Ancestor](/toy-problems/40.%20Common%20Ancestor/commonAncestor.md) | Tree | [:yellow_circle:](/toy-problems/40.%20Common%20Ancestor/commonAncestor.js) |
 | 41 | [Robot Paths](/toy-problems/41.%20Robot%20Paths/robotPaths.md) | Recursive Backtracking | [:green_circle:](/toy-problems/41.%20Robot%20Paths/robotPaths.js) |
 | 42 | [Island Count](/toy-problems/42.%20Island%20Count/islandCount.md) | DFS | [:yellow_circle:](/toy-problems/42.%20Island%20Count/islandCount.js) |
-| 43 | [isSubsetOf] | - | [:red_circle:] |
-| 44 | [Longest Run] | - | [:red_circle:] |
+| 43 | [isSubsetOf](/toy-problems/43.%20isSubsetOf/isSubsetOf.md) | - | [:red_circle:](/toy-problems/43.%20isSubsetOf/isSubsetOf.js) |
+| 44 | [Longest Run](/toy-problems/44.%20Longest%20Run/longestRun.md) | - | [:red_circle:](/toy-problems/44.%20Longest%20Run/longestRun.js) |
 | 45 | [Prime Tester](/toy-problems/45.%20Prime%20Tester/primeTester.md) | Math | [:yellow_circle:](/toy-problems/45.%20Prime%20Tester/primeTester.js) |
 
 ## Solution Legend

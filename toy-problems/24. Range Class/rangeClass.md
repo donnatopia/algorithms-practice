@@ -118,6 +118,16 @@ evenNumbers.includes(3) should be false
   - check to see if the value lies between start and end
     - return whether the modulo value of the start and step AND teh modulo value of the val and step are equal
 
+### Notes
+  - There is a diffrence between functional expression and arrow expression
+    - function(){} establishes its own this value and has an arguments function
+    - () => {} do not have their own this value, instead they inherit the 'this' value from their containing lexical context
+      - no arguments object
+
+  - Use function() {} when you need access to the this value that varies dynamically, or when you need the arguments object.
+
+  - Use () => {} when you want to preserve the this context from the surrounding code, such as when working with callbacks inside classes or objects.
+
 ## <a href='./rangeClass.test.js'>About the Tests</a>
 
 <img src='https://img.shields.io/badge/Jest-C21325.svg?style=for-the-badge&logo=Jest&logoColor=white' />

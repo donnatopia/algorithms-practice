@@ -74,13 +74,38 @@
 
 | # | Problem | Notes | Solution |
 | --- | --- | --- | --- |
+| 1 | [Rock Paper Scissors] | - | [:red_circle:] |
+| 2 | [Even Occurrence] | - | [:red_circle:] |
+| 3 | [Hash Table Resizing] | - | [:red_circle:] |
+| 4 | [Constant Time Stack Min] | - | [:red_circle:] |
+| 5 | [Quicksort] | - | [:red_circle:] |
 | 6 | [Insertion Sort](/toy-problems/6.%20Insertion%20Sort/insertionSort.md) | Sorting | [:yellow_circle:](/toy-problems/6.%20Insertion%20Sort/insertionSort.js) |
 | 7 | [Merge Sort](/toy-problems/7.%20Merge%20Sort/mergeSort.md) | Sorting, Divide and Conquer | [:green_circle:](/toy-problems/7.%20Merge%20Sort/mergeSort.js) |
+| 8 | [Shuffle Deck] | - | [:red_circle:] |
+| 9 | [Nonrepeated Character] | - | [:red_circle:] |
+| 10 | [Telephone Words] | - | [:red_circle:] |
+| 11 | [Tree Count Leaves] | - | [:red_circle:] |
+| 12 | [Coin Sums] | - | [:red_circle:] |
 | 13 | [All Anagrams](/toy-problems/13.%20All%20Anagrams/allAnagrams.md) | Recursion | [:green_circle:](/toy-problems/13.%20All%20Anagrams/allAnagrams.js) |
+| 14 | [Binary Search Array] | - | [:red_circle:] |
 | 15 | [Power Set](/toy-problems/14.%20Power%20Set/powerSet.md) | Recursion | [:green_circle:](/toy-problems/14.%20Power%20Set/powerSet.js) |
+| 16 | [Deep Equality] | - | [:red_circle:] |
+| 17 | [Tree B F Select] | - | [:red_circle:] |
+| 18 | [Async Map] | - | [:red_circle:] |
+| 19 | [Compose Pipe] | - | [:red_circle:] |
+| 20 | [Eventing Library] | - | [:red_circle:] |
 | 21 | [Function Bind](/toy-problems/21.%20Function%20Bind/functionBind.md) | Contexts | [:green_circle:](/toy-problems/21.%20Function%20Bind/functionBind.js) |
+| 22 | [Binary Heap] | - | [:red_circle:] |
 | 23 | [Common Characters](/toy-problems/23.%20Common%20Characters/commonCharacters.md) | - | [:green_circle:](/toy-problems/23.%20Common%20Characters/commonCharacters.js) |
+| 24 | [Range Class] | - | [:red_circle:] |
 | 25 | [LRU Cache](/toy-problems/25.%20Lru%20Cache/lruCache.md) | Data Structure, Doubly-Linked List | [:yellow_circle:](/toy-problems/25.%20Lru%20Cache/lruCache.js) |
+| 26 | [Linked List Intersection] | - | [:red_circle:] |
+| 27 | [Roman Numeral Translator] | - | [:red_circle:] |
+| 28 | [Largest Product of Three] | - | [:red_circle:] |
+| 29 | [Sudoku Checker] | - | [:red_circle:] |
+| 30 | [Integer Reverse] | - | [:red_circle:] |
+| 31 | [Character Frequency] | - | [:red_circle:] |
+| 32 | [nthFibonacci] | - | [:red_circle:] |
 | 33 | [Fraction Converter](/toy-problems/33.%20Fraction%20Converter/fractionConverter.md) | - | [:red_circle:](/toy-problems/33.%20Fraction%20Converter/fractionConverter.js) |
 | 34 | [Sum Array](/toy-problems/34.%20Sum%20Array/sumArray.md) | - | [:yellow_circle:](/toy-problems/34.%20Sum%20Array/sumArray.js) |
 | 35 | [Number to English](/toy-problems/35.%20Number%20to%20English/numberToEnglish.md) | Recursion | [:yellow_circle:](/toy-problems/35.%20Number%20to%20English/numberToEnglish.js) |
@@ -91,6 +116,8 @@
 | 40 | [Common Ancestor](/toy-problems/40.%20Common%20Ancestor/commonAncestor.md) | Tree | [:yellow_circle:](/toy-problems/40.%20Common%20Ancestor/commonAncestor.js) |
 | 41 | [Robot Paths](/toy-problems/41.%20Robot%20Paths/robotPaths.md) | Recursive Backtracking | [:green_circle:](/toy-problems/41.%20Robot%20Paths/robotPaths.js) |
 | 42 | [Island Count](/toy-problems/42.%20Island%20Count/islandCount.md) | DFS | [:yellow_circle:](/toy-problems/42.%20Island%20Count/islandCount.js) |
+| 43 | [isSubsetOf] | - | [:red_circle:] |
+| 44 | [Longest Run] | - | [:red_circle:] |
 | 45 | [Prime Tester](/toy-problems/45.%20Prime%20Tester/primeTester.md) | Math | [:yellow_circle:](/toy-problems/45.%20Prime%20Tester/primeTester.js) |
 
 ## Solution Legend

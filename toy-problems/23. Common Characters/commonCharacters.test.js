@@ -18,11 +18,15 @@ xdescribe('23. Common Characters', () => {
     expect(commonCharacters('abc', 'abc')).toBe('abc');
   });
 
+  it('should not contain duplicates in the result', () => {
+    expect(commonCharacters('aab', 'aabc')).toBe('ab');
+  })
+
   it('should return an empty string when comparing two empty strings', () => {
     expect(commonCharacters('', '')).toBe('');
   });
 
-  xit('should return common characters betwen more than two strings', () => {
+  it('should return common characters betwen more than two strings', () => {
     expect(commonCharacters('qwerty', 'wertyu', 'ertyui', 'rtyui', 'tyuiop', 'yuiopa')).toBe('y');
   })
 

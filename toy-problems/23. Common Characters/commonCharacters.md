@@ -60,6 +60,9 @@ Extend your function to handle more than two input strings.
     - push the letter into common string
 - return common string
 
+### Notes
+- consider using the reduce function
+
 ## <a href='commonCharacters.test.js'>About the Tests</a>
 
 <img src='https://img.shields.io/badge/Jest-C21325.svg?style=for-the-badge&logo=Jest&logoColor=white' />

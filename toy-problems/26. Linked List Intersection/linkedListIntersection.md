@@ -1,19 +1,23 @@
-<!-- Change Problem Title -->
-# 0. Title
+# 26. Linked List Intersection
 
 ## About the Problem
 
-<!-- Add Problem Description -->
+Write a function `linkedListIntersection` that returns the node at which the intersection of two linked lists begins, or null if there is no such intersection.
 
-<!-- Add Examples -->
 ### Examples
+Given the following two linked lists `list1` and `list2`, `linkedListIntersection(list1,list2)` should return `D` as the node of intersection.
 
-| Example| Input | Output |
-| --- | --- | --- |
-| 1 |  |  |
+    A → B → C
+             ↘
+               D → E → F
+             ↗
+        X → Y
 
-<!-- Add Link to Solution -->
-## <a href=''>About the Solution</a>
+
+Given the following two linked lists list1 and list2, linkedListIntersection(list1,list2) should return NULL as there is no point of intersection.
+    A → B → C → D    X → Y → Z
+
+## <a href='./linkedListIntersection.js'>About the Solution</a>
 
 <img src='https://img.shields.io/badge/JavaScript-F7DF1E.svg?style=for-the-badge&logo=JavaScript&logoColor=black' />
 
@@ -36,8 +40,7 @@
 ### Pseudocode
 -
 
-<!-- Add Link to Tests -->
-## <a href=''>About the Tests</a>
+## <a href='./linkedListIntersection.test.js'>About the Tests</a>
 
 <img src='https://img.shields.io/badge/Jest-C21325.svg?style=for-the-badge&logo=Jest&logoColor=white' />
 

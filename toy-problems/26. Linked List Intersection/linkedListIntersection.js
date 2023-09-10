@@ -1,10 +1,12 @@
+const { ListNode } = require('../../definitions');
 /**
- * @param {}
- * @return {}
+ * @param {ListNode} list1
+ * @param {ListNode} list2
+ * @return {ListNode | null}
  */
 
-const template = () => {
+const linkedListIntersection = (list1, list2) => {
 
 }
 
-module.exports = template;
+module.exports = linkedListIntersection;

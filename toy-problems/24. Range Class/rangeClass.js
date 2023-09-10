@@ -1,10 +1,37 @@
 /**
- * @param {}
- * @return {}
+ * @param {number} start
+ * @param {number} end
+ * @param {number} step
+ * @constructor
  */
 
-const template = () => {
+const Range = (start, end, step) => {
 
 }
 
-module.exports = template;
+/**
+ * @return {number}
+ */
+
+Range.prototype.size = () => {
+
+}
+
+/**
+ * @param {function} cb
+ */
+
+Range.prototype.each = (cb) => {
+
+}
+
+/**
+ * @param {number} val
+ * @return {boolean}
+ */
+
+Range.prototype.includes = (val) => {
+
+}
+
+module.exports = Range;

@@ -1,19 +1,15 @@
-<!-- Change Problem Title -->
-# 0. Title
+# 3. Hash Table Resizing
 
 ## About the Problem
 
-<!-- Add Problem Description -->
+Create a hash table with `insert()`, `retrieve()`, and `remove()` methods.
+Be sure to handle hashing collisions correctly.
 
-<!-- Add Examples -->
-### Examples
+Set your hash table up to double the storage limit as soon as the total number of items stored is greater than 3/4th of the number of slots in the storage array.
 
-| Example| Input | Output |
-| --- | --- | --- |
-| 1 |  |  |
+Resize by half whenever utilization drops below 1/4.
 
-<!-- Add Link to Solution -->
-## <a href=''>About the Solution</a>
+## <a href='./hashTableResizing.js'>About the Solution</a>
 
 <img src='https://img.shields.io/badge/JavaScript-F7DF1E.svg?style=for-the-badge&logo=JavaScript&logoColor=black' />
 
@@ -36,8 +32,7 @@
 ### Pseudocode
 -
 
-<!-- Add Link to Tests -->
-## <a href=''>About the Tests</a>
+## <a href='./hashTableResizing.test.js'>About the Tests</a>
 
 <img src='https://img.shields.io/badge/Jest-C21325.svg?style=for-the-badge&logo=Jest&logoColor=white' />
 

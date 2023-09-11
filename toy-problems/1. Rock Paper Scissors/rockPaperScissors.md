@@ -1,19 +1,31 @@
-<!-- Change Problem Title -->
-# 0. Title
+# 1. Rock Paper Scissors
 
 ## About the Problem
 
-<!-- Add Problem Description -->
+Write a function that generates every sequence of throws a single
+player could throw over a n-round game of rock-paper-scissors.
+*
+Your output should look something like:
+  ["RRR",
+   "RRP",
+   "RRS",
+   "RPR",
+   ...etc...
+  ]
 
-<!-- Add Examples -->
+### Extra Credit:
+
+Make your function return answers for any number of rounds.
+`rockPaperScissors(5); // => ['RRRRR', 'RRRRP', 'RRRRS', etc...]`
+
 ### Examples
 
 | Example| Input | Output |
 | --- | --- | --- |
-| 1 |  |  |
+| 1 | `n = 3` | `["RRR", "RRP", "RRS", "RPR", ...etc]` |
+| 2 | `n = 5` | `['RRRRR', 'RRRRP', 'RRRRS', etc...]` |
 
-<!-- Add Link to Solution -->
-## <a href=''>About the Solution</a>
+## <a href='./rockPaperScissors.js'>About the Solution</a>
 
 <img src='https://img.shields.io/badge/JavaScript-F7DF1E.svg?style=for-the-badge&logo=JavaScript&logoColor=black' />
 
@@ -36,8 +48,7 @@
 ### Pseudocode
 -
 
-<!-- Add Link to Tests -->
-## <a href=''>About the Tests</a>
+## <a href='./rockPaperScissors.test.js'>About the Tests</a>
 
 <img src='https://img.shields.io/badge/Jest-C21325.svg?style=for-the-badge&logo=Jest&logoColor=white' />
 

@@ -1,10 +1,10 @@
 /**
- * @param {}
- * @return {}
+ * @param {number} n
+ * @return {string[]}
  */
 
-const template = () => {
+const rockPaperScissors = (rounds) => {
 
 }
 
-module.exports = template;
+module.exports = rockPaperScissors;

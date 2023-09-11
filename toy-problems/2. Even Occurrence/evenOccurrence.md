@@ -1,19 +1,19 @@
-<!-- Change Problem Title -->
-# 0. Title
+# 2. Even Occurrence
 
 ## About the Problem
 
-<!-- Add Problem Description -->
+Find the first item that occurs an even number of times in an array.
+Remember to handle multiple even-occurrence items and return the first one.
+Return `null` if there are no even-occurrence items.
 
-<!-- Add Examples -->
 ### Examples
 
 | Example| Input | Output |
 | --- | --- | --- |
-| 1 |  |  |
+| 1 | `evenOccurrence([1, 7, 2, 4, 5, 6, 8, 9, 6, 4])` | `4` |
+| 2 | `evenOccurrence([1, 2, 3, 4])` | `null` |
 
-<!-- Add Link to Solution -->
-## <a href=''>About the Solution</a>
+## <a href='./evenOccurrence.js'>About the Solution</a>
 
 <img src='https://img.shields.io/badge/JavaScript-F7DF1E.svg?style=for-the-badge&logo=JavaScript&logoColor=black' />
 
@@ -36,8 +36,7 @@
 ### Pseudocode
 -
 
-<!-- Add Link to Tests -->
-## <a href=''>About the Tests</a>
+## <a href='./evenOccurrence.test.js'>About the Tests</a>
 
 <img src='https://img.shields.io/badge/Jest-C21325.svg?style=for-the-badge&logo=Jest&logoColor=white' />
 

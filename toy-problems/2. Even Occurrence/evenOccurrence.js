@@ -1,10 +1,10 @@
 /**
- * @param {}
- * @return {}
+ * @param {(string | number)[]} arr
+ * @return {string | number}
  */
 
-const template = () => {
+const evenOccurrence = (arr) => {
 
 }
 
-module.exports = template;
+module.exports = evenOccurrence;

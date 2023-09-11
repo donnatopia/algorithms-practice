@@ -76,7 +76,7 @@
 | --- | --- | --- | --- |
 | 1 | [Rock Paper Scissors](/toy-problems/1.%20Rock%20Paper%20Scissors/rockPaperScissors.md) | Permutations | [:green_circle:](/toy-problems/1.%20Rock%20Paper%20Scissors/rockPaperScissors.js) |
 | 2 | [Even Occurrence](/toy-problems/2.%20Even%20Occurrence/evenOccurrence.md) | - | [:green_circle:](/toy-problems/2.%20Even%20Occurrence/evenOccurrence.js) |
-| 3 | [Hash Table Resizing](/toy-problems/3.%20Hash%20Table%20Resizing/hashTableResizing.md) | - | [:red_circle:](/toy-problems/3.%20Hash%20Table%20Resizing/hashTableResizing.js) |
+| 3 | [Hash Table Resizing](/toy-problems/3.%20Hash%20Table%20Resizing/hashTableResizing.md) | Hash Table | [:yellow_circle:](/toy-problems/3.%20Hash%20Table%20Resizing/hashTableResizing.js) |
 | 4 | [Constant Time Stack Min](/toy-problems/4.%20Constant%20Time%20Stack%20Min/constantTimeStackMin.md) | - | [:red_circle:](/toy-problems/4.%20Constant%20Time%20Stack%20Min/constantTimeStackMin.js) |
 | 5 | [Quick Sort](/toy-problems/5.%20Quick%20Sort/quickSort.md) | - | [:red_circle:](/toy-problems/5.%20Quick%20Sort/quickSort.js) |
 | 6 | [Insertion Sort](/toy-problems/6.%20Insertion%20Sort/insertionSort.md) | Sorting | [:yellow_circle:](/toy-problems/6.%20Insertion%20Sort/insertionSort.js) |

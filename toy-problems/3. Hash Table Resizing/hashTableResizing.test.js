@@ -34,7 +34,7 @@ xdescribe('3. Hash Table Resizing', () => {
     hashTable.insert('key2', 'value2');
     hashTable.insert('key3', 'value3');
     hashTable.insert('key4', 'value4'); // This should trigger a resize
-    expect(hashTable._size).toBeGreaterThan(4); // Check that resizing occurred
+    expect(hashTable._limit).toBeGreaterThan(4); // Check that resizing occurred
   });
 
   it('should resize by half when below 1/4th load factor', () => {
@@ -43,7 +43,7 @@ xdescribe('3. Hash Table Resizing', () => {
     hashTable.insert('key2', 'value2');
     hashTable.remove('key1');
     hashTable.remove('key2'); // This should trigger a resize
-    expect(hashTable._size).toBeLessThan(1); // Check that resizing occurred
+    expect(hashTable._limit).toBe(0); // Check that resizing occurred
   });
 
 });

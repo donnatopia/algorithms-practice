@@ -12,7 +12,7 @@
 
 | # | Problem | Difficulty | Notes | Solution |
 | --- | --- | --- | --- | --- |
-| 1282 | [Group the People Given the Group Size They Belong To](/leetcode/1282.%20Group%20the%20People%20Given%20the%20Group%20Size%20They%20Belong%20To/groupThePeople.md) | Medium | - | [:red_circle:](/leetcode/1282.%20Group%20the%20People%20Given%20the%20Group%20Size%20They%20Belong%20To/groupThePeople.js) |
+| 1282 | [Group the People Given the Group Size They Belong To](/leetcode/1282.%20Group%20the%20People%20Given%20the%20Group%20Size%20They%20Belong%20To/groupThePeople.md) | Medium | - | [:green_circle:](/leetcode/1282.%20Group%20the%20People%20Given%20the%20Group%20Size%20They%20Belong%20To/groupThePeople.js) |
 | 1359 | [Count All Valid Pickup and Delivery Options](/leetcode/1359.%20Count%20All%20Valid%20Pickup%20and%20Delivery%20Options/countOrders.md) | Hard | Math | [:yellow_circle:](/leetcode/1359.%20Count%20All%20Valid%20Pickup%20and%20Delivery%20Options/countOrders.js) |
 | 377 | [Combination Sum IV](/leetcode/377.%20Combination%20Sum%20IV/combinationSum4.md) | Medium | DP | [:yellow_circle:](/leetcode/377.%20Combination%20Sum%20IV/combinationSum4.js) |
 | 118 | [Pascal's Triangle](/leetcode/118.%20Pascal's%20Triangle/generate.md) | Easy | DP | [:green_circle:](/leetcode/118.%20Pascal's%20Triangle/generate.js) |

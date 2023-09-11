@@ -29,31 +29,39 @@ Each person should appear in exactly one group, and every person must be in a gr
 
 <img src='https://img.shields.io/badge/JavaScript-F7DF1E.svg?style=for-the-badge&logo=JavaScript&logoColor=black' />
 
-<!-- Add Metrics from LeetCode -->
 ### Stats
 | Type | Metric | Percentile |
 | --- | --- | --- |
-| Runtime |  |  |
-| Memory |  |  |
+| Runtime | 82 ms | 52.72% |
+| Memory | 47.27 MB | 46.20% |
 
-<!-- Change Time and Space Complexity -->
 ### Time and Space Complexity
   - Time Complexity: `O(n)`
+    - iteration thorugh the groupSizes is linear
   - Space Complexity: `O(n)`
+    - grouping is the leading data structure, whose size correlates to the number of unique lengths present in groupSizes
+    - there can be as much as n / 2 unique lengths, which is still linear time complexity
 
-<!-- Planning -->
 ### Input, Output, Constraints, Edge (IOCE)
 
-  - I:
-  - O:
-  - C:
-  - E:
+  - I: number[]
+  - O: number[][]
+  - C: N/A
+  - E: multiple solns => return at least 1
 
-### Strategy
--
-
-### Pseudocode
--
+### Strategy / Pseudocode
+- Plan A:
+  - let result = [];
+  - create an object that stores all the different lengths as keys
+  - iterate through the length of groupSizes
+    - if the length already exists in the object
+      - if the array at the object's length is equal to the length
+        - push the value to the result
+        - reset the object's length value to an empty array
+    - else
+      - set the object at length to be an empty array
+    - push the index to the array
+  - return result concated with the values of the object
 
 ## <a href='./groupThePeople.test.js'>About the Tests</a>
 

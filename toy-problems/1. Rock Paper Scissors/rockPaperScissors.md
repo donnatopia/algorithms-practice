@@ -29,24 +29,31 @@ Make your function return answers for any number of rounds.
 
 <img src='https://img.shields.io/badge/JavaScript-F7DF1E.svg?style=for-the-badge&logo=JavaScript&logoColor=black' />
 
-<!-- Add Time and Space Complexity -->
 ### Time and Space Complexity
-  - Time Complexity: `O(n)`
-  - Space Complexity: `O(n)`
+  - Time Complexity: `O(3^n)`
+    - the recursion stack is dependent on the length of n
+    - since there are three options [RPS], the time complexity is O(3^n)
+  - Space Complexity: `O(3^n)`
+    - combos is the leading data structure, whose size is based on the number of permutations of [RPS] of n length
 
-<!-- Planning -->
 ### Input, Output, Constraints, Edge (IOCE)
 
-  - I:
-  - O:
-  - C:
+  - I: n (number of rounds)
+  - O: string[] consisting of different permutations of 'RPS' of length n
+  - C: N/A
   - E:
+    - negative and zero rounds will yield empty array
 
-### Strategy
--
-
-### Pseudocode
--
+### Strategy / Pseudocode
+- Plan A (recursion):
+  - if rounds is 0 or less, then return empty array
+  - create an empty array to return
+  - create an array of R, P, S options
+  - iterate through all the options of RPS
+    - for each option
+      - add the current letter to permutations of the function run again with n - 1
+      - push the result to empty array
+  - return array
 
 ## <a href='./rockPaperScissors.test.js'>About the Tests</a>
 

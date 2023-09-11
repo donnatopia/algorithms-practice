@@ -49,19 +49,37 @@ You can see a great visualization of a binary min heap in action here, play arou
   - Time Complexity: `O(n)`
   - Space Complexity: `O(n)`
 
-<!-- Planning -->
 ### Input, Output, Constraints, Edge (IOCE)
 
-  - I:
-  - O:
-  - C:
-  - E:
+- insert
+  - I: val (number)
+  - O: null
+  - C: Time Complexity O(log n)
+  - E: N/A
 
-### Strategy
--
+### Strategy / Pseudocode
+- insert
+  - push the value into the end of the heap
+  - set the current index as the last index
+  - set the parent index as Math.floor( (index - 1) / 2 )
+  - while value at the parent index exists AND the value at the current index is less than the value at the parent index
+    - switch the value at the current index and the value at the parent index
+    - update the current index
+    - update the parent index
 
-### Pseudocode
--
+- removeRoot
+  - pop off the first element in the heap
+  - store value to return
+  - add the last element in the heap
+  - set the parent node as the 0
+  - define the children nodes with childrenIndices = [index * 2 + 1, index * 2 + 2]
+  - compare the parent node with the children
+    - if at least 1 child node is smaller
+      - choose the smaller node
+      - swap the parent and the smaller node
+      - update the parent node
+      - update the children nodes
+  - return stored value
 
 ## <a href='./binaryHeap.test.js'>About the Tests</a>
 

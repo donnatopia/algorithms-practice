@@ -95,7 +95,7 @@
 | 19 | [Compose Pipe](/toy-problems/19.%20Compose%20Pipe/composePipe.md) | - | [:red_circle:](/toy-problems/19.%20Compose%20Pipe/composePipe.js) |
 | 20 | [Eventing Library](/toy-problems/20.%20Eventing%20Library/eventingLibrary.md) | - | [:red_circle:](/toy-problems/20.%20Eventing%20Library/eventingLibrary.js) |
 | 21 | [Function Bind](/toy-problems/21.%20Function%20Bind/functionBind.md) | Contexts | [:green_circle:](/toy-problems/21.%20Function%20Bind/functionBind.js) |
-| 22 | [Binary Heap](/toy-problems/22.%20Binary%20Heap/binaryHeap.md) | - | [:red_circle:](/toy-problems/22.%20Binary%20Heap/binaryHeap.js) |
+| 22 | [Binary Heap](/toy-problems/22.%20Binary%20Heap/binaryHeap.md) | Constructor, Binary Heap | [:yellow_circle:](/toy-problems/22.%20Binary%20Heap/binaryHeap.js) |
 | 23 | [Common Characters](/toy-problems/23.%20Common%20Characters/commonCharacters.md) | - | [:green_circle:](/toy-problems/23.%20Common%20Characters/commonCharacters.js) |
 | 24 | [Range Class](/toy-problems/24.%20Range%20Class/rangeClass.md) | Constructor | [:yellow_circle:](/toy-problems/24.%20Range%20Class/rangeClass.js) |
 | 25 | [LRU Cache](/toy-problems/25.%20Lru%20Cache/lruCache.md) | Data Structure, Doubly-Linked List | [:yellow_circle:](/toy-problems/25.%20Lru%20Cache/lruCache.js) |

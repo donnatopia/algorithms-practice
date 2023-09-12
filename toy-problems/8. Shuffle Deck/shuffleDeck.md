@@ -36,19 +36,35 @@ shuffleDeck(deck);
   - Time Complexity: `O(n)`
   - Space Complexity: `O(n)`
 
-<!-- Planning -->
 ### Input, Output, Constraints, Edge (IOCE)
 
-  - I:
-  - O:
-  - C:
-  - E:
+  - I: string[] of length 52
+  - O: string[] of length 52 with elements shuffled
+  - C: N/A
+  - E: N/A
 
 ### Strategy
--
+- Plan A (iterative):
+  - create an object with 52 keys
+  - iterate through the length of the deck
+    - generate a random index between 0 and 52
+    - if there is no card assigned at the random index
+      - then place the card at the random index
+    - else
+      - repeat the process
+  - return the values of the object
 
 ### Pseudocode
--
+- Plan A (iterative):
+  - create an empty obj
+  - iterate through the length of the deck
+    - set isPlaced as false
+    - while isPlaced is false
+      - generate a random index between 0 and 52 inclusively
+      - if there is no card assigned at the random index of the obj
+        - place the card at the obj at the random index
+        - set isPlaced to true
+  - return the values of the object
 
 ## <a href='./shuffleDeck.test.js'>About the Tests</a>
 

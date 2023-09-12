@@ -27,31 +27,46 @@ The frequency of a character in a string is the number of times it appears in th
 
 <img src='https://img.shields.io/badge/JavaScript-F7DF1E.svg?style=for-the-badge&logo=JavaScript&logoColor=black' />
 
-<!-- Add Metrics from LeetCode -->
 ### Stats
 | Type | Metric | Percentile |
 | --- | --- | --- |
-| Runtime |  |  |
-| Memory |  |  |
+| Runtime | 135 ms | 76.74% |
+| Memory | 46.49 MB | 91.86% |
 
-<!-- Change Time and Space Complexity -->
 ### Time and Space Complexity
-  - Time Complexity: `O(n)`
-  - Space Complexity: `O(n)`
+  - Time Complexity: `O(n + k^2)`
+    - creating the dictionary has a time complexity of O(n);
+    - iterating through frequencies has a time complexity of O(k), where k is the number of unique characters in s
+      - if we completely delete a character, we restart the count, so the time complexity is O(k) for every same character frequencies
+      - worse case is a long string of singularly distict characters 'abcdefghi'
+      - the time complexity would be O(k^2)
+    - congruent functions will add the time complexity, so total time complexity is O(n + k^2);
+  - Space Complexity: `O(k)`
+    - the size of dict and frequencies is dictated by the number of unique characters in string, which is O(k)
 
-<!-- Planning -->
 ### Input, Output, Constraints, Edge (IOCE)
 
-  - I:
-  - O:
-  - C:
+  - I: string
+  - O: number
+    - min deletion to make character frequencies unique
+  - C: N/A
   - E:
+    - all unique character frequences => return the same string
+    - frequencies of 0 is ignored
 
-### Strategy
--
+### Strategy / Pseudocode
+- feel like i could use dp, but not sure at the moment
 
-### Pseudocode
--
+- Plan A (brute force):
+  - create a dictionary of all the character frequencies
+  - get all the frequencies into an array
+  - sort the array from largest to smallest
+  - keep count of the number of deletions and set to 0
+  - iterate through the sorted array
+    - if the current number is the same as the next number,
+      - then subtract 1 from the current number
+      - increment counter
+  - return deletions
 
 ## <a href='./minDeletions.test.js'>About the Tests</a>
 

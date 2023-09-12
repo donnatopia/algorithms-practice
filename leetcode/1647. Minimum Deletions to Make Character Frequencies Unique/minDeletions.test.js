@@ -14,4 +14,9 @@ xdescribe('1647. Minimum Deletions to Make Character Frequencies Unique', () => 
     expect(minDeletions('ceabaacb')).toBe(2);
   })
 
+  it('should ignore frequncies of 0 when character is deleted', () => {
+    expect(minDeletions('abcabc')).toBe(3);
+    expect(minDeletions('adec')).toBe(3);
+  })
+
 });

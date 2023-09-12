@@ -1,10 +1,10 @@
 /**
- * @param {}
- * @return {}
+ * @param {string[]} deck
+ * @return {string[]}
  */
 
-const template = () => {
+const shuffleDeck = (deck) => {
 
 }
 
-module.exports = template;
+module.exports = shuffleDeck;

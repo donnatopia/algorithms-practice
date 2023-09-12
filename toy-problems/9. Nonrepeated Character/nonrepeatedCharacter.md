@@ -1,19 +1,18 @@
-<!-- Change Problem Title -->
-# 0. Title
+# 9. Nonrepeated Character
 
 ## About the Problem
 
-<!-- Add Problem Description -->
+Given an arbitrary input string, return the first nonrepeated character in
+the string.
 
-<!-- Add Examples -->
 ### Examples
 
 | Example| Input | Output |
 | --- | --- | --- |
-| 1 |  |  |
+| 1 | `firstNonRepeatedCharacter('ABA')` | `'B'` |
+| 2 | `firstNonRepeatedCharacter('AACBDB')` | `'C'` |
 
-<!-- Add Link to Solution -->
-## <a href=''>About the Solution</a>
+## <a href='./nonrepeatedCharacter.js'>About the Solution</a>
 
 <img src='https://img.shields.io/badge/JavaScript-F7DF1E.svg?style=for-the-badge&logo=JavaScript&logoColor=black' />
 
@@ -36,8 +35,7 @@
 ### Pseudocode
 -
 
-<!-- Add Link to Tests -->
-## <a href=''>About the Tests</a>
+## <a href='./nonrepeatedCharacter.test.js'>About the Tests</a>
 
 <img src='https://img.shields.io/badge/Jest-C21325.svg?style=for-the-badge&logo=Jest&logoColor=white' />
 

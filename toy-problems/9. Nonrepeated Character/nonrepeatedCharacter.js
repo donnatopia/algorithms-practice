@@ -1,10 +1,10 @@
 /**
- * @param {}
- * @return {}
+ * @param {string} str
+ * @return {string}
  */
 
-const template = () => {
+const firstNonRepeatedCharacter = (str) => {
 
 }
 
-module.exports = template;
+module.exports = firstNonRepeatedCharacter;

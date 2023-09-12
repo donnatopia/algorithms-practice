@@ -1,10 +1,25 @@
 /**
- * @param {}
- * @return {}
+ * @constructor
  */
 
-const template = () => {
+const Stack = function () {
 
 }
 
-module.exports = template;
+/**
+ * @param {number} val
+ */
+
+Stack.prototype.push = function (val) {
+
+}
+
+/**
+ * @return {number}
+ */
+
+Stack.prototype.min = function () {
+
+}
+
+module.exports = Stack;

@@ -1,19 +1,24 @@
-<!-- Change Problem Title -->
-# 0. Title
+# 4. Constant Time Stack Min
 
 ## About the Problem
 
-<!-- Add Problem Description -->
+Write a stack using your preferred instantiation pattern. Implement a min function that returns the minimum value of all the elements in the stack in constant time.stack.
 
-<!-- Add Examples -->
+All of the functions in the Stack should run in constant time!
+
 ### Examples
+```
+var example = new Stack()
+ example.push(4)
+ example.push(3)
+ example.min() === 3
+ example.push(3)
+ example.push(2)
+ example.push(2)
+ example.min() === 2
+```
 
-| Example| Input | Output |
-| --- | --- | --- |
-| 1 |  |  |
-
-<!-- Add Link to Solution -->
-## <a href=''>About the Solution</a>
+## <a href='./constantTimeStackMin.js'>About the Solution</a>
 
 <img src='https://img.shields.io/badge/JavaScript-F7DF1E.svg?style=for-the-badge&logo=JavaScript&logoColor=black' />
 
@@ -36,8 +41,7 @@
 ### Pseudocode
 -
 
-<!-- Add Link to Tests -->
-## <a href=''>About the Tests</a>
+## <a href='./constantTimeStackMin.test.js'>About the Tests</a>
 
 <img src='https://img.shields.io/badge/Jest-C21325.svg?style=for-the-badge&logo=Jest&logoColor=white' />
 

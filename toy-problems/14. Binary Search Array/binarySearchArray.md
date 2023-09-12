@@ -1,19 +1,17 @@
-<!-- Change Problem Title -->
-# 0. Title
+# 14. Binary Search Array
 
 ## About the Problem
 
-<!-- Add Problem Description -->
+Given a sorted array, find the index of an element using a binary search algorithm.
 
-<!-- Add Examples -->
 ### Examples
 
 | Example| Input | Output |
 | --- | --- | --- |
-| 1 |  |  |
+| 1 | `binarySearch([1, 2, 3, 4, 5], 4)` | `3` |
+| 2 | `binarySearch([1, 2, 3, 4, 5], 8)` | `null` |
 
-<!-- Add Link to Solution -->
-## <a href=''>About the Solution</a>
+## <a href='./binarySearchArray.js'>About the Solution</a>
 
 <img src='https://img.shields.io/badge/JavaScript-F7DF1E.svg?style=for-the-badge&logo=JavaScript&logoColor=black' />
 
@@ -36,8 +34,7 @@
 ### Pseudocode
 -
 
-<!-- Add Link to Tests -->
-## <a href=''>About the Tests</a>
+## <a href='./binarySearchArray.test.js'>About the Tests</a>
 
 <img src='https://img.shields.io/badge/Jest-C21325.svg?style=for-the-badge&logo=Jest&logoColor=white' />
 

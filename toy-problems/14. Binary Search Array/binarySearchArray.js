@@ -1,10 +1,10 @@
 /**
- * @param {}
- * @return {}
+ * @param {number[]} arr
+ * @return {number | null}
  */
 
-const template = () => {
+const binarySearch = (arr) => {
 
 }
 
-module.exports = template;
+module.exports = binarySearch;

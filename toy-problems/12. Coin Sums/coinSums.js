@@ -1,10 +1,10 @@
 /**
- * @param {}
- * @return {}
+ * @param {number} total
+ * @return {number}
  */
 
-const template = () => {
+const makeChange = (total) => {
 
 }
 
-module.exports = template;
+module.exports = makeChange;

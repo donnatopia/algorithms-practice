@@ -22,24 +22,62 @@ var example = new Stack()
 
 <img src='https://img.shields.io/badge/JavaScript-F7DF1E.svg?style=for-the-badge&logo=JavaScript&logoColor=black' />
 
-<!-- Add Time and Space Complexity -->
 ### Time and Space Complexity
-  - Time Complexity: `O(n)`
-  - Space Complexity: `O(n)`
+  - Time Complexity: `O(1)`
+  - Space Complexity: `O(n^2)`
+    - the length of the stack depends on the number of elements added to the stack O(n)
+    - the length of the minStack depends on the numbers less than or equal to the first element of the array O(n)
 
-<!-- Planning -->
 ### Input, Output, Constraints, Edge (IOCE)
+- push
+  - I: val (number)
+  - O: N/A
+    - SE: add val to the end of the stack
+  - C: constant time
+  - E: N/A
 
-  - I:
-  - O:
-  - C:
-  - E:
+- pop
+  - I: N/A
+  - O: last element in the array
+  - C: constant time
+  - E: return undefined if array is length 0;
 
-### Strategy
--
+- min
+  - I: N/A
+  - O: the smallest element in the array
+  - C: constant time
+  - E: return undefined for array is length 0
 
-### Pseudocode
--
+- size
+  - I: N/A
+  - O: size of the stack
+  - C: constant time
+  - E: N/A
+
+### Strategy / Pseudocode
+- constructor
+  - two arrays
+  - one to track the order of elements
+  - another to track the minimum elements
+    - use the first element as a base
+    - stack elements that are less than or equal to the last element of the stack
+
+- push
+  - push the value to the stack array
+  - if there are no elements in the minStack or the value is less than or equal to the last element in the minStack
+    - push the value to the minStack
+
+- pop
+  - define the val as the popped value of the stack
+  - if val is equal to the last element of the minStack
+    - pop off the element from the minStack
+  - return val
+
+- min
+  - return the last element of minStack
+
+- size
+  - return the length of the stack
 
 ## <a href='./constantTimeStackMin.test.js'>About the Tests</a>
 

@@ -25,24 +25,37 @@ It:
 
 <img src='https://img.shields.io/badge/JavaScript-F7DF1E.svg?style=for-the-badge&logo=JavaScript&logoColor=black' />
 
-<!-- Add Time and Space Complexity -->
 ### Time and Space Complexity
-  - Time Complexity: `O(n)`
+  - Time Complexity: `O(n log n)`
+    - iterating through the length of the array to place the value either greater than or less than/equal to the pivot has a time complexity of O(n)
+    - this is repeated for every 1/2 length of the arr, which has a time complexity of O(log n)
+    - nested functions multiply time complexity for a time complexity of O(n log n)
   - Space Complexity: `O(n)`
+    - we are creating a new iteration of the arr but in a sorted manner, so the space complexity is led by the length of the array, O(n)
 
-<!-- Planning -->
 ### Input, Output, Constraints, Edge (IOCE)
 
-  - I:
-  - O:
-  - C:
+  - I: number[]
+  - O: number[] sorted
+  - C: N/A (maybe time complexity of n log n)
   - E:
+    - empty array will yield empty array
+    - array of duplicate values would yield the same array
+    - array with one element will yield the same array
 
-### Strategy
--
-
-### Pseudocode
--
+### Strategy / Pseudocode
+- Plan A:
+  - base case
+    - if array's length is less than or equal to 1, then return the same array
+  - pick the pivot as last element of the array
+  - iterate from 0 to the pivot
+    - if the value is less than or equal to the pivot
+      - then push into a lesser array
+    - if the value is greater than the pivot
+      - then push into a greater array
+  - recursively call the function to the lesser array
+  - recursively call the function to the greater array
+  - return the sorted lesser array + pivot + sorted greater array
 
 ## <a href='./quickSort.test.js'>About the Tests</a>
 

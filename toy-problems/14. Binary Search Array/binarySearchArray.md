@@ -15,24 +15,37 @@ Given a sorted array, find the index of an element using a binary search algorit
 
 <img src='https://img.shields.io/badge/JavaScript-F7DF1E.svg?style=for-the-badge&logo=JavaScript&logoColor=black' />
 
-<!-- Add Time and Space Complexity -->
 ### Time and Space Complexity
-  - Time Complexity: `O(n)`
-  - Space Complexity: `O(n)`
+  - Time Complexity: `O(log n)`
+    - each time the search is cut 1/2 of the arr.length
+  - Space Complexity: `O(1)`
+    - no additional data structures needed
 
-<!-- Planning -->
 ### Input, Output, Constraints, Edge (IOCE)
 
   - I:
+    - sorted array
+    - target element
   - O:
-  - C:
+    - index of target element
+    - null otherwise
+  - C: time complexity O(log n)
   - E:
+    - return null if element does not exist in the array
 
-### Strategy
--
-
-### Pseudocode
--
+### Strategy / Pseudocode
+- Plan A (binary search):
+  - set the left index as 0
+  - set the right index as the last element of the array
+  - while the left index is less than or equal to right
+    - set the mid point as the floor value of the average between the left and right value
+    - if the value at the midpoint is equal to the target
+      - return the midpoint index
+    - else if target is less than the value at the midpoint
+      - set the right index as the midpoint - 1
+    - else
+      - set the left index as the midpoint + 1
+  - return null
 
 ## <a href='./binarySearchArray.test.js'>About the Tests</a>
 

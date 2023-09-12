@@ -89,7 +89,7 @@
 | 11 | [Tree Count Leaves](/toy-problems/11.%20Tree%20Count%20Leaves/treeCountLeaves.md) | - | [:red_circle:](/toy-problems/11.%20Tree%20Count%20Leaves/treeCountLeaves.js) |
 | 12 | [Coin Sums](/toy-problems/12.%20Coin%20Sums/coinSums.md) | - | [:red_circle:](/toy-problems/12.%20Coin%20Sums/coinSums.js) |
 | 13 | [All Anagrams](/toy-problems/13.%20All%20Anagrams/allAnagrams.md) | Recursion | [:green_circle:](/toy-problems/13.%20All%20Anagrams/allAnagrams.js) |
-| 14 | [Binary Search Array](/toy-problems/14.%20Binary%20Search%20Array/binarySearchArray.md) | - | [:red_circle:](/toy-problems/14.%20Binary%20Search%20Array/binarySearchArray.js) |
+| 14 | [Binary Search Array](/toy-problems/14.%20Binary%20Search%20Array/binarySearchArray.md) | Binary Search | [:green_circle:](/toy-problems/14.%20Binary%20Search%20Array/binarySearchArray.js) |
 | 15 | [Power Set](/toy-problems/14.%20Power%20Set/powerSet.md) | Recursion | [:green_circle:](/toy-problems/14.%20Power%20Set/powerSet.js) |
 | 16 | [Deep Equality](/toy-problems/16.%20Deep%20Equality/deepEquality.md) | - | [:red_circle:](/toy-problems/16.%20Deep%20Equality/deepEquality.js) |
 | 17 | [Tree B F Select](/toy-problems/17.%20Tree%20B%20F%20Select/treeBFSelect.md) | - | [:red_circle:](/toy-problems/17.%20Tree%20B%20F%20Select/treeBFSelect.js) |

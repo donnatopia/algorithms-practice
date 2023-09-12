@@ -1,19 +1,34 @@
-<!-- Change Problem Title -->
-# 0. Title
+# 11. Tree Count Leaves
 
 ## About the Problem
 
-<!-- Add Problem Description -->
+Implement the `countLeaves` function in this Tree class.
 
-<!-- Add Examples -->
+A leaf node is any node in the tree that has no children. `countLeaves` should traverse the tree, and return the number of leaf nodes the tree contains.
+
+Illustration of a tree with three leaves:
+
+       * <- root
+      / \
+     *    * <- leaf
+    / \
+   *   * <- leaf
+  /
+ * <- leaf
+
 ### Examples
 
-| Example| Input | Output |
-| --- | --- | --- |
-| 1 |  |  |
+var root = new Tree();
+   root.countLeaves(); // 1
+   root.addChild(new Tree());
+   root.countLeaves(); // still 1
+   root.addChild(new Tree());
+   root.children[0].addChild(new Tree());
+   root.children[0].addChild(new Tree());
+   root.children[0].children[0].addChild(new Tree());
+   root.countLeaves(); // 3
 
-<!-- Add Link to Solution -->
-## <a href=''>About the Solution</a>
+## <a href='./treeCountLeaves.js'>About the Solution</a>
 
 <img src='https://img.shields.io/badge/JavaScript-F7DF1E.svg?style=for-the-badge&logo=JavaScript&logoColor=black' />
 
@@ -36,8 +51,7 @@
 ### Pseudocode
 -
 
-<!-- Add Link to Tests -->
-## <a href=''>About the Tests</a>
+## <a href='./treeCountLeaves.test.js'>About the Tests</a>
 
 <img src='https://img.shields.io/badge/Jest-C21325.svg?style=for-the-badge&logo=Jest&logoColor=white' />
 

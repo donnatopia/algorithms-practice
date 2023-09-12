@@ -1,10 +1,10 @@
 /**
- * @param {}
- * @return {}
+ * @param {number[]} arr
+ * @return {number[]}
  */
 
-const template = () => {
+const quickSort = (arr) => {
 
 }
 
-module.exports = template;
+module.exports = quickSort;

@@ -4,18 +4,14 @@
  */
 
 const shuffleDeck = (deck) => {
-  let shuffled = {};
   for (let i = 0; i < deck.length; i++) {
-    let isPlaced = false;
-    while (!isPlaced) {
-      let random = Math.floor(Math.random() * (52 + 1));
-      if (!shuffled[random]) {
-        shuffled[random] = deck[i];
-        isPlaced = true;
-      }
-    }
+    let random = Math.floor(Math.random() * deck.length);
+    let card = deck[i];
+    let randomCard = deck[random];
+    deck[i] = randomCard;
+    deck[random] = card;
   }
-  return Object.values(shuffled);
+  return deck;
 }
 
 module.exports = shuffleDeck;

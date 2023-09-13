@@ -18,7 +18,7 @@ xdescribe('8. Shuffle Deck', () => {
 
   it('should be return an array with every card in the deck', () => {
     let originalDeck = orderedDeck();
-    let shuffledDeck = shuffleDeck(originalDeck);
+    let shuffledDeck = shuffleDeck(orderedDeck());
 
     expect(shuffledDeck).toEqual(expect.arrayContaining(originalDeck));
     expect(shuffledDeck.length).toBe(originalDeck.length);
@@ -26,19 +26,20 @@ xdescribe('8. Shuffle Deck', () => {
 
   it('should not return the original deck', () => {
     let originalDeck = orderedDeck();
-    let shuffledDeck = shuffleDeck(originalDeck);
+    let shuffledDeck = shuffleDeck(orderedDeck());
 
     expect(shuffledDeck).not.toStrictEqual(originalDeck);
   });
 
   it('should not return the deck in the same order twice', () => {
     let originalDeck = orderedDeck();
-    let firstShuffledDeck = shuffleDeck(originalDeck);
+    let firstShuffledDeck = shuffleDeck(orderedDeck());
 
     expect(firstShuffledDeck).toEqual(expect.arrayContaining(originalDeck));
     expect(firstShuffledDeck.length).toBe(originalDeck.length);
 
-    let secondShuffledDeck = shuffleDeck(firstShuffledDeck);
+    let secondShuffledDeck = shuffleDeck(firstShuffledDeck.slice());
+    expect(firstShuffledDeck).not.toStrictEqual(secondShuffledDeck);
     expect(secondShuffledDeck).toEqual(expect.arrayContaining(originalDeck));
     expect(secondShuffledDeck.length).toBe(originalDeck.length);
   })

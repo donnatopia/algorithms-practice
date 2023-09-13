@@ -31,10 +31,12 @@ shuffleDeck(deck);
 
 <img src='https://img.shields.io/badge/JavaScript-F7DF1E.svg?style=for-the-badge&logo=JavaScript&logoColor=black' />
 
-<!-- Add Time and Space Complexity -->
 ### Time and Space Complexity
   - Time Complexity: `O(n)`
-  - Space Complexity: `O(n)`
+    - iterating through the length of deck has a linear time complexity with respect to the length of the deck
+  - Space Complexity: `O(1)`
+    - no additional data structures and employs in-place swapping
+
 
 ### Input, Output, Constraints, Edge (IOCE)
 
@@ -54,6 +56,9 @@ shuffleDeck(deck);
       - repeat the process
   - return the values of the object
 
+- Plan B (in-place swap):
+  - swap current index and random index for the length of shuffleDeck
+
 ### Pseudocode
 - Plan A (iterative):
   - create an empty obj
@@ -65,6 +70,15 @@ shuffleDeck(deck);
         - place the card at the obj at the random index
         - set isPlaced to true
   - return the values of the object
+
+- Plan B (in-place swap):
+  - iterate through the lenght of the deck
+    - select a random index
+    - define the card as the deck at the current index
+    - define randomCard as the deck at the random index
+    - redefine card as randomCard
+    - redfine randomCard as card
+  - return the deck
 
 ## <a href='./shuffleDeck.test.js'>About the Tests</a>
 

@@ -12,6 +12,7 @@
 
 | # | Problem | Difficulty | Notes | Solution |
 | --- | --- | --- | --- | --- |
+| 135 | [Candy](/leetcode/135.%20Candy/candy.md) | Hard | - | [:red_circle:](/leetcode/135.%20Candy/candy.js) |
 | 1647 | [Minimum Deletions to Make Character Frequencies Unique](/leetcode/1647.%20Minimum%20Deletions%20to%20Make%20Character%20Frequencies%20Unique/minDeletions.md) | Medium | - | [:green_circle:](/leetcode/1647.%20Minimum%20Deletions%20to%20Make%20Character%20Frequencies%20Unique/minDeletions.js) |
 | 1282 | [Group the People Given the Group Size They Belong To](/leetcode/1282.%20Group%20the%20People%20Given%20the%20Group%20Size%20They%20Belong%20To/groupThePeople.md) | Medium | - | [:green_circle:](/leetcode/1282.%20Group%20the%20People%20Given%20the%20Group%20Size%20They%20Belong%20To/groupThePeople.js) |
 | 1359 | [Count All Valid Pickup and Delivery Options](/leetcode/1359.%20Count%20All%20Valid%20Pickup%20and%20Delivery%20Options/countOrders.md) | Hard | Math | [:yellow_circle:](/leetcode/1359.%20Count%20All%20Valid%20Pickup%20and%20Delivery%20Options/countOrders.js) |

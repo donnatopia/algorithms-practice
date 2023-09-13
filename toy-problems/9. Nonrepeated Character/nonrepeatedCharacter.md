@@ -16,24 +16,29 @@ the string.
 
 <img src='https://img.shields.io/badge/JavaScript-F7DF1E.svg?style=for-the-badge&logo=JavaScript&logoColor=black' />
 
-<!-- Add Time and Space Complexity -->
 ### Time and Space Complexity
   - Time Complexity: `O(n)`
+    - iterating through the length of the string is the leading function so time is linear
   - Space Complexity: `O(n)`
+    - freq and characterIndices stores all unique characters in string, which is n at the worst case
 
-<!-- Planning -->
 ### Input, Output, Constraints, Edge (IOCE)
 
-  - I:
-  - O:
-  - C:
+  - I: string
+  - O: string | null (first nonrepeated character in a string)
+  - C: N/A
   - E:
+    - no nonrepeated character => null
+    - empty string => null
 
-### Strategy
--
-
-### Pseudocode
--
+### Strategy / Pseudocode
+- Plan A:
+  - create an obj of unique characters and character frequencies
+  - iterate through the length of the string
+    - update the obj of character frequency
+  - iterate through the keys of the obj
+    - if the value is 1, then return the key
+  - return null
 
 ## <a href='./nonrepeatedCharacter.test.js'>About the Tests</a>
 

@@ -84,7 +84,7 @@
 | 6 | [Insertion Sort](/toy-problems/6.%20Insertion%20Sort/insertionSort.md) | Sorting | [:yellow_circle:](/toy-problems/6.%20Insertion%20Sort/insertionSort.js) |
 | 7 | [Merge Sort](/toy-problems/7.%20Merge%20Sort/mergeSort.md) | Sorting, Divide and Conquer | [:green_circle:](/toy-problems/7.%20Merge%20Sort/mergeSort.js) |
 | 8 | [Shuffle Deck](/toy-problems/8.%20Shuffle%20Deck/shuffleDeck.md) | Math | [:green_circle:](/toy-problems/8.%20Shuffle%20Deck/shuffleDeck.js) |
-| 9 | [Nonrepeated Character](/toy-problems/9.%20Nonrepeated%20Character/nonrepeatedCharacter.md) | - | [:red_circle:](/toy-problems/9.%20Nonrepeated%20Character/nonrepeatedCharacter.js) |
+| 9 | [Nonrepeated Character](/toy-problems/9.%20Nonrepeated%20Character/nonrepeatedCharacter.md) | - | [:green_circle:](/toy-problems/9.%20Nonrepeated%20Character/nonrepeatedCharacter.js) |
 | 10 | [Telephone Words](/toy-problems/10.%20Telephone%20Words/telephoneWords.md) | - | [:red_circle:](/toy-problems/10.%20Telephone%20Words/telephoneWords.js) |
 | 11 | [Tree Count Leaves](/toy-problems/11.%20Tree%20Count%20Leaves/treeCountLeaves.md) | - | [:red_circle:](/toy-problems/11.%20Tree%20Count%20Leaves/treeCountLeaves.js) |
 | 12 | [Coin Sums](/toy-problems/12.%20Coin%20Sums/coinSums.md) | - | [:red_circle:](/toy-problems/12.%20Coin%20Sums/coinSums.js) |

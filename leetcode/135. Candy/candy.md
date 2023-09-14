@@ -30,31 +30,67 @@ Return the minimum number of candies you need to have to distribute the candies 
 
 <img src='https://img.shields.io/badge/JavaScript-F7DF1E.svg?style=for-the-badge&logo=JavaScript&logoColor=black' />
 
-<!-- Add Metrics from LeetCode -->
 ### Stats
 | Type | Metric | Percentile |
 | --- | --- | --- |
-| Runtime |  |  |
-| Memory |  |  |
+| Runtime | 65 ms | 59.67% |
+| Memory | 45.52 MB | 44.89% |
 
-<!-- Change Time and Space Complexity -->
 ### Time and Space Complexity
   - Time Complexity: `O(n)`
+    - iterating through the length of the ratings happen 3 times (forward tracking, backtracking, and the reduce function)
+    - however, the functions are congruet, so the overall time complexity is still linear
   - Space Complexity: `O(n)`
+    - the leading data structure is dp, which is dependent on the length of ratings, so the space complexity is linear
 
-<!-- Planning -->
 ### Input, Output, Constraints, Edge (IOCE)
 
-  - I:
-  - O:
-  - C:
+  - I: number[]
+  - O: min number of candies to give to the children
+  - C: N/A
   - E:
+    - all the same ratings will yield the length of the ratings array
 
 ### Strategy
--
+- Plan A:
+  - create a dp of the amount of candy each child is to recieve
+  - reduce the dp to the sum of all the elements
+
+- Plan B:
+  - create a dp of the amount of candy allotted to each child
+  - forward tracking
+    - if the rating at the current index is greater than rating at the next index
+      - increment the dp at the next index
+  - backtracking
+    - if the rating at the previous index is greater than current index
+      - redefine the previous index to either be the maximum value of either its value or the value of the current index + 1
+  - return the reduce value of the dp
 
 ### Pseudocode
--
+- Plan A:
+  - define dp as an array length of the ratings and set all the elements to 1
+  - iterate through the length of the ratings - 1
+    - if the dp indices at the current and next are the same
+      - if the rating at the current index is less than next index
+        - increment the dp at the next index
+      - else if the rating at the current index is greater than next index
+        - increment the dp at the current index
+    - else
+      - if the rating at the current index is greater than next && the dp at the current index is less than next
+        - can't happen actually => current index can be 1 at the very least and next is always 1
+      - else if the rating at the current index is less than next && dp at the current index is greater than next
+        - set the dp at the next to the dp at current + 1
+  - return the reduce function of dp with accumulator set to 0
+
+- Plan B:
+  - define dp as an array lenght of the ratings na dset all the elemnts to 1
+  - iterate through the length of ratings from 0 to second to last index
+    - if the rating at the next index is greater the rating at the current index
+      - set the dp at the next index as the dp at the current index + 1
+  - iterate through the length of ratings from last index to first index
+    - if the rating at the previous index is greater than the rating at the current index
+      - set the dp at the previous index as the max value between its current value and the dp at the current index + 1
+  - return reduced value of dp
 
 ## <a href='./candy.test.js'>About the Tests</a>
 

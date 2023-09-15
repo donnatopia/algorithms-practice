@@ -28,31 +28,71 @@ Return the minimum cost to make all points connected. All points are connected i
 
 <img src='https://img.shields.io/badge/JavaScript-F7DF1E.svg?style=for-the-badge&logo=JavaScript&logoColor=black' />
 
-<!-- Add Metrics from LeetCode -->
 ### Stats
 | Type | Metric | Percentile |
 | --- | --- | --- |
-| Runtime |  |  |
-| Memory |  |  |
+| Runtime | 9933 ms | 5.14% |
+| Memory | 44.71 MB | 94.56% |
 
-<!-- Change Time and Space Complexity -->
 ### Time and Space Complexity
-  - Time Complexity: `O(n)`
+  - Time Complexity: `O(n^3)`
+    - there are 3 nested loop within the findMinDistance
   - Space Complexity: `O(n)`
+    - seen is a set that contains all the points visited, which should be the same as the length of points at the end of the function, so the space complexity is O(n)
 
-<!-- Planning -->
 ### Input, Output, Constraints, Edge (IOCE)
 
-  - I:
-  - O:
-  - C:
+  - I: number[][] of points
+  - O: minimum cost to make all points connects with exactly one simple path between two points
+  - C: N/A
   - E:
+    - only one point in points will yield 0
+    - two points will yield the manhattan distance between the two
 
 ### Strategy
--
+- Plan A (failed to consider cyclic structures):
+    - need to minimize the difference between x's and y's
+    - eliminate the point once it has been used
+    - return the manhattan distance
+
+    - dp/brute force
+        - maybe make a matrix where the points is the row and column
+        - each element would represent the manhattan distance between the row and column point
+        - iterate through all the column
+            - take the smallest value in a column and add to total
+
+- Plan B:
+  - find the minimum distance spanning from nodes that already been visited
 
 ### Pseudocode
--
+- Plan A:
+    - define dp as an Array of length points filled with Array of length points filled with 0
+    - iterate for the length of points
+        - iterate from index + 1 to the length of points
+            - set the dp at this point to be the manhattan distance between the two points
+    - set the total to be 0
+    - iterate through all the columns of the matrix
+        - add the minimum value of the column to the total
+    - return the total
+
+- Plan B:
+  - create a function that accepts an array of points to find the minimum distance
+  - if the array is equal to the length of points
+    - then return
+  - let minDistance = Number.POSITIVE_INFINITY
+  - let nextNode = 0;
+  - iterate for the length of the inputedPoints
+    - define the [x1, y1] as the coordinates of the inputtedPoints[i];
+    - iterate through the remainder of points
+      - if the node has not been visited
+        - define [x2, y2] as the coordinates of points[j]
+        - define distance as the sum of the difference between x and y
+        - if the distance is less than minDistance
+          - set the minDistance to distance
+          - set next Node to j
+  - add the minDistance to the cost
+  - set the nextNode as visited
+  - recall the function with the same array concatted with the nextNode
 
 ## <a href='./minCostConnectPoints.test.js'>About the Tests</a>
 

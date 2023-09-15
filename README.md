@@ -12,6 +12,7 @@
 
 | # | Problem | Difficulty | Notes | Solution |
 | --- | --- | --- | --- | --- |
+| 1584 | [Min Cost to Connect All Points](/leetcode/1584.%20Min%20Cost%20to%20Connect%20All%20Points/minCostConnectPoints.md) | Medium | - | [:red_circle:](/leetcode/1584.%20Min%20Cost%20to%20Connect%20All%20Points/minCostConnectPoints.js) |
 | 332 | [Reconstruct Itinerary](/leetcode/332.%20Reconstruct%20Itinerary/findItinerary.md) | Hard | DFS | [:yellow_circle:](/leetcode/332.%20Reconstruct%20Itinerary/findItinerary.js) |
 | 135 | [Candy](/leetcode/135.%20Candy/candy.md) | Hard | DP | [:yellow_circle:](/leetcode/135.%20Candy/candy.js) |
 | 1647 | [Minimum Deletions to Make Character Frequencies Unique](/leetcode/1647.%20Minimum%20Deletions%20to%20Make%20Character%20Frequencies%20Unique/minDeletions.md) | Medium | - | [:green_circle:](/leetcode/1647.%20Minimum%20Deletions%20to%20Make%20Character%20Frequencies%20Unique/minDeletions.js) |

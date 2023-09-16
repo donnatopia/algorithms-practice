@@ -12,6 +12,7 @@
 
 | # | Problem | Difficulty | Notes | Solution |
 | --- | --- | --- | --- | --- |
+| 1631 | [Path with Minimum Effort](/leetcode/1631.%20Path%20with%20Minimum%20Effort/minimumEffortPath.md) | Medium | - | [:red_circle:](/leetcode/1631.%20Path%20with%20Minimum%20Effort/minimumEffortPath.js) |
 | 1584 | [Min Cost to Connect All Points](/leetcode/1584.%20Min%20Cost%20to%20Connect%20All%20Points/minCostConnectPoints.md) | Medium | Greedy, Prim Algo | [:yellow_circle:](/leetcode/1584.%20Min%20Cost%20to%20Connect%20All%20Points/minCostConnectPoints.js) |
 | 332 | [Reconstruct Itinerary](/leetcode/332.%20Reconstruct%20Itinerary/findItinerary.md) | Hard | DFS | [:yellow_circle:](/leetcode/332.%20Reconstruct%20Itinerary/findItinerary.js) |
 | 135 | [Candy](/leetcode/135.%20Candy/candy.md) | Hard | DP | [:yellow_circle:](/leetcode/135.%20Candy/candy.js) |

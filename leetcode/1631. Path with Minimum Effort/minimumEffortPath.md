@@ -29,31 +29,55 @@ Return the minimum effort required to travel from the top-left cell to the botto
 
 <img src='https://img.shields.io/badge/JavaScript-F7DF1E.svg?style=for-the-badge&logo=JavaScript&logoColor=black' />
 
-<!-- Add Metrics from LeetCode -->
 ### Stats
 | Type | Metric | Percentile |
 | --- | --- | --- |
-| Runtime |  |  |
-| Memory |  |  |
+| Runtime | 6207 ms | 5.32% |
+| Memory | 79.62 MB | 13.83% |
 
-<!-- Change Time and Space Complexity -->
 ### Time and Space Complexity
-  - Time Complexity: `O(n)`
-  - Space Complexity: `O(n)`
+  - Time Complexity: `O(n * m * log(m * n))`
+  - Space Complexity: `O(n * m)`
 
-<!-- Planning -->
 ### Input, Output, Constraints, Edge (IOCE)
 
-  - I:
-  - O:
-  - C:
+  - I: matrix of heights
+  - O: smallest difference between two cells on the path from left to right
+  - C: N/A
   - E:
+    - singular matrix => 0
 
 ### Strategy
--
+- Plan A (backtracking):
+  - create a path from left to right
+    - if the cell has reached the bottom right cell
+      - then update if this is the minimum effort compared to all valid pathways
+    - before considering using the next cell as part of the pathway, check to see if the difference between the current cell and next cell is less than or equal to the minimum effort
+      - mark the cell as visited
+      - traverse left
+      - traverse right
+      - traverse up
+      - traverse down
+    - else
+      - truncate this path
 
 ### Pseudocode
--
+- Plan A:
+  - set minimumEffort to 0
+  - create a matrix the same size of heights all set to false
+  - create a traverse function that accepts i, j, matrix
+    - mark the current value as visited
+    - let currentMinEffort = positive infinity
+    - if i === heights.length - 1 && j === heights[0].length
+      - minimumEffort as the minimum between minimumEffort and currentMinEffort
+    - check left if valid => within range and not visited
+      - if absolute difference between value of current and left is less than or equal to current minimum effort
+      - then traverse left with matrix copy
+    - check right if valid
+    - check up if valid
+    - check down if valid
+  - call the traverse function on 0, 0
+  - return minimumEffort
 
 ## <a href='./minimumEffortPath.test.js'>About the Tests</a>
 

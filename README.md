@@ -12,6 +12,7 @@
 
 | # | Problem | Difficulty | Notes | Solution |
 | --- | --- | --- | --- | --- |
+| 847 | [Shortest Path Visiting All Nodes](/leetcode/847.%20Shortest%20Path%20Visiting%20All%20Nodes/shortestPathLength.md) | Hard | - | [:red_circle:](/leetcode/847.%20Shortest%20Path%20Visiting%20All%20Nodes/shortestPathLength.js) |
 | 1631 | [Path with Minimum Effort](/leetcode/1631.%20Path%20with%20Minimum%20Effort/minimumEffortPath.md) | Medium | Dijkstra's algorithm | [:yellow_circle:](/leetcode/1631.%20Path%20with%20Minimum%20Effort/minimumEffortPath.js) |
 | 1584 | [Min Cost to Connect All Points](/leetcode/1584.%20Min%20Cost%20to%20Connect%20All%20Points/minCostConnectPoints.md) | Medium | Greedy, Prim Algo | [:yellow_circle:](/leetcode/1584.%20Min%20Cost%20to%20Connect%20All%20Points/minCostConnectPoints.js) |
 | 332 | [Reconstruct Itinerary](/leetcode/332.%20Reconstruct%20Itinerary/findItinerary.md) | Hard | DFS | [:yellow_circle:](/leetcode/332.%20Reconstruct%20Itinerary/findItinerary.js) |

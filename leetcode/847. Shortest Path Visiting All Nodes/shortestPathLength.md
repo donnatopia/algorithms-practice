@@ -28,31 +28,76 @@ Return the length of the shortest path that visits every node. You may start and
 
 <img src='https://img.shields.io/badge/JavaScript-F7DF1E.svg?style=for-the-badge&logo=JavaScript&logoColor=black' />
 
-<!-- Add Metrics from LeetCode -->
 ### Stats
 | Type | Metric | Percentile |
 | --- | --- | --- |
-| Runtime |  |  |
-| Memory |  |  |
+| Runtime | 149 ms | 27.60% |
+| Memory | 62.37 MB | 23.98% |
 
-<!-- Change Time and Space Complexity -->
 ### Time and Space Complexity
-  - Time Complexity: `O(n)`
-  - Space Complexity: `O(n)`
+  - Time Complexity: `O(V * (V + E))`
+    - the first for loop runs for the length of graph, which is n
+    - the outer while loop, which visits every node and edge in the graph, so the time complexity is O(V + E), where V is the nodes and E is the edges
+      - the inner while loop runs through all the nodes in graph, which is O(V)
+  - Space Complexity: `O(V)`
+    - visited, queue, and next can have up to O(V) elements each
 
-<!-- Planning -->
 ### Input, Output, Constraints, Edge (IOCE)
 
-  - I:
+  - I: number[]
+    - each index represents a node and the element of each index is an array of nodes that connect to the current node
   - O:
-  - C:
-  - E:
+    - minimum number of steps to reach all the nodes
+  - C: N/A
+  - E: singular node => steps is 0
 
 ### Strategy
--
+- Plan A (BFS w/ Bitmask):
+  - visit each node using BFS
+  - keep track of each node visited using a bitmask
+    - mark 1 in bitmask if the node has been visited
+    - i.e. for two nodes,
+        2  1  0  <-- indices
+        1  0  0  <-- bitmask (only visited node 2)
+  - keep track of the number of steps
+  - as we are visiting each node
+    - update the bitmask to reflect the node has been visited
+        2  1  0  <-- indices
+        1  1  0  <-- bitmask (visited both node 2 and 1)
+  - return the steps once the bitmask represents all the nodes have been visited
+        2  1  0  <-- indices
+        1  1  1  <-- bitmask (visited all nodes)
 
 ### Pseudocode
--
+- define the final bitmask as 1 << n, where n is the length of graph
+- define a queue as an empty array
+- define visited as a new set
+- iterate thorugh the length of graph
+  - add to the queue, the node and bitmask
+  - add to visited set
+
+- set steps to 0
+- while the queue still has elements
+  - set next to an empty array
+  - while the queue still has length
+    - set the node and bitmask to the last element of the queue
+    - if the bitmask equals the fullbitmask return steps
+    - iterate through all the neighbors of the graph at the node
+      - define the new bitmask using the OR operator
+      - if the visiter does not already have the neighbor and new bitmask
+        - add this to the queue
+        - add this to the visited set
+  - set the queue to next
+  - increment steps
+- return steps
+
+### Notes
+- 1 << n means to displace the number 1 n spaces
+  - if n = 2, then it would return 100 => 4
+- use the bitwise OR operation to update the bitmask
+  - if visit node 2: 100
+  - if visit node 1: 010
+  - if visit node 2 and 1, then using the bitwise OR operation (2 | 1), we get 110
 
 ## <a href='shortestPathLength.test.js'>About the Tests</a>
 

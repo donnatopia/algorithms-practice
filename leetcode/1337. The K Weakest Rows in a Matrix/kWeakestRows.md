@@ -32,31 +32,47 @@ Return the indices of the `k` weakest rows in the matrix ordered from weakest to
 
 <img src='https://img.shields.io/badge/JavaScript-F7DF1E.svg?style=for-the-badge&logo=JavaScript&logoColor=black' />
 
-<!-- Add Metrics from LeetCode -->
 ### Stats
 | Type | Metric | Percentile |
 | --- | --- | --- |
-| Runtime |  |  |
-| Memory |  |  |
+| Runtime | 45 ms | 97.04% |
+| Memory | 44.6 5MB | 23.68% |
 
-<!-- Change Time and Space Complexity -->
 ### Time and Space Complexity
-  - Time Complexity: `O(n)`
-  - Space Complexity: `O(n)`
+  - Time Complexity: `O(n^2 + k)`
+    - iterating through the length of matrix to generate the number of soliders per row is O(n^2), where n is the length of the matrix
+    - iterating through all the rows of the matrix up until the k is O(k)
+    - congruent functions are additive, so time complexity is O(n^2 + k)
+  - Space Complexity: `O(n + k)`
+    - the soliders object is size dependent on the number of rows, so the space complexity is O(n), where n is the number of rows in the matrix
+    - the weakest rows array is size dependent on k, so the space complexity is O(k)
 
-<!-- Planning -->
 ### Input, Output, Constraints, Edge (IOCE)
 
   - I:
+    - matrix of 0's (civilians) and 1's (soliders)
+    - k (number)
   - O:
-  - C:
+    - return the first k weakest rows
+  - C: N/A
   - E:
+    - the same number of soliders, ranking of the row is dependent on the index of the row
 
-### Strategy
--
-
-### Pseudocode
--
+### Strategy / Pseudocode
+- Plan A (iterative):
+  - create an object whose key is the number of soliders in the row and the value is an array of rowIndices
+  - iterate through all the rows in the matrix
+    - count up all the soliders in row
+    - add the row index to the respective solider number in the object
+  - set the numberOfSoliders to the max number of soliders in the matrix
+  - create an empty result array
+  - while the empty result array's length is not equal to k
+    - if the object at the numberOfSolidersKey exists
+      - add the first value of the object at the numberOfSoliders key
+      - if the array ran out of values, then decrement the numberOfSoliders
+    - else
+      - decrement the number of soliders
+  - return result array
 
 ## <a href='./kWeakestRows.test.js'>About the Tests</a>
 

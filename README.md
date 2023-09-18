@@ -12,6 +12,7 @@
 
 | # | Problem | Difficulty | Notes | Solution |
 | --- | --- | --- | --- | --- |
+| 1337 | [The K Weakest Rows in a Matrix](/leetcode/1337.%20The%20K%20Weakest%20Rows%20in%20a%20Matrix/kWeakestRows.md) | Easy | - | [:red_circle:](/leetcode/1337.%20The%20K%20Weakest%20Rows%20in%20a%20Matrix/kWeakestRows.js) |
 | 847 | [Shortest Path Visiting All Nodes](/leetcode/847.%20Shortest%20Path%20Visiting%20All%20Nodes/shortestPathLength.md) | Hard | - | [:red_circle:](/leetcode/847.%20Shortest%20Path%20Visiting%20All%20Nodes/shortestPathLength.js) |
 | 1631 | [Path with Minimum Effort](/leetcode/1631.%20Path%20with%20Minimum%20Effort/minimumEffortPath.md) | Medium | Dijkstra's algorithm | [:yellow_circle:](/leetcode/1631.%20Path%20with%20Minimum%20Effort/minimumEffortPath.js) |
 | 1584 | [Min Cost to Connect All Points](/leetcode/1584.%20Min%20Cost%20to%20Connect%20All%20Points/minCostConnectPoints.md) | Medium | Greedy, Prim Algo | [:yellow_circle:](/leetcode/1584.%20Min%20Cost%20to%20Connect%20All%20Points/minCostConnectPoints.js) |

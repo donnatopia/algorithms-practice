@@ -74,6 +74,11 @@ Return the indices of the `k` weakest rows in the matrix ordered from weakest to
       - decrement the number of soliders
   - return result array
 
+- Plan B:
+  - reduce each row into number of soliders
+  - map the matrix into number of soliders, keeping the relative order of index
+  - return the first k elements of the mapped matrix's index
+
 ## <a href='./kWeakestRows.test.js'>About the Tests</a>
 
 <img src='https://img.shields.io/badge/Jest-C21325.svg?style=for-the-badge&logo=Jest&logoColor=white' />

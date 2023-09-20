@@ -12,7 +12,7 @@
 
 | # | Problem | Difficulty | Notes | Solution |
 | --- | --- | --- | --- | --- |
-| 1658 | [Minimum Operations to Reduce X to Zero](/leetcode/1658.%20Minimum%20Operations%20to%20Reduce%20X%20to%20Zero/minOperations.md) | Medium | - | [:red_circle:](/leetcode/1658.%20Minimum%20Operations%20to%20Reduce%20X%20to%20Zero/minOperations.js) |
+| 1658 | [Minimum Operations to Reduce X to Zero](/leetcode/1658.%20Minimum%20Operations%20to%20Reduce%20X%20to%20Zero/minOperations.md) | Medium | Sliding Window | [:yellow_circle:](/leetcode/1658.%20Minimum%20Operations%20to%20Reduce%20X%20to%20Zero/minOperations.js) |
 | 287 | [Find the Duplicate Number](/leetcode/287.%20Find%20the%20Duplicate%20Number/findDuplicate.md) | Medium | Floyd's Cycle Detection | [:yellow_circle:](/leetcode/287.%20Find%20the%20Duplicate%20Number/findDuplicate.js) |
 | 1337 | [The K Weakest Rows in a Matrix](/leetcode/1337.%20The%20K%20Weakest%20Rows%20in%20a%20Matrix/kWeakestRows.md) | Easy | - | [:green_circle:](/leetcode/1337.%20The%20K%20Weakest%20Rows%20in%20a%20Matrix/kWeakestRows.js) |
 | 847 | [Shortest Path Visiting All Nodes](/leetcode/847.%20Shortest%20Path%20Visiting%20All%20Nodes/shortestPathLength.md) | Hard | DFS, Bitwise | [:yellow_circle:](/leetcode/847.%20Shortest%20Path%20Visiting%20All%20Nodes/shortestPathLength.js) |

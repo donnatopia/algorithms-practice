@@ -28,31 +28,48 @@ You must solve the problem without modifying the array `nums` and uses only cons
 
 <img src='https://img.shields.io/badge/JavaScript-F7DF1E.svg?style=for-the-badge&logo=JavaScript&logoColor=black' />
 
-<!-- Add Metrics from LeetCode -->
 ### Stats
 | Type | Metric | Percentile |
 | --- | --- | --- |
-| Runtime |  |  |
-| Memory |  |  |
+| Runtime | 72 ms | 74.53% |
+| Memory | 49.59 MB | 79.95% |
 
-<!-- Change Time and Space Complexity -->
 ### Time and Space Complexity
   - Time Complexity: `O(n)`
-  - Space Complexity: `O(n)`
+    - iteration through all the elements of nums is dependent on the length of n
+  - Space Complexity: `O(1)`
+    - there are no space-dependent data structures created
 
-<!-- Planning -->
 ### Input, Output, Constraints, Edge (IOCE)
 
-  - I:
-  - O:
+  - I: array
+  - O: number that is duplicated in inputted array
   - C:
-  - E:
+    - use constant space
+    - don't modify original array
+  - E: only one element?
 
 ### Strategy
--
+- Plan A:
+  - iterate through the array
+    - if the element's indexOf does not match lastIndexOf
+      - then return that element
+
+- Plan B:
+  - Floyd's Cycle Detection
 
 ### Pseudocode
--
+- Plan B (fast and slow pointer):
+  - initialize the slow pointer to the first element of the array
+  - initialize the fast pointer to the first element of the array
+  - do while the slow pointer doesn't equal the fast pointer
+    - set slow as the nums at slow
+    - set fast as the nums at nums at fast
+  - set the slow pointer to nums at 0
+  - do while the slow pointer doesn't equal the fast pointer
+    - set slow as nums[slow]
+    - set fast as nums[fast]
+  - return slow
 
 ## <a href='./findDuplicate.test.js'>About the Tests</a>
 

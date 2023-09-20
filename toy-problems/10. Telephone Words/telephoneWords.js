@@ -4,7 +4,21 @@
  */
 
 const telephoneWords = (digitStr) => {
+  let words = [];
+  if (digitStr.length === 0) return words;
 
+  let letters = phoneDigitsToLetters[digitStr[0]].split('');
+  let remainingWords = telephoneWords(digitStr.substring(1));
+
+  if (remainingWords.length === 0) return letters;
+
+  letters.forEach((letter) => {
+    remainingWords.forEach((remainingWord) => {
+      words.push(letter + remainingWord);
+    })
+  });
+
+  return words;
 }
 
 const phoneDigitsToLetters = {

@@ -30,24 +30,38 @@ telephoneWords('2745');
 
 <img src='https://img.shields.io/badge/JavaScript-F7DF1E.svg?style=for-the-badge&logo=JavaScript&logoColor=black' />
 
-<!-- Add Time and Space Complexity -->
 ### Time and Space Complexity
-  - Time Complexity: `O(n)`
-  - Space Complexity: `O(n)`
+  - Time Complexity: `O(3^n)`
+    - iterating through all the different permutation is on average 3^n
+  - Space Complexity: `O(n + 3^n)`
+    - the number of recursive calls depends on the length of digitStr (n)
+    - all the permuations are stored in words, which is 3^n
 
-<!-- Planning -->
+
 ### Input, Output, Constraints, Edge (IOCE)
 
-  - I:
-  - O:
-  - C:
+  - I: string of digits
+  - O: array of strings of all permutations of digits into letters
+  - C: N/A
   - E:
+    - 0 and 1 are returned as 0 and 1
 
 ### Strategy
--
+- Plan A (recursion):
+  - base case
+    - if the string is empty return an empty array
+  - take the first digit of the string and find its corresponding array of letters
+  - return the map values of the first digit permutations and recursively calling the function on the remaining portion of the string
 
 ### Pseudocode
--
+- Plan A (recursion/ permuations):
+  - if the digitString's length is 0, then return an empty array
+  - retrieve the letters for the first digit and convert it into an array
+  - generate the remaining letters as calling the function digitStr.substring(1);
+  - iterate through all the letters
+    - iterate through all the remaining letters
+      - push the letter + remainingletters into result array
+  - return result array
 
 ## <a href='./telephoneWords.test.js'>About the Tests</a>
 

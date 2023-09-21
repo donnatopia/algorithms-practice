@@ -28,31 +28,39 @@ The overall run time complexity should be `O(log (m+n))`.
 
 <img src='https://img.shields.io/badge/JavaScript-F7DF1E.svg?style=for-the-badge&logo=JavaScript&logoColor=black' />
 
-<!-- Add Metrics from LeetCode -->
 ### Stats
 | Type | Metric | Percentile |
 | --- | --- | --- |
-| Runtime |  |  |
-| Memory |  |  |
+| Runtime | 89 ms | 66.59% |
+| Memory | 48.29 MB | 34.88% |
 
-<!-- Change Time and Space Complexity -->
 ### Time and Space Complexity
-  - Time Complexity: `O(n)`
-  - Space Complexity: `O(n)`
+  - Time Complexity: `O((n + m) log (m + n))`
+    - the leading function is sorting the combined array
+  - Space Complexity: `O(n + m)`
+    - the space is dominated by the size of the combined array, which is m + n
 
-<!-- Planning -->
 ### Input, Output, Constraints, Edge (IOCE)
 
-  - I:
-  - O:
-  - C:
+  - I: 2 sorted arrays
+  - O: median of the two sorted arrays when combined
+  - C: time complexity is log(m + n)
   - E:
+    - one array is empty, then get the median of the non-empty array
+    - negative values present
 
-### Strategy
--
+### Strategy / Pseudocode
+- Intuition: need to split each array in half at each iteration in order to receive log(m + n) space complexity
+- Plan A:
+  - get the median index
+    - the median will be located at the average of the combined array lengths - 0.5
+    - if the median index is a decimal,
+      - then median is the average of the floor and ceil values
+  - edge cases
+    - if either arr1 or arr2 is empty, then get the median based on the singularly avaliable array
 
-### Pseudocode
--
+  - combine the arrays (no regards for time complexity)
+  - get the median at the given index
 
 ## <a href='./findMedianSortedArrays.test.js'>About the Tests</a>
 

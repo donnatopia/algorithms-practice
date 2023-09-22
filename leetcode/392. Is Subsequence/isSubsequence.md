@@ -27,28 +27,33 @@ Follow up: Suppose there are lots of incoming `s`, say `s1, s2, ..., sk` where `
 
 <img src='https://img.shields.io/badge/JavaScript-F7DF1E.svg?style=for-the-badge&logo=JavaScript&logoColor=black' />
 
-<!-- Add Metrics from LeetCode -->
 ### Stats
 | Type | Metric | Percentile |
 | --- | --- | --- |
-| Runtime |  |  |
-| Memory |  |  |
+| Runtime | 49 ms | 79.57% |
+| Memory | 41.74 MB | 73.10% |
 
-<!-- Change Time and Space Complexity -->
 ### Time and Space Complexity
-  - Time Complexity: `O(n)`
-  - Space Complexity: `O(n)`
+  - Time Complexity: `O(n * m)`
+    - with two pointers, we iterate through the length of both s and t
+  - Space Complexity: `O(1)`
+    - no additional data structures needed
 
-<!-- Planning -->
 ### Input, Output, Constraints, Edge (IOCE)
 
-  - I:
-  - O:
-  - C:
-  - E:
+  - I: 2 strings
+  - O: boolean if first string is a subsequence of second string
+  - C: N/A
+  - E: if s is empty string => return true?
 
 ### Strategy
--
+- Plan A (two pointers):
+  - one pointer keeps track of string 1
+  - second pointer keeps track of string 2
+  - while pointer 2 is less than the length of string 2 && pointer 1 is less than str1.length
+    - if the character matches the character at string1's index, then increment pointer for string 1
+    - increment pointer 2
+  - return if pointer 1 is less than str1.length
 
 ### Pseudocode
 -

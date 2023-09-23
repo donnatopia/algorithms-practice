@@ -12,6 +12,7 @@
 
 | # | Problem | Difficulty | Notes | Solution |
 | --- | --- | --- | --- | --- |
+| 1048 | [Longest String Chain](/leetcode/1048.%20Longest%20String%20Chain/longestStrChain.md) | Medium | - | [:red_circle:](/leetcode/1048.%20Longest%20String%20Chain/longestStrChain.js) |
 | 392 | [Is Subsequence](/leetcode/392.%20Is%20Subsequence/isSubsequence.md) | Easy | Two Pointers | [:green_circle:](/leetcode/392.%20Is%20Subsequence/isSubsequence.js) |
 | 4 | [Median of Two Sorted Arrays](/leetcode/4.%20Median%20of%20Two%20Sorted%20Array/findMedianSortedArrays.md) | Hard | - | [:yellow_circle:](/leetcode/4.%20Median%20of%20Two%20Sorted%20Array/findMedianSortedArray.js) |
 | 1658 | [Minimum Operations to Reduce X to Zero](/leetcode/1658.%20Minimum%20Operations%20to%20Reduce%20X%20to%20Zero/minOperations.md) | Medium | Sliding Window | [:yellow_circle:](/leetcode/1658.%20Minimum%20Operations%20to%20Reduce%20X%20to%20Zero/minOperations.js) |

@@ -31,31 +31,46 @@ Now after pouring some non-negative integer cups of champagne, return how full t
 
 <img src='https://img.shields.io/badge/JavaScript-F7DF1E.svg?style=for-the-badge&logo=JavaScript&logoColor=black' />
 
-<!-- Add Metrics from LeetCode -->
 ### Stats
 | Type | Metric | Percentile |
 | --- | --- | --- |
-| Runtime |  |  |
-| Memory |  |  |
+| Runtime | 59 ms | 79.63% |
+| Memory | 49.50 MB | 8.21% |
 
-<!-- Change Time and Space Complexity -->
 ### Time and Space Complexity
-  - Time Complexity: `O(n)`
-  - Space Complexity: `O(n)`
+  - Time Complexity: `O(query_row^2)`
+    - iterating through all the slots of tower means that the time complexity is congruent with the space complexity
+  - Space Complexity: `O(query_row^2)`
+    - the tower data structure size is dicatated by the query_row size,
+    - since the data structure is 2-D, the space complexity is quadratic
 
-<!-- Planning -->
 ### Input, Output, Constraints, Edge (IOCE)
 
   - I:
-  - O:
-  - C:
-  - E:
+    - poured: number of champagne glasses poured
+    - query_row: number of row (0-indexed)
+    - query_glass: number of column (0-indexed)
+  - O: decimal representation of fullness of glass in query row and column
+  - C: N/A
+  - E: 0 poured => 0 filled
 
 ### Strategy
--
+- Plan A:
+  - after filling all the cups in the rows prior to the query row, determine how many glasses of champagne is left to distribute to the query row
+  - if there is not enough cups to fill the rows prior to the query row, then return 0
+  - determine how many cups are in the query row,
+    - if the cups remaining exceeds the number of cups in the query row => then return 1
+  - else the cup distribution is normally distributed towards the middle
 
 ### Pseudocode
--
+- Plan A:
+  - set cupsInRow to 1
+  - iterate from 0 to the query row
+    - subtract cupsInRow from poured cups
+    - if poured is 0, then return 0
+    - increment cupsInRow
+  - if poured > cupsInRow, then return 1
+  -
 
 ## <a href='./champagneTower.test.js'>About the Tests</a>
 

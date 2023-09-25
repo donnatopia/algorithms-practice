@@ -12,7 +12,7 @@
 
 | # | Problem | Difficulty | Notes | Solution |
 | --- | --- | --- | --- | --- |
-| 799 | [Champagne Tower](/leetcode/799.%20Champagne%20Tower/champagneTower.md) | Medium | - | [:red_circle:](/leetcode/799.%20Champagne%20Tower/champagneTower.js) |
+| 799 | [Champagne Tower](/leetcode/799.%20Champagne%20Tower/champagneTower.md) | Medium | DP | [:yellow_circle:](/leetcode/799.%20Champagne%20Tower/champagneTower.js) |
 | 1048 | [Longest String Chain](/leetcode/1048.%20Longest%20String%20Chain/longestStrChain.md) | Medium | DP | [:yellow_circle:](/leetcode/1048.%20Longest%20String%20Chain/longestStrChain.js) |
 | 392 | [Is Subsequence](/leetcode/392.%20Is%20Subsequence/isSubsequence.md) | Easy | Two Pointers | [:green_circle:](/leetcode/392.%20Is%20Subsequence/isSubsequence.js) |
 | 4 | [Median of Two Sorted Arrays](/leetcode/4.%20Median%20of%20Two%20Sorted%20Array/findMedianSortedArrays.md) | Hard | - | [:yellow_circle:](/leetcode/4.%20Median%20of%20Two%20Sorted%20Array/findMedianSortedArray.js) |

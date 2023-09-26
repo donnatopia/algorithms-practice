@@ -12,6 +12,7 @@
 
 | # | Problem | Difficulty | Notes | Solution |
 | --- | --- | --- | --- | --- |
+| 316 | [Remove Duplicate Letters](/leetcode/316.%20Remove%20Duplicate%20Letters/removeDuplicateLetters.md) | Medium | - | [:red_circle:](/leetcode/316.%20Remove%20Duplicate%20Letters/removeDuplicateLetters.js) |
 | 389 | [Find the Difference](/leetcode/389.%20Find%20the%20Difference/findTheDifference.md) | Easy | - | [:green_circle:](/leetcode/389.%20Find%20the%20Difference/findTheDifference.js) |
 | 799 | [Champagne Tower](/leetcode/799.%20Champagne%20Tower/champagneTower.md) | Medium | DP | [:yellow_circle:](/leetcode/799.%20Champagne%20Tower/champagneTower.js) |
 | 1048 | [Longest String Chain](/leetcode/1048.%20Longest%20String%20Chain/longestStrChain.md) | Medium | DP | [:yellow_circle:](/leetcode/1048.%20Longest%20String%20Chain/longestStrChain.js) |

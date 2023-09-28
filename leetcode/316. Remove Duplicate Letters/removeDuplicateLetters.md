@@ -38,19 +38,37 @@ If the first `min(a.length, b.length)` characters do not differ, then the shorte
   - Time Complexity: `O(n)`
   - Space Complexity: `O(n)`
 
-<!-- Planning -->
 ### Input, Output, Constraints, Edge (IOCE)
 
-  - I:
-  - O:
-  - C:
-  - E:
+  - I: string
+  - O: string in the smallest lexicographical order without any duplicates
+  - C: N/A
+  - E: string with singular letter would return the singular letter
 
-### Strategy
--
+### Strategy / Pseudocode
+- Plan A (failed):
+  - create an dictionary object of all the unique letters in the string
+  - get the keys of the dictionary object and sort its result
+  - return the sorted keys of the dictionary object in string form
 
-### Pseudocode
--
+- Plan B:
+  - keep a dictionary object of all the letters and their respective index
+    - add the first letter of the string and its index
+  - keep track of the position of the smallest lexicographical letter
+    - set to the first letter of the string to start
+  - iterate through the length of the string from 1 to end
+    - if the letter doesn't exist in the dictionary object
+      - add the letter/index to the dictionary
+      - update the smallest lexicographic order letter
+    - if the letter exists
+      - if the index of the letter in the dictionary is less than the smallest lexographic index
+        - then delete the current instance
+      - else  if the index of the letter in the dictionary is greater than the smallest lexographic index
+        - then delete at the index in the library
+        - decrement the index
+        - decrement the position of the smallest lexicographic letter
+        - add the letter/index to the library
+  - return the string
 
 ## <a href='./removeDuplicateLetters.test.js'>About the Tests</a>
 

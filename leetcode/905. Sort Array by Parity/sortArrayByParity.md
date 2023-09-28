@@ -24,31 +24,32 @@ Return any array that satisfies this condition.
 
 <img src='https://img.shields.io/badge/JavaScript-F7DF1E.svg?style=for-the-badge&logo=JavaScript&logoColor=black' />
 
-<!-- Add Metrics from LeetCode -->
 ### Stats
 | Type | Metric | Percentile |
 | --- | --- | --- |
-| Runtime |  |  |
-| Memory |  |  |
+| Runtime | 74 ms | 20.02% |
+| Memory | 44.96 MB | 23.88% |
 
-<!-- Change Time and Space Complexity -->
 ### Time and Space Complexity
   - Time Complexity: `O(n)`
+    - iteration through the length of the array has linear time
   - Space Complexity: `O(n)`
+    - the result array has the same length of nums
 
-<!-- Planning -->
 ### Input, Output, Constraints, Edge (IOCE)
 
-  - I:
-  - O:
-  - C:
-  - E:
+  - I: number[]
+  - O: number[] where all the even numbers are at the beginning of the array
+  - C: N/A
+  - E: no odd numbers returns the same array
 
-### Strategy
--
-
-### Pseudocode
--
+### Strategy / Pseudocode
+- Plan A:
+  - create an empty array
+  - iterate through the length of the array
+    - if the number is even, unshift the element to the result array
+    - else, push the element to the result array
+  - return the result array
 
 ## <a href='./sortArrayByParity.test.js'>About the Tests</a>
 

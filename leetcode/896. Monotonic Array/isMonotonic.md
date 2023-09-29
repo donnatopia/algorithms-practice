@@ -27,31 +27,52 @@ Given an integer array `nums`, return `true` if the given array is monotonic, or
 
 <img src='https://img.shields.io/badge/JavaScript-F7DF1E.svg?style=for-the-badge&logo=JavaScript&logoColor=black' />
 
-<!-- Add Metrics from LeetCode -->
 ### Stats
 | Type | Metric | Percentile |
 | --- | --- | --- |
-| Runtime |  |  |
-| Memory |  |  |
+| Runtime | 85 ms | 28.98% |
+| Memory | 53.36 MB | 40.41% |
 
-<!-- Change Time and Space Complexity -->
 ### Time and Space Complexity
   - Time Complexity: `O(n)`
-  - Space Complexity: `O(n)`
+    - time is linear because we iterate through the length of nums
+  - Space Complexity: `O(1)`
+    - there are no additional data structures that require the length of nums
 
-<!-- Planning -->
 ### Input, Output, Constraints, Edge (IOCE)
 
-  - I:
-  - O:
-  - C:
-  - E:
+  - I: number[]
+  - O: boolean if the array is monotonic increasing or decreasing
+  - C: N/A
+  - E: singular element in the array returns true
 
 ### Strategy
--
+- Plan A:
+  - return true if the array's length is 1
+  - keep track if the array is increasing or decreasing
+  - iterate through the length of the array
+    - compare the two elements of the array
+    - if the change is not defined
+      - then define the change as the change between the two elements (either increasing or decreasing)
+      - move onto the next iteration
+    - if the change between the two elements does not match the change established AND the two elements are not equal
+      - then return false
+  - return false loop
 
 ### Pseudocode
--
+- Plan A:
+  - set change as 0
+  - iterate through the length of the array until the second to last index
+    - define num1 as the num at the current index
+    - define num2 as the num at the next index
+    - if change is 0,
+      - set change to 1 if the num2 is greater than num1
+      - set change to -1 if num2 is less than num1
+    - if change is 1
+      - then return false if num2 is less than num1
+    - if change is -1
+      - then return false if num2 is greater than num1
+  - return true;
 
 ## <a href='./isMonotonic.test.js'>About the Tests</a>
 

@@ -14,7 +14,7 @@
 | --- | --- | --- | --- | --- |
 | 896 | [Monotonic Array](/leetcode/896.%20Monotonic%20Array/isMonotonic.md) | Easy | - | [:green_circle:](/leetcode/896.%20Monotonic%20Array/isMonotonic.js) |
 | 905 | [Sort Array By Parity](/leetcode/905.%20Sort%20Array%20by%20Parity/sortArrayByParity.md) | Easy | - | [:green_circle:](/leetcode/905.%20Sort%20Array%20by%20Parity/sortArrayByParity.js) |
-| 880 | [Decoded String at Index](/leetcode/880.%20Decoded%20String%20at%20Index/decodeAtIndex.md) | Medium | - | [:red_circle:](/leetcode/880.%20Decoded%20String%20at%20Index/decodeAtIndex.js) |
+| 880 | [Decoded String at Index](/leetcode/880.%20Decoded%20String%20at%20Index/decodeAtIndex.md) | Medium | Back Traversal | [:yellow_circle:](/leetcode/880.%20Decoded%20String%20at%20Index/decodeAtIndex.js) |
 | 316 | [Remove Duplicate Letters](/leetcode/316.%20Remove%20Duplicate%20Letters/removeDuplicateLetters.md) | Medium | - | [:red_circle:](/leetcode/316.%20Remove%20Duplicate%20Letters/removeDuplicateLetters.js) |
 | 389 | [Find the Difference](/leetcode/389.%20Find%20the%20Difference/findTheDifference.md) | Easy | - | [:green_circle:](/leetcode/389.%20Find%20the%20Difference/findTheDifference.js) |
 | 799 | [Champagne Tower](/leetcode/799.%20Champagne%20Tower/champagneTower.md) | Medium | DP | [:yellow_circle:](/leetcode/799.%20Champagne%20Tower/champagneTower.js) |

@@ -32,31 +32,47 @@ Given an integer `k`, return the `kth` letter (1-indexed) in the decoded string.
 
 <img src='https://img.shields.io/badge/JavaScript-F7DF1E.svg?style=for-the-badge&logo=JavaScript&logoColor=black' />
 
-<!-- Add Metrics from LeetCode -->
 ### Stats
 | Type | Metric | Percentile |
 | --- | --- | --- |
-| Runtime |  |  |
-| Memory |  |  |
+| Runtime | 52 ms | 48.40% |
+| Memory | 41.74 MB | 42.82% |
 
-<!-- Change Time and Space Complexity -->
 ### Time and Space Complexity
   - Time Complexity: `O(n)`
-  - Space Complexity: `O(n)`
+    - iterating through the length of the string until the kth index is linear
+    - the other for loop also decrementally iterates through the generated string until kth index
+    - these are both congruent linear functions, so overall time complexity is linear
+  - Space Complexity: `O(1)`
+    - there are no additional data structures that is size dependent on s or k, so space is constant.
 
-<!-- Planning -->
 ### Input, Output, Constraints, Edge (IOCE)
 
   - I:
-  - O:
-  - C:
-  - E:
+    - string consisting of letters and digits
+    - k for the kth letter of the decoded string
+  - O: string, the kth letter of the decoded string
+  - C: N/A
+  - E: N/A
 
-### Strategy
--
-
-### Pseudocode
--
+### Strategy / Pseudocode
+- Plan A (back traversal):
+  - set the length to 0
+  - determine all the valid letters until the decoded string's length is k
+    - if the letter is a digit
+      - then multiply the length by the digit amount
+    - else
+      - add 1 to the length
+    - increment the index
+  - iterate backwards from the last index of the string
+    - if the element at this index is a letter
+      - if k is equal to the the length of the generated string OR k is equal to 0
+        - then return the string at this index
+    - if the element at this index is a digit
+      - then decrease the generated length by the digit amount
+      - now we need to adjust k
+      - set k as the modulo product of the length of the string
+  - return an empty string
 
 ## <a href='./decodeAtIndex.test.js'>About the Tests</a>
 

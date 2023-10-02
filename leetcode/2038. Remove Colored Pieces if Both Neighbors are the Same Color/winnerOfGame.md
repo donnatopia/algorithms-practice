@@ -32,31 +32,50 @@ Assuming Alice and Bob play optimally, return `true` if Alice wins, or return `f
 
 <img src='https://img.shields.io/badge/JavaScript-F7DF1E.svg?style=for-the-badge&logo=JavaScript&logoColor=black' />
 
-<!-- Add Metrics from LeetCode -->
 ### Stats
 | Type | Metric | Percentile |
 | --- | --- | --- |
-| Runtime |  |  |
-| Memory |  |  |
+| Runtime | 94 ms | 10.61% |
+| Memory | 47.74 MB | 25.76% |
 
-<!-- Change Time and Space Complexity -->
 ### Time and Space Complexity
-  - Time Complexity: `O(n)`
-  - Space Complexity: `O(n)`
+  - Time Complexity: `O(n^2)`
+    - we iterate through the length of colors using two pointers which can visit each letter twice at most
+    - thus, the time complexity is quadratic
+  - Space Complexity: `O(1)`
+    - there is no additional data structures that is dependent on the size of colors
 
 <!-- Planning -->
 ### Input, Output, Constraints, Edge (IOCE)
 
-  - I:
-  - O:
-  - C:
-  - E:
+  - I: string of colors consisting of A and B
+  - O: return true if Alice wins and false if Bob wins
+  - C: N/A
+  - E: N/A
 
 ### Strategy
--
+- Plan A (two pointers):
+  - one pointer iterates until the next avaliable piece to remove
+    - avaliable piece means that the left and right are flanked by the current letter
 
 ### Pseudocode
--
+- Plan A (two pointers):
+  - intialize pointer a as 0
+  - initialize pointer b as 0
+  - set current player as "A"
+  - create a function to determine if the current player wins the round that accepts the current player
+    - determine the pointer associated with the player
+    - iterater from the pointer to the end of the string
+      - if the letter at the current index matches the letter and the left and right elements are also the current letter
+        - increment the pointer
+        - return true
+      - increment the pointer
+    - return false
+  - while pointer a and pointer b is less than string's length
+    - if the current player is "A" and player wins OR current player is "B" and player loses => return true
+    - if the current player is "B" and player wins OR current player is "A" and player loses => return false
+    - if the current player is "A" => switch to "B"
+    - if the current player is "B" => swithc to "A"
 
 ## <a href='./winnerOfGame.test.js'>About the Tests</a>
 

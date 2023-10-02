@@ -12,7 +12,7 @@
 
 | # | Problem | Difficulty | Notes | Solution |
 | --- | --- | --- | --- | --- |
-| 557 | [Reverse Words in a String III](/leetcode/557.%20Reverse%20Words%20in%20a%20String%20III/reverseWords.md) | Easy | - | [:red_circle:](/leetcode/557.%20Reverse%20Words%20in%20a%20String%20III/reverseWords.js) |
+| 557 | [Reverse Words in a String III](/leetcode/557.%20Reverse%20Words%20in%20a%20String%20III/reverseWords.md) | Easy | - | [:green_circle:](/leetcode/557.%20Reverse%20Words%20in%20a%20String%20III/reverseWords.js) |
 | 456 | [132 Pattern](/leetcode/456.%20132%20Pattern/find132pattern.md) | Medium | Stack | [:yellow_circle:](/leetcode/456.%20132%20Pattern/find132pattern.js) |
 | 896 | [Monotonic Array](/leetcode/896.%20Monotonic%20Array/isMonotonic.md) | Easy | - | [:green_circle:](/leetcode/896.%20Monotonic%20Array/isMonotonic.js) |
 | 905 | [Sort Array By Parity](/leetcode/905.%20Sort%20Array%20by%20Parity/sortArrayByParity.md) | Easy | - | [:green_circle:](/leetcode/905.%20Sort%20Array%20by%20Parity/sortArrayByParity.js) |

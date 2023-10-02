@@ -25,31 +25,34 @@ Given a string `s`, reverse the order of characters in each word within a senten
 
 <img src='https://img.shields.io/badge/JavaScript-F7DF1E.svg?style=for-the-badge&logo=JavaScript&logoColor=black' />
 
-<!-- Add Metrics from LeetCode -->
 ### Stats
 | Type | Metric | Percentile |
 | --- | --- | --- |
-| Runtime |  |  |
-| Memory |  |  |
+| Runtime | 63 ms | 62.87% |
+| Memory | 48.2 MB | 71.96% |
 
-<!-- Change Time and Space Complexity -->
 ### Time and Space Complexity
   - Time Complexity: `O(n)`
+    - we iterate through all the letters of the string exactly once, so time is linear
   - Space Complexity: `O(n)`
+    - the words array is dependent on the number of words in s, so this is also linear
 
-<!-- Planning -->
 ### Input, Output, Constraints, Edge (IOCE)
 
-  - I:
-  - O:
-  - C:
-  - E:
+  - I: string
+  - O: string with the order of each word reversed
+  - C: N/A
+  - E: empty string => empty string
 
-### Strategy
--
-
-### Pseudocode
--
+### Strategy / Pseudocode
+- Plan A (iterative):
+  - split the string by words
+  - iterate through all the words
+    - create an empty reverse string
+    - iterate through the length of the current word in reverse
+      - add the current letter to the reverse string
+    - replace the current word with the reverse string
+  - return the words array joined by a singular white space
 
 ## <a href='./reverseWords.test.js'>About the Tests</a>
 

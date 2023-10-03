@@ -25,31 +25,41 @@ A pair `(i, j)` is called good if `nums[i] == nums[j]` and `i < j`.
 
 <img src='https://img.shields.io/badge/JavaScript-F7DF1E.svg?style=for-the-badge&logo=JavaScript&logoColor=black' />
 
-<!-- Add Metrics from LeetCode -->
 ### Stats
 | Type | Metric | Percentile |
 | --- | --- | --- |
-| Runtime |  |  |
-| Memory |  |  |
+| Runtime | 56 ms | 28.70% |
+| Memory | 42.31 MB | 11.31% |
 
-<!-- Change Time and Space Complexity -->
 ### Time and Space Complexity
   - Time Complexity: `O(n)`
+    - iterate through the entire length of nums is linear
   - Space Complexity: `O(n)`
+    - the freq object is depenedent on the number of unique numbers in nums, which is linear
 
-<!-- Planning -->
 ### Input, Output, Constraints, Edge (IOCE)
 
-  - I:
-  - O:
-  - C:
-  - E:
+  - I: number[]
+  - O: number of good pairs
+  - C: N/A
+  - E: 1 element in the array => return 0
 
 ### Strategy
--
+- Plan A:
+  - iterate through the elements in num
+    - if the number of occurrence of the current number is greater than 1
+      - add to the number of pairs the number of occurrence
+    - increment the number of occurrence of the current number
 
 ### Pseudocode
--
+- Plan A:
+  - create an empty freq objec
+  - initialize pairs as 0
+  - iterate through nums
+    - if the current number exists in the freq object
+      - add the frequency of the current number to pairs
+    - increment the value of frequency of number
+  - return pairs
 
 ## <a href='./numIdenticalPairs.test.js'>About the Tests</a>
 

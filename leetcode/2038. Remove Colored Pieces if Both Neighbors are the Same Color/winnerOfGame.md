@@ -35,17 +35,15 @@ Assuming Alice and Bob play optimally, return `true` if Alice wins, or return `f
 ### Stats
 | Type | Metric | Percentile |
 | --- | --- | --- |
-| Runtime | 94 ms | 10.61% |
-| Memory | 47.74 MB | 25.76% |
+| Runtime | 69 ms | 77.27% |
+| Memory | 45.52 MB | 56.06% |
 
 ### Time and Space Complexity
-  - Time Complexity: `O(n^2)`
-    - we iterate through the length of colors using two pointers which can visit each letter twice at most
-    - thus, the time complexity is quadratic
+  - Time Complexity: `O(n)`
+    - we iterate through each letter exactly once, so time is linear
   - Space Complexity: `O(1)`
     - there is no additional data structures that is dependent on the size of colors
 
-<!-- Planning -->
 ### Input, Output, Constraints, Edge (IOCE)
 
   - I: string of colors consisting of A and B
@@ -57,6 +55,10 @@ Assuming Alice and Bob play optimally, return `true` if Alice wins, or return `f
 - Plan A (two pointers):
   - one pointer iterates until the next avaliable piece to remove
     - avaliable piece means that the left and right are flanked by the current letter
+
+- Plan B (greedy):
+  - count up all the valid moves from A and B
+  - if the valid moves of A exceeds B, then return true else false
 
 ### Pseudocode
 - Plan A (two pointers):

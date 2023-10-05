@@ -29,31 +29,48 @@ Implement the `MyHashMap` class:
 
 <img src='https://img.shields.io/badge/JavaScript-F7DF1E.svg?style=for-the-badge&logo=JavaScript&logoColor=black' />
 
-<!-- Add Metrics from LeetCode -->
 ### Stats
 | Type | Metric | Percentile |
 | --- | --- | --- |
-| Runtime |  |  |
-| Memory |  |  |
+| Runtime | 155 ms | 52.57% |
+| Memory | 52.53 MB | 38.20% |
 
-<!-- Change Time and Space Complexity -->
 ### Time and Space Complexity
-  - Time Complexity: `O(n)`
+  - Time Complexity: `O(1)`
+    - put, get, and remove all use intrinsic object functions that are constant time complexity
   - Space Complexity: `O(n)`
+    - the storage of the table is dependent on each instance
 
-<!-- Planning -->
 ### Input, Output, Constraints, Edge (IOCE)
 
-  - I:
-  - O:
-  - C:
-  - E:
+  - I: N/A
+  - O: new MyHashMap instance with put, get, remove function
+  - C: N/A
+  - E: N/A
 
-### Strategy
--
+  - put function
+    - I: key, value
+    - O: null
+    - C: N/A
+    - E: if the key already exists, replace the value with new value
 
-### Pseudocode
--
+  - get function
+    - I: key
+    - O: value or -1 if key does not exist
+    - C: N/A
+    - E: value is 0 => return 0
+
+  - remove function
+    - I: key
+    - O: null
+    - C: N/A
+    - E: N/A
+
+### Strategy / Psuedocode
+- MyHashMap is an object
+  - put sets the key at the obj to the value
+  - get returns the value if the key exists in the object or -1 otherwise
+  - remove deletes the key from the obj
 
 ## <a href='./MyHashMap.test.js'>About the Tests</a>
 

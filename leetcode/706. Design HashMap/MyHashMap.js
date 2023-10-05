@@ -7,7 +7,7 @@
  */
 
 var MyHashMap = function() {
-
+  this.table = {}
 };
 
 /**
@@ -16,7 +16,7 @@ var MyHashMap = function() {
 * @return {void}
 */
 MyHashMap.prototype.put = function(key, value) {
-
+  this.table[key] = value;
 };
 
 /**
@@ -24,7 +24,7 @@ MyHashMap.prototype.put = function(key, value) {
 * @return {number}
 */
 MyHashMap.prototype.get = function(key) {
-
+  return key in this.table ? this.table[key] : -1;
 };
 
 /**
@@ -32,7 +32,7 @@ MyHashMap.prototype.get = function(key) {
 * @return {void}
 */
 MyHashMap.prototype.remove = function(key) {
-
+  delete this.table[key];
 };
 
 module.exports = MyHashMap;

@@ -12,7 +12,7 @@
 
 | # | Problem | Difficulty | Notes | Solution |
 | --- | --- | --- | --- | --- |
-| 706 | [Design HashMap](/leetcode/706.%20Design%20HashMap/MyHashMap.md) | Easy | [:red_circle:](/leetcode/706.%20Design%20HashMap/MyHashMap.js) |
+| 706 | [Design HashMap](/leetcode/706.%20Design%20HashMap/MyHashMap.md) | Easy | Hash Table, Class Instantiation | [:green_circle:](/leetcode/706.%20Design%20HashMap/MyHashMap.js) |
 | 1512 | [Number of Good Pairs](/leetcode/1512.%20Number%20of%20Good%20Pairs/numIdenticalPairs.md) | Easy | - | [:green_circle:](/leetcode/1512.%20Number%20of%20Good%20Pairs/numIdenticalPairs.js) |
 | 2038 | [Remove Colored Pieces if Both Neighbors are the Same Color](/leetcode/2038.%20Remove%20Colored%20Pieces%20if%20Both%20Neighbors%20are%20the%20Same%20Color/winnerOfGame.md) | Medium | Greedy, Two Pointers | [:green_circle:](/leetcode/2038.%20Remove%20Colored%20Pieces%20if%20Both%20Neighbors%20are%20the%20Same%20Color/winnerOfGame.js) |
 | 557 | [Reverse Words in a String III](/leetcode/557.%20Reverse%20Words%20in%20a%20String%20III/reverseWords.md) | Easy | - | [:green_circle:](/leetcode/557.%20Reverse%20Words%20in%20a%20String%20III/reverseWords.js) |

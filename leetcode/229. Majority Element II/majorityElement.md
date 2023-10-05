@@ -6,6 +6,8 @@
 
 Given an integer array of size `n`, find all elements that appear more than `⌊ n/3 ⌋` times.
 
+Follow up: Could you solve the problem in linear time and in O(1) space?
+
 ### Examples
 
 | Example| Input | Output |
@@ -23,31 +25,34 @@ Given an integer array of size `n`, find all elements that appear more than `⌊
 
 <img src='https://img.shields.io/badge/JavaScript-F7DF1E.svg?style=for-the-badge&logo=JavaScript&logoColor=black' />
 
-<!-- Add Metrics from LeetCode -->
 ### Stats
 | Type | Metric | Percentile |
 | --- | --- | --- |
-| Runtime |  |  |
-| Memory |  |  |
+| Runtime | 48 ms | 96.03% |
+| Memory | 45.66 MB | 15.56% |
 
-<!-- Change Time and Space Complexity -->
 ### Time and Space Complexity
   - Time Complexity: `O(n)`
+    - iterating through all the elements of nums is linear
   - Space Complexity: `O(n)`
+    - storing the frequency and valid elements each are each linear
 
-<!-- Planning -->
 ### Input, Output, Constraints, Edge (IOCE)
 
-  - I:
-  - O:
-  - C:
-  - E:
+  - I: number[]
+  - O: number[] containing elements whose occurrence exceeds n/3
+  - C: N/A
+  - E: N/A
 
-### Strategy
--
-
-### Pseudocode
--
+### Strategy / Pseudocode
+- Plan A (brute force):
+  - find the threshold occurrence value
+  - create a dictionary of all the values and their occurrence
+  - iterate through nums and update the number of occurrence
+  - create an empty array
+  - iterate through all the values of the dictionary
+    - if the value occurs more than the threshold value, then push into array
+  - return array
 
 ## <a href='./majorityElement.test.js'>About the Tests</a>
 

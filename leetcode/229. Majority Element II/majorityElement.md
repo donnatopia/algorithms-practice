@@ -28,14 +28,14 @@ Follow up: Could you solve the problem in linear time and in O(1) space?
 ### Stats
 | Type | Metric | Percentile |
 | --- | --- | --- |
-| Runtime | 48 ms | 96.03% |
-| Memory | 45.66 MB | 15.56% |
+| Runtime | 63 ms | 36.03% |
+| Memory | 44.57 MB | 41.59% |
 
 ### Time and Space Complexity
   - Time Complexity: `O(n)`
     - iterating through all the elements of nums is linear
-  - Space Complexity: `O(n)`
-    - storing the frequency and valid elements each are each linear
+  - Space Complexity: `O(1)`
+    - the result array can only be 1 or 2 in length, which is near constant
 
 ### Input, Output, Constraints, Edge (IOCE)
 
@@ -53,6 +53,14 @@ Follow up: Could you solve the problem in linear time and in O(1) space?
   - iterate through all the values of the dictionary
     - if the value occurs more than the threshold value, then push into array
   - return array
+
+- Plan B (constant space and linear time):
+  - goal is to find the element that occurs more than 1/3 of the length
+    - logisitically, there can only be at most 2 items that fulfill this requirement
+    - this means that i need to find the two items that occurs the most
+    - check to see if these two items occurence exceeds the threshold
+      - if it does, then push into a result array
+    - return the result array
 
 ## <a href='./majorityElement.test.js'>About the Tests</a>
 

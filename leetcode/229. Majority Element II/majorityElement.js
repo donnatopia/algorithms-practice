@@ -4,20 +4,42 @@
  */
 
 const majorityElement = (nums) => {
-  let threshold = nums.length / 3;
-  let freq = {};
+  let elementA = null;
+  let elementB = null;
+  let countA = 0;
+  let countB = 0;
 
   for (let num of nums) {
-    freq[num] = (freq[num] || 0) + 1;
+    if (num === elementA) {
+      countA++;
+    } else if (num === elementB) {
+      countB++;
+    } else if (countA === 0) {
+      elementA = num;
+      countA = 1;
+    } else if (countB === 0) {
+      elementB = num;
+      countB = 1;
+    } else {
+      countA--;
+      countB--;
+    }
   }
 
-  let validElements = [];
+  countA = countB = 0;
 
-  for (let num in freq) {
-    if (freq[num] > threshold) validElements.push(Number(num));
+  for (let num of nums) {
+    if (num === elementA) countA++;
+    else if (num === elementB) countB++;
   }
 
-  return validElements;
+  let result = [];
+  let threshold = nums.length / 3;
+
+  if (countA > threshold) result.push(elementA);
+  if (countB > threshold) result.push(elementB);
+
+  return result;
 }
 
 module.exports = majorityElement;

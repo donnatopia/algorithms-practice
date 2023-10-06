@@ -12,6 +12,7 @@
 
 | # | Problem | Difficulty | Notes | Solution |
 | --- | --- | --- | --- | --- |
+| 343 | [Integer Break](/leetcode/343.%20Integer%20Break/integerBreak.md) | Medium | - | [:red_circle:](/leetcode/343.%20Integer%20Break/integerBreak.js) |
 | 229 | [Majority Element II](/leetcode/229.%20Majority%20Element%20II/majorityElement.md) | Medium | Boyer-Moore Voting Algorithm | [:green_circle:](/leetcode/229.%20Majority%20Element%20II/majorityElement.js) |
 | 706 | [Design HashMap](/leetcode/706.%20Design%20HashMap/MyHashMap.md) | Easy | Hash Table, Class Instantiation | [:green_circle:](/leetcode/706.%20Design%20HashMap/MyHashMap.js) |
 | 1512 | [Number of Good Pairs](/leetcode/1512.%20Number%20of%20Good%20Pairs/numIdenticalPairs.md) | Easy | - | [:green_circle:](/leetcode/1512.%20Number%20of%20Good%20Pairs/numIdenticalPairs.js) |

@@ -4,6 +4,13 @@ const Tree = function(value) {
 };
 
 Tree.prototype.countLeaves = function() {
+  return this.children.reduce((count, child) => {
+    return count + child.countLeaves();
+  }, 0) || 1;
+}
+
+/**
+ * Previous Answer:
   if (this.children.length === 0) return 1;
 
   let count = 0;
@@ -11,7 +18,7 @@ Tree.prototype.countLeaves = function() {
     count += child.countLeaves();
   }
   return count;
-}
+ */
 
 /**
   * add an immediate child

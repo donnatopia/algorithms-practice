@@ -12,6 +12,7 @@
 
 | # | Problem | Difficulty | Notes | Solution |
 | --- | --- | --- | --- | --- |
+| 1458 | [Max Dot Product of Two Subsequences](/leetcode/1458.%20Max%20Dot%20Product%20of%20Two%20Subsequences/maxDotProduct.md) | Hard | - | [:red_circle:](/leetcode/1458.%20Max%20Dot%20Product%20of%20Two%20Subsequences/maxDotProduct.js) |
 | 1420 | [Build Array Where You Find The Maximum Exactly K Comparisons](/leetcode/1420.%20Build%20Array%20Where%20You%20Can%20Find%20The%20Maximum%20Exactly%20K%20Comparisons/numOfArrays.md) | Hard | - | [:red_circle:](/leetcode/1420.%20Build%20Array%20Where%20You%20Can%20Find%20The%20Maximum%20Exactly%20K%20Comparisons/numOfArrays.js) |
 | 343 | [Integer Break](/leetcode/343.%20Integer%20Break/integerBreak.md) | Medium | DP | [:yellow_circle:](/leetcode/343.%20Integer%20Break/integerBreak.js) |
 | 229 | [Majority Element II](/leetcode/229.%20Majority%20Element%20II/majorityElement.md) | Medium | Boyer-Moore Voting Algorithm | [:green_circle:](/leetcode/229.%20Majority%20Element%20II/majorityElement.js) |

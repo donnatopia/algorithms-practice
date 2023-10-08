@@ -4,7 +4,13 @@ const Tree = function(value) {
 };
 
 Tree.prototype.countLeaves = function() {
+  if (this.children.length === 0) return 1;
 
+  let count = 0;
+  for (let child of this.children) {
+    count += child.countLeaves();
+  }
+  return count;
 }
 
 /**

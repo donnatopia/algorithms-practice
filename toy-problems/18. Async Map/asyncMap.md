@@ -35,30 +35,27 @@ Once all the callbacks of the tasks are returned, asyncMap should invoke the cal
 
 <img src='https://img.shields.io/badge/JavaScript-F7DF1E.svg?style=for-the-badge&logo=JavaScript&logoColor=black' />
 
-<!-- Add Time and Space Complexity -->
 ### Time and Space Complexity
   - Time Complexity: `O(n)`
+    - iterating through all the tasks to convert them to promises is linear
+    - executing all the promises is linear as well
+    - executing the callback on each of the promises is linear
+    - overall, congruent functions are linear
   - Space Complexity: `O(n)`
+    - taskPromises is the length of tasks, which is linear
 
-<!-- Planning -->
 ### Input, Output, Constraints, Edge (IOCE)
 
   - I:
+    - tasks: a list of asynchronous functions that accepts callback function
+    - callback: a final callback function that will be used for each task
   - O:
-  - C:
-  - E:
+    - resolve all the tasks in the order that they are given regardless of the timeout
+  - C: N/A
+  - E: N/A
 
 ### Strategy
--
-
-### Pseudocode
--
-
-## <a href='./asyncMap.test.js'>About the Tests</a>
-
-<img src='https://img.shields.io/badge/Jest-C21325.svg?style=for-the-badge&logo=Jest&logoColor=white' />
-
-Test cases are run through the LeetCode platform and locally with Jest using:
-```
-npm run test
-```
+- Plan A (promises):
+  - convert all the tasks to an array of promises
+  - return promise all of the task promises
+    - for each result in the promise array, invoke the callback to the result

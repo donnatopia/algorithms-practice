@@ -4,6 +4,21 @@ var Tree = function(value) {
 };
 
 Tree.prototype.BFSelect = function(filter) {
+  let filtered = [];
+  let queue = [];
+
+  queue.push({ tree: this, depth: 0});
+
+  while (queue.length > 0) {
+    let { tree, depth } = queue.pop();
+    if (filter(tree.value, depth)) filtered.push(tree.value);
+
+    tree.children.forEach((child) => {
+      queue.unshift({ tree: child, depth: depth + 1});
+    })
+  }
+
+  return filtered;
 
 };
 

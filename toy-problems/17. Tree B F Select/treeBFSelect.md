@@ -30,24 +30,41 @@ root1.BFSelect(function (value, depth) {
 
 <img src='https://img.shields.io/badge/JavaScript-F7DF1E.svg?style=for-the-badge&logo=JavaScript&logoColor=black' />
 
-<!-- Add Time and Space Complexity -->
 ### Time and Space Complexity
   - Time Complexity: `O(n)`
+    - enqueue operation takes place in linear time
+    - dequeue operation takes place in linear time
+    - this overall takes linear time
   - Space Complexity: `O(n)`
+    - the queue structure will take at most the length of all the nodes in the tree, so this is linear
+    - the filtered strucutre will take at most all the elements in the tree, which is linear
+    - congruent functions, so the space is 2n, which simplifies to n
 
-<!-- Planning -->
+
 ### Input, Output, Constraints, Edge (IOCE)
 
-  - I:
-  - O:
-  - C:
-  - E:
+  - I: function that accepts a value and depth parameter
+  - O: a flat array of all values where the filter returns true
+  - C: N/A
+  - E: return an empty array if none of the values return true
 
-### Strategy
--
+### Strategy / Pseudocode
+- Plan A => depth-first
+  - define a result array
+  - iterate through each node based on depth
+    - add the element to the result array if the value when put into the function is true
+  - return the result array
 
-### Pseudocode
--
+- Plan B => breadth-first
+  - iterrate through each node based on depth using queue (first in, first out)
+  - create a queue data structure
+  - enqueue the first tree as an object that accepts the value and the depth
+  - while the queue still has elements
+    - define the current value as the dequeue element of the queue
+    - if applying the filter to the current.value and current.depth is true => add to the results array
+    - iterate through all the children of the current tree
+      - add the child to the queue with the tree and the depth + 1
+  - return the result array
 
 ## <a href='./treeBFSelect.test.js'>About the Tests</a>
 

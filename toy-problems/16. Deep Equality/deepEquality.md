@@ -1,19 +1,19 @@
-<!-- Change Problem Title -->
-# 0. Title
+# 16. Deep Equality
 
 ## About the Problem
 
-<!-- Add Problem Description -->
+Write a function that, given two objects, returns whether or not the two
+are deeply equivalent--meaning the structure of the two objects is the
+same, and so is the structure of each of their corresponding descendants.
 
-<!-- Add Examples -->
 ### Examples
 
 | Example| Input | Output |
 | --- | --- | --- |
-| 1 |  |  |
+| 1 | `deepEquals({a:1, b: {c:3}},{a:1, b: {c:3}}` | `true` |
+| 2 | `deepEquals({a:1, b: {c:5}},{a:1, b: {c:6}})` | `false` |
 
-<!-- Add Link to Solution -->
-## <a href=''>About the Solution</a>
+## <a href='./deepEquality.js'>About the Solution</a>
 
 <img src='https://img.shields.io/badge/JavaScript-F7DF1E.svg?style=for-the-badge&logo=JavaScript&logoColor=black' />
 
@@ -36,8 +36,7 @@
 ### Pseudocode
 -
 
-<!-- Add Link to Tests -->
-## <a href=''>About the Tests</a>
+## <a href='./deepEquality.test.js'>About the Tests</a>
 
 <img src='https://img.shields.io/badge/Jest-C21325.svg?style=for-the-badge&logo=Jest&logoColor=white' />
 

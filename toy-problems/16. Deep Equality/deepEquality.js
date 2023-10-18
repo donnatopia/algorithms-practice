@@ -1,10 +1,11 @@
 /**
- * @param {}
- * @return {}
+ * @param {object} apple
+ * @param {object} orange
+ * @return {boolean}
  */
 
-const template = () => {
+const deepEquals = (apple, orange) => {
 
 }
 
-module.exports = template;
+module.exports = deepEquals;

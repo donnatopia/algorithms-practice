@@ -1,10 +1,13 @@
+'use strict'; // all variables must be declared
+
 /**
- * @param {}
- * @return {}
+ * @param {function[]} tasks
+ * @param {function} callback
+ * @return {function}
  */
 
-const template = () => {
+const asyncMap = (tasks, callback) => {
 
 }
 
-module.exports = template;
+module.exports = asyncMap;

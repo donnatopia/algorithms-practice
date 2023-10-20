@@ -19,21 +19,31 @@ You should return `null` if the input is not a string. You can expect all non-em
 
 <img src='https://img.shields.io/badge/JavaScript-F7DF1E.svg?style=for-the-badge&logo=JavaScript&logoColor=black' />
 
-<!-- Add Time and Space Complexity -->
 ### Time and Space Complexity
   - Time Complexity: `O(n)`
-  - Space Complexity: `O(n)`
+    - we iterate through each character exactly once, so time is linear
+  - Space Complexity: `O(1)`
+    - there are no additional data structures
 
-<!-- Planning -->
 ### Input, Output, Constraints, Edge (IOCE)
 
-  - I:
-  - O:
-  - C:
-  - E:
+  - I: string
+  - O: number representation of string
+  - C: N/A
+  - E: empty string is 0
 
 ### Strategy
--
+- Plan A:
+  - if input type is not string => return null
+  - set value to 0;
+  - set previous to 0;
+  - iterate from right to left
+    - get the digit representation of current character
+    - if the digit representation of the next value is less than the current digit representation
+      - add digit representation of current character minus next
+      - increment index
+    - else add the current digit to teh value
+  - return value
 
 ### Pseudocode
 -

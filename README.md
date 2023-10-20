@@ -130,7 +130,7 @@
 | 26 | [Linked List Intersection](/toy-problems/26.%20Linked%20List%20Intersection/linkedListIntersection.md) | Linked List | [:green_circle:](/toy-problems/26.%20Linked%20List%20Intersection/linkedListIntersection.js) |
 | 27 | [Roman Numeral Translator](/toy-problems/27.%20Roman%20Numeral%20Translator/romanNumeralTranslator.md) | - | [:green_circle:](/toy-problems/27.%20Roman%20Numeral%20Translator/romanNumeralTranslator.js) |
 | 28 | [Largest Product of Three](/toy-problems/28.%20Largest%20Product%20of%20Three/largestProductOfThree.md) | Math | [:yellow_circle:](/toy-problems/28.%20Largest%20Product%20of%20Three/largestProductOfThree.js) |
-| 29 | [Sudoku Checker](/toy-problems/29.%20Sudoku%20Checker/sudokuChecker.md) | - | [:red_circle:](/toy-problems/29.%20Sudoku%20Checker/sudokuChecker.js) |
+| 29 | [Sudoku Checker](/toy-problems/29.%20Sudoku%20Checker/sudokuChecker.md) | Matrix | [:yellow_circle:](/toy-problems/29.%20Sudoku%20Checker/sudokuChecker.js) |
 | 30 | [Integer Reverse](/toy-problems/30.%20Integer%20Reverse/integerReverse.md) | - | [:red_circle:](/toy-problems/30.%20Integer%20Reverse/integerReverse.js) |
 | 31 | [Character Frequency](/toy-problems/31.%20Character%20Frequency/characterFrequency.md) | - | [:red_circle:](/toy-problems/31.%20Character%20Frequency/characterFrequency.js) |
 | 32 | [nthFibonacci](/toy-problems/32.%20nthFibonacci/nthFibonacci.md) | - | [:red_circle:](/toy-problems/32.%20nthFibonacci/nthFibonacci.js) |

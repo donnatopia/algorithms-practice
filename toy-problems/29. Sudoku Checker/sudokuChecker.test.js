@@ -16,14 +16,20 @@ xdescribe('29. Sudoku Checker', () => {
     expect(sudokuChecker(board)).toBe('invalid');
   });
 
-  it('should return \'invalid\' for boards with valid boxes, but invalid rows/columns', () => {
-    const board = "123123123\n456456456\n789789789\n123123123\n456456456\n789789789\n123123123\n456456456\n789789789";
+  it('should return \'invalid\' for boards with invalid columns', () => {
+    const board = "123456789\n123456789\n123456789\n123456789\n123456789\n123456789\n123456789\n123456789\n123456789";
 
     expect(sudokuChecker(board)).toBe('invalid');
   });
 
   it('should return \'invalid\' for boards with invalid boxes, but valid rows/columns', () => {
     const board = "215873649\n734965812\n698412537\n387241965\n146597283\n471659328\n952386471\n563128794\n829734156";
+
+    expect(sudokuChecker(board)).toBe('invalid');
+  });
+
+  it('should return \'invalid\' for boards with valid boxes, but invalid rows/columns', () => {
+    const board = "123123123\n456456456\n789789789\n123123123\n456456456\n789789789\n123123123\n456456456\n789789789";
 
     expect(sudokuChecker(board)).toBe('invalid');
   });

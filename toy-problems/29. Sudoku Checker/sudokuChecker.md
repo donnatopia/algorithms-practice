@@ -23,24 +23,51 @@ Example input:
 
 <img src='https://img.shields.io/badge/JavaScript-F7DF1E.svg?style=for-the-badge&logo=JavaScript&logoColor=black' />
 
-<!-- Add Time and Space Complexity -->
 ### Time and Space Complexity
   - Time Complexity: `O(n)`
+    - transforming the string to a matrix is linear in time
+    - checking each row is linear
+    - checking each column is linear
+    - checking each box is linear
+    - overall the time complexity is linear
   - Space Complexity: `O(n)`
+    - we store the board, which is dependent on the size of the matrix
+    - each individual temporary array is always size 9, so this is constant.
+    - overall space is linear
 
-<!-- Planning -->
 ### Input, Output, Constraints, Edge (IOCE)
 
-  - I:
-  - O:
-  - C:
-  - E:
+  - I: string
+  - O: 'solved' for valid board and 'invalid' for invalid boards
+  - C: N/A
+  - E: N/A
 
 ### Strategy
--
+- Plan A:
+  - convert the string to a matrix
+  - return 'invalid' if fail any of the checks
+  - check to see if each row contains 1 - 9
+  - check to see if each col contains 1 - 9
+  - check to see if each box contains 1 - 9
+  - return 'solved' if pass each check
+
+  - how to check if each section contains 1 - 9, check to see if the sum of all the elements add up to 45
 
 ### Pseudocode
--
+- Plan A:
+  - convert the string to a matrix
+    - split the strings by the '\n'
+    - convert each string row to a number array
+  - iterate through each row
+    - reduce the array to the sum of all its parts
+    - if the reduced value does not equal 45 => return invalid
+  - itereate through each column
+    - add up all the elements in the column
+    - if the value does not equal 45 => return invalid
+  - iterate through the top left of each box
+    - add up all the elments in a box
+    - if the value does not equal 45 => return invalid
+  - return 'solved'
 
 ## <a href='./sudokuChecker.test.js'>About the Tests</a>
 

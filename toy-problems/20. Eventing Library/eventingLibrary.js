@@ -14,7 +14,7 @@ function mixEvents(obj) {
    * @param {function} callback
    */
   obj.on = function(eventName, callback) {
-
+    eventName in events ? events[eventName].push(callback) : events[eventName] = [callback];
   };
 
   /**
@@ -22,7 +22,7 @@ function mixEvents(obj) {
    * @param {...any} args
    */
   obj.trigger = function(eventName, ...args) {
-
+    eventName in events ? events[eventName].forEach((fn) => fn(...args)) : console.log('no such function');
   };
 
   return obj;

@@ -1,19 +1,16 @@
-<!-- Change Problem Title -->
-# 0. Title
+# 28. Largest Product of Three
 
 ## About the Problem
 
-<!-- Add Problem Description -->
+Write a function that finds the largest possible product of any three numbers from an array.
 
-<!-- Add Examples -->
 ### Examples
 
 | Example| Input | Output |
 | --- | --- | --- |
-| 1 |  |  |
+| 1 | `largestProductOfThree([2, 1, 3, 7])` | `42` |
 
-<!-- Add Link to Solution -->
-## <a href=''>About the Solution</a>
+## <a href='./largestProductOfThree.js'>About the Solution</a>
 
 <img src='https://img.shields.io/badge/JavaScript-F7DF1E.svg?style=for-the-badge&logo=JavaScript&logoColor=black' />
 
@@ -36,8 +33,7 @@
 ### Pseudocode
 -
 
-<!-- Add Link to Tests -->
-## <a href=''>About the Tests</a>
+## <a href='./largestProductOfThree.test.js'>About the Tests</a>
 
 <img src='https://img.shields.io/badge/Jest-C21325.svg?style=for-the-badge&logo=Jest&logoColor=white' />
 

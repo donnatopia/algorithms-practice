@@ -1,10 +1,10 @@
 /**
- * @param {}
- * @return {}
+ * @param {number[]} nums
+ * @return {number}
  */
 
-const template = () => {
+const largestProductOfThree = (nums) => {
 
 }
 
-module.exports = template;
+module.exports = largestProductOfThree;

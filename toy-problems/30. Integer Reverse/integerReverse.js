@@ -1,10 +1,10 @@
 /**
- * @param {}
- * @return {}
+ * @param {number} num
+ * @return {number}
  */
 
-const template = () => {
+const reverseInteger = (num) => {
 
 }
 
-module.exports = template;
+module.exports = reverseInteger;

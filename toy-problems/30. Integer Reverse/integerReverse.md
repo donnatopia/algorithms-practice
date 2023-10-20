@@ -1,19 +1,19 @@
-<!-- Change Problem Title -->
-# 0. Title
+# 30. Integer Reverse
 
 ## About the Problem
 
-<!-- Add Problem Description -->
+Given a positive integer, return its digits reversed.
 
-<!-- Add Examples -->
+- DO NOT CONVERT THE INPUT INTO A STRING OR ARRAY.
+- Only use integers and math in your solution.
+
 ### Examples
 
 | Example| Input | Output |
 | --- | --- | --- |
-| 1 |  |  |
+| 1 | `1234` | `4321` |
 
-<!-- Add Link to Solution -->
-## <a href=''>About the Solution</a>
+## <a href='integerReverse.js'>About the Solution</a>
 
 <img src='https://img.shields.io/badge/JavaScript-F7DF1E.svg?style=for-the-badge&logo=JavaScript&logoColor=black' />
 
@@ -36,8 +36,7 @@
 ### Pseudocode
 -
 
-<!-- Add Link to Tests -->
-## <a href=''>About the Tests</a>
+## <a href='integerReverse.test.js'>About the Tests</a>
 
 <img src='https://img.shields.io/badge/Jest-C21325.svg?style=for-the-badge&logo=Jest&logoColor=white' />
 

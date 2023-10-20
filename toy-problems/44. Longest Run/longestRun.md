@@ -1,19 +1,21 @@
-<!-- Change Problem Title -->
-# 0. Title
+# 44. Longest Run
 
 ## About the Problem
 
-<!-- Add Problem Description -->
+Write a function that, given a string, Finds the longest run of identical characters and returns an array containing the start and end indices of that run. If there are two runs of equal length, return the first one.
 
-<!-- Add Examples -->
+Try your function with long, random strings to make sure it handles large inputs well.
+
 ### Examples
 
 | Example| Input | Output |
 | --- | --- | --- |
-| 1 |  |  |
+| 1 | `longestRun("abbbcc")` | `[1, 3]` |
+| 2 | `longestRun("aabbc")` | `[0, 1]` |
+| 3 | `longestRun("abcd")` | `[0, 0]` |
+| 4 | `longestRun("")` | `null` |
 
-<!-- Add Link to Solution -->
-## <a href=''>About the Solution</a>
+## <a href='longestRun.js'>About the Solution</a>
 
 <img src='https://img.shields.io/badge/JavaScript-F7DF1E.svg?style=for-the-badge&logo=JavaScript&logoColor=black' />
 
@@ -36,8 +38,7 @@
 ### Pseudocode
 -
 
-<!-- Add Link to Tests -->
-## <a href=''>About the Tests</a>
+## <a href='longestRun.test.js'>About the Tests</a>
 
 <img src='https://img.shields.io/badge/Jest-C21325.svg?style=for-the-badge&logo=Jest&logoColor=white' />
 

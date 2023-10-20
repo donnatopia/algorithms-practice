@@ -1,10 +1,10 @@
 /**
- * @param {}
- * @return {}
+ * @param {string} str
+ * @return {[number, number]}
  */
 
-const template = () => {
+const longestRun = (str) => {
 
 }
 
-module.exports = template;
+module.exports = longestRun;

@@ -1,19 +1,41 @@
-<!-- Change Problem Title -->
-# 0. Title
+# 19. Compose Pipe
 
 ## About the Problem
 
-<!-- Add Problem Description -->
+Write Compose and Pipe functions.
 
-<!-- Add Examples -->
+Step 1: Implement the function Compose:
+
+ - Compose should return a function that is the composition of a list of functions of arbitrary length.
+ - Each function is called on the return value of the function that follows.
+ - You can view compose as moving right to left through its arguments.
+
+Step 2: Implement the function Pipe:
+
+ - Pipe composes a series of functions and returns the resulting function.
+ - Each function is called on the return value of the preceding function.
+ - You can view pipe as moving left to right through its arguments.
+
+
 ### Examples
 
-| Example| Input | Output |
-| --- | --- | --- |
-| 1 |  |  |
+Compose Example:
+```
+var greet = function(name){ return 'hi: ' + name;}
+var exclaim = function(statement) { return statement.toUpperCase() + '!';}
+var welcome = compose(greet, exclaim);
+welcome('phillip'); // 'hi: PHILLIP!'
+```
 
-<!-- Add Link to Solution -->
-## <a href=''>About the Solution</a>
+Pipe Example:
+```
+var add2 = function(number){ return number + 2; }
+var multiplyBy3 = function(number){ return number * 3; }
+pipe(add2, multiplyBy3)(5) // 21
+pipe(add2, multiplyBy3, multiplyBy3)(5) // 63
+```
+
+## <a href='./composePipe.js'>About the Solution</a>
 
 <img src='https://img.shields.io/badge/JavaScript-F7DF1E.svg?style=for-the-badge&logo=JavaScript&logoColor=black' />
 
@@ -36,8 +58,7 @@
 ### Pseudocode
 -
 
-<!-- Add Link to Tests -->
-## <a href=''>About the Tests</a>
+## <a href='./composePipe.test.js'>About the Tests</a>
 
 <img src='https://img.shields.io/badge/Jest-C21325.svg?style=for-the-badge&logo=Jest&logoColor=white' />
 

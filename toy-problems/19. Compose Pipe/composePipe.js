@@ -1,10 +1,21 @@
+'use strict';
+
 /**
- * @param {}
- * @return {}
+ * @param {...function} fns
+ * @return {function}
  */
 
-const template = () => {
+const compose = (...fns) => {
 
 }
 
-module.exports = template;
+/**
+ * @param {...function} fns
+ * @return {function}
+ */
+
+const pipe = (...fns) => {
+
+}
+
+module.exports = {compose, pipe};

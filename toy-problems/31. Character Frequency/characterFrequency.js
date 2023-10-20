@@ -1,10 +1,10 @@
 /**
- * @param {}
- * @return {}
+ * @param {string} word
+ * @return {Array<[string, number]>}
  */
 
-const template = () => {
+const characterFrequency = (word) => {
 
 }
 
-module.exports = template;
+module.exports = characterFrequency;

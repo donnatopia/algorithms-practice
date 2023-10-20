@@ -39,24 +39,33 @@ pipe(add2, multiplyBy3, multiplyBy3)(5) // 63
 
 <img src='https://img.shields.io/badge/JavaScript-F7DF1E.svg?style=for-the-badge&logo=JavaScript&logoColor=black' />
 
-<!-- Add Time and Space Complexity -->
 ### Time and Space Complexity
   - Time Complexity: `O(n)`
-  - Space Complexity: `O(n)`
+    - we iterate through all the fns, so linear time
+  - Space Complexity: `O(1)`
+    - result is rewritten with each new function, so it is constant
 
-<!-- Planning -->
 ### Input, Output, Constraints, Edge (IOCE)
 
-  - I:
-  - O:
-  - C:
-  - E:
+- compose
+  - I: unknown arguments of functions
+  - O: execution of the functions from right to left
+  - C: N/A
+  - E: N/A
 
-### Strategy
--
+- pipe
+  - I: unknown arguments of functions
+  - O: executation of the functino from left to right
+  - C: N/A
+  - E: N/A
 
-### Pseudocode
--
+### Strategy / Pseudocode
+- Strategy:
+  - return a function that accepts a parameter
+    - define the result
+    - iterate through all the functions from (pipe: L => R) (compose: R => L)
+      - set the result to equal the running the value through the function
+    - return the final result
 
 ## <a href='./composePipe.test.js'>About the Tests</a>
 

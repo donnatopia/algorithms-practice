@@ -120,7 +120,7 @@
 | 16 | [Deep Equality](/toy-problems/16.%20Deep%20Equality/deepEquality.md) | Recursive DFS | [:green_circle:](/toy-problems/16.%20Deep%20Equality/deepEquality.js) |
 | 17 | [Tree B F Select](/toy-problems/17.%20Tree%20B%20F%20Select/treeBFSelect.md) | Queue, BFS | [:yellow_circle:](/toy-problems/17.%20Tree%20B%20F%20Select/treeBFSelect.js) |
 | 18 | [Async Map](/toy-problems/18.%20Async%20Map/asyncMap.md) | Promises, Async Functions | [:yellow_circle:](/toy-problems/18.%20Async%20Map/asyncMap.js) |
-| 19 | [Compose Pipe](/toy-problems/19.%20Compose%20Pipe/composePipe.md) | - | [:red_circle:](/toy-problems/19.%20Compose%20Pipe/composePipe.js) |
+| 19 | [Compose Pipe](/toy-problems/19.%20Compose%20Pipe/composePipe.md) | Higher-Order Fns | [:green_circle:](/toy-problems/19.%20Compose%20Pipe/composePipe.js) |
 | 20 | [Eventing Library](/toy-problems/20.%20Eventing%20Library/eventingLibrary.md) | - | [:red_circle:](/toy-problems/20.%20Eventing%20Library/eventingLibrary.js) |
 | 21 | [Function Bind](/toy-problems/21.%20Function%20Bind/functionBind.md) | Contexts | [:green_circle:](/toy-problems/21.%20Function%20Bind/functionBind.js) |
 | 22 | [Binary Heap](/toy-problems/22.%20Binary%20Heap/binaryHeap.md) | Constructor, Binary Heap | [:yellow_circle:](/toy-problems/22.%20Binary%20Heap/binaryHeap.js) |

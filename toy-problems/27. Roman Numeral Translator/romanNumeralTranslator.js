@@ -1,10 +1,10 @@
 /**
- * @param {}
- * @return {}
+ * @param {string} input
+ * @return {number}
  */
 
-const template = () => {
+const translateRomanNumeral = (input) => {
 
 }
 
-module.exports = template;
+module.exports = translateRomanNumeral;

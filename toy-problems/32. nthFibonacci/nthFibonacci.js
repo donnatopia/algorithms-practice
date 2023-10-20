@@ -1,10 +1,10 @@
 /**
- * @param {}
- * @return {}
+ * @param {number} num
+ * @return {number}
  */
 
-const template = () => {
+const nthFibonacci = (num) => {
 
 }
 
-module.exports = template;
+module.exports = nthFibonacci;

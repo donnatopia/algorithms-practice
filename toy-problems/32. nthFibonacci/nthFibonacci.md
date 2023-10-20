@@ -1,19 +1,28 @@
-<!-- Change Problem Title -->
-# 0. Title
+# 32. Nth Fibonacci
 
 ## About the Problem
 
-<!-- Add Problem Description -->
+A Fibonacci sequence is a list of numbers that begins with 0 and 1, and each subsequent number is the sum of the previous two.
 
-<!-- Add Examples -->
+For example, the first five Fibonacci numbers are:
+
+  0 1 1 2 3
+
+If n were 4, your function should return 3; for 5, it should return 5.
+
+Write a function that accepts a number, n, and returns the nth Fibonacci number.
+
+Use a recursive solution to this problem; if you finish with time left over, implement an iterative solution.
+
 ### Examples
 
 | Example| Input | Output |
 | --- | --- | --- |
-| 1 |  |  |
+| 1 | `nthFibonacci(2)` | `1` |
+| 2 | `nthFibonacci(3)` | `2` |
+| 3 | `nthFibonacci(4)` | `4` |
 
-<!-- Add Link to Solution -->
-## <a href=''>About the Solution</a>
+## <a href='./nthFibonacci.js'>About the Solution</a>
 
 <img src='https://img.shields.io/badge/JavaScript-F7DF1E.svg?style=for-the-badge&logo=JavaScript&logoColor=black' />
 
@@ -36,8 +45,7 @@
 ### Pseudocode
 -
 
-<!-- Add Link to Tests -->
-## <a href=''>About the Tests</a>
+## <a href='./nthFibonacci.test.js'>About the Tests</a>
 
 <img src='https://img.shields.io/badge/Jest-C21325.svg?style=for-the-badge&logo=Jest&logoColor=white' />
 

@@ -26,24 +26,31 @@ Use a recursive solution to this problem; if you finish with time left over, imp
 
 <img src='https://img.shields.io/badge/JavaScript-F7DF1E.svg?style=for-the-badge&logo=JavaScript&logoColor=black' />
 
-<!-- Add Time and Space Complexity -->
 ### Time and Space Complexity
   - Time Complexity: `O(n)`
-  - Space Complexity: `O(n)`
+    - we itereate until num, so time is linear
+  - Space Complexity: `O(1)`
+    - no additional data structures, so space is constant
 
-<!-- Planning -->
 ### Input, Output, Constraints, Edge (IOCE)
 
-  - I:
-  - O:
-  - C:
-  - E:
+  - I: number
+  - O: the nth number in the fibonacci sequence
+  - C: N/A
+  - E: 0 returns 0
+    - negative = null
 
 ### Strategy
--
-
-### Pseudocode
--
+- Plan A (iterative):
+  - set index as 1
+  - set previous to 0
+  - set current as 1
+  - while the index is less than num
+    - set sum as the sum of previous and current
+    - set previous to current
+    - set current to sum
+    - increment the index
+  - return current
 
 ## <a href='./nthFibonacci.test.js'>About the Tests</a>
 

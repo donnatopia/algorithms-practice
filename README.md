@@ -133,7 +133,7 @@
 | 29 | [Sudoku Checker](/toy-problems/29.%20Sudoku%20Checker/sudokuChecker.md) | Matrix | [:yellow_circle:](/toy-problems/29.%20Sudoku%20Checker/sudokuChecker.js) |
 | 30 | [Integer Reverse](/toy-problems/30.%20Integer%20Reverse/integerReverse.md) | Math | [:green_circle:](/toy-problems/30.%20Integer%20Reverse/integerReverse.js) |
 | 31 | [Character Frequency](/toy-problems/31.%20Character%20Frequency/characterFrequency.md) | - | [:green_circle:](/toy-problems/31.%20Character%20Frequency/characterFrequency.js) |
-| 32 | [nthFibonacci](/toy-problems/32.%20nthFibonacci/nthFibonacci.md) | - | [:red_circle:](/toy-problems/32.%20nthFibonacci/nthFibonacci.js) |
+| 32 | [nthFibonacci](/toy-problems/32.%20nthFibonacci/nthFibonacci.md) | Iterative | [:green_circle:](/toy-problems/32.%20nthFibonacci/nthFibonacci.js) |
 | 33 | [Fraction Converter](/toy-problems/33.%20Fraction%20Converter/fractionConverter.md) | - | [:green_circle:](/toy-problems/33.%20Fraction%20Converter/fractionConverter.js) |
 | 34 | [Sum Array](/toy-problems/34.%20Sum%20Array/sumArray.md) | - | [:yellow_circle:](/toy-problems/34.%20Sum%20Array/sumArray.js) |
 | 35 | [Number to English](/toy-problems/35.%20Number%20to%20English/numberToEnglish.md) | Recursion | [:yellow_circle:](/toy-problems/35.%20Number%20to%20English/numberToEnglish.js) |

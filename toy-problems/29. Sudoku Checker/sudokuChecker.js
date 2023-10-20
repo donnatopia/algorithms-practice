@@ -1,10 +1,10 @@
 /**
- * @param {}
- * @return {}
+ * @param {string} board
+ * @return {string}
  */
 
-const template = () => {
+const sudokuChecker = (board) => {
 
 }
 
-module.exports = template;
+module.exports = sudokuChecker;

@@ -1,10 +1,11 @@
 /**
- * @param {}
- * @return {}
+ * @param {Array} child
+ * @param {Array} parent
+ * @return {boolean}
  */
 
-const template = () => {
+const isSubsetOf = (child, parent) => {
 
 }
 
-module.exports = template;
+module.exports = isSubsetOf;

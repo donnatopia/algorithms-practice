@@ -61,11 +61,13 @@ pipe(add2, multiplyBy3, multiplyBy3)(5) // 63
 
 ### Strategy / Pseudocode
 - Strategy:
-  - return a function that accepts a parameter
+  - return a function that accepts a parameter (higher-order function)
     - define the result
     - iterate through all the functions from (pipe: L => R) (compose: R => L)
       - set the result to equal the running the value through the function
     - return the final result
+
+- use reduce and reduceRight function
 
 ## <a href='./composePipe.test.js'>About the Tests</a>
 

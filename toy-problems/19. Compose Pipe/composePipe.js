@@ -6,14 +6,8 @@
  */
 
 const compose = (...fns) => {
-  return (arg) => {
-    let result = arg;
-
-    for (let i = fns.length - 1; i >= 0; i--) {
-      result = fns[i](result);
-    }
-
-    return result;
+  return (val) => {
+    return fns.reduceRight((memo, fn) => fn(memo), val);
   }
 }
 
@@ -23,14 +17,8 @@ const compose = (...fns) => {
  */
 
 const pipe = (...fns) => {
-  return (arg) => {
-    let result = arg;
-
-    for (let i = 0; i < fns.length; i++) {
-      result = fns[i](result);
-    }
-
-    return result;
+  return (val) => {
+    return fns.reduce((memo, fn) => fn(memo), val);
   }
 }
 

@@ -22,24 +22,29 @@ Extra Credit: Make the method work for arrays that contain objects and/or arrays
 
 <img src='https://img.shields.io/badge/JavaScript-F7DF1E.svg?style=for-the-badge&logo=JavaScript&logoColor=black' />
 
-<!-- Add Time and Space Complexity -->
 ### Time and Space Complexity
-  - Time Complexity: `O(n)`
-  - Space Complexity: `O(n)`
+  - Time Complexity: `O(m + n)`
+    - we iterate through all of parents and add to the set, so this is linear with respect to length of parents
+    - we iterate through all of children to check if it is in set so this is linear with respect to the length of children
+    - overall the time complexity is O(m + n), where m is the length of parents and n is the length of children
+  - Space Complexity: `O(m)`
+    - we store all of parents in a set, which has a space complexity of O(m)
 
-<!-- Planning -->
 ### Input, Output, Constraints, Edge (IOCE)
 
-  - I:
-  - O:
-  - C:
+  - I: two arrays
+  - O: boolean if the child elements is located in parent array
+  - C: N/A
   - E:
+    - empty array for child yields true for all parent arrays
+    - reference variables for children and parents
 
-### Strategy
--
-
-### Pseudocode
--
+### Strategy / Psuedocode
+- Plan A (set):
+  - create a set of stringified representations of the parent
+  - iterate through the children
+    - if the stringified version of the child is not in the set of parents => return false
+  - return true if pass all these checks
 
 ## <a href='isSubsetOf.test.js'>About the Tests</a>
 

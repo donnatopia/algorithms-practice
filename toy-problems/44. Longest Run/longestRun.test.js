@@ -6,6 +6,7 @@ xdescribe('44. Longest Run', () => {
     expect(longestRun('abbbcc')).toEqual([1, 3]);
     expect(longestRun('aabbc')).toEqual([0, 1]);
     expect(longestRun('abcd')).toEqual([0, 0]);
+    expect(longestRun('aaaaa')).toEqual([0, 4]);
   });
 
   it('should return null for an empty string input', () => {
@@ -21,7 +22,7 @@ xdescribe('44. Longest Run', () => {
 
   it('should handle long, random strings', () => {
     const input = 'aaabbccdddddeeeeeffffffggggggghhhhhhhhiiiijjjjjjjjkkkkkkkkkllllllllllmmmmmmmmmmmnnnnnnnnnnn';
-    expect(longestRun(input)).toEqual([40, 49]);
+    expect(longestRun(input)).toEqual([69, 79]);
   });
 
 });

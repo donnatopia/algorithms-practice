@@ -145,7 +145,7 @@
 | 41 | [Robot Paths](/toy-problems/41.%20Robot%20Paths/robotPaths.md) | Recursive Backtracking | [:green_circle:](/toy-problems/41.%20Robot%20Paths/robotPaths.js) |
 | 42 | [Island Count](/toy-problems/42.%20Island%20Count/islandCount.md) | DFS | [:yellow_circle:](/toy-problems/42.%20Island%20Count/islandCount.js) |
 | 43 | [isSubsetOf](/toy-problems/43.%20isSubsetOf/isSubsetOf.md) | Set | [:green_circle:](/toy-problems/43.%20isSubsetOf/isSubsetOf.js) |
-| 44 | [Longest Run](/toy-problems/44.%20Longest%20Run/longestRun.md) | - | [:red_circle:](/toy-problems/44.%20Longest%20Run/longestRun.js) |
+| 44 | [Longest Run](/toy-problems/44.%20Longest%20Run/longestRun.md) | Sliding Window | [:green_circle:](/toy-problems/44.%20Longest%20Run/longestRun.js) |
 | 45 | [Prime Tester](/toy-problems/45.%20Prime%20Tester/primeTester.md) | Math | [:yellow_circle:](/toy-problems/45.%20Prime%20Tester/primeTester.js) |
 
 ## Solution Legend

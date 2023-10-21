@@ -19,24 +19,37 @@ Try your function with long, random strings to make sure it handles large inputs
 
 <img src='https://img.shields.io/badge/JavaScript-F7DF1E.svg?style=for-the-badge&logo=JavaScript&logoColor=black' />
 
-<!-- Add Time and Space Complexity -->
 ### Time and Space Complexity
   - Time Complexity: `O(n)`
-  - Space Complexity: `O(n)`
+    - we only interate through each character once in a linear manner
+  - Space Complexity: `O(1)`
+    - no additional data structures
 
-<!-- Planning -->
 ### Input, Output, Constraints, Edge (IOCE)
 
-  - I:
-  - O:
-  - C:
-  - E:
+  - I: string
+  - O: tuple, where the first number is the start index of the longest run of identical characters and the last is the end index
+  - C: N/A
+  - E: empty string produces null
+    - multiple instances of the longest run would return the range for the first instance
 
-### Strategy
--
-
-### Pseudocode
--
+### Strategy / Pseudocode
+- Plan A (two pointers):
+  - if the string's length is 0, return null
+  - set the variable for start to be 0
+  - set the variable for end to be 0
+  - set an interation variable, i
+  - while i is less than the length of the string
+    - set a variable for j and set to i
+    - while the variable at j + 1 is equal to the variable at i
+      - increment j
+    - set the current length to j - i + 1
+    - set the max length to end - start + 1
+    - if the current length is greater than the max length
+      - replace the end variable with j
+      - replace the start variable with i
+    - set i to j + 1;
+  - return the tuple of start and end
 
 ## <a href='longestRun.test.js'>About the Tests</a>
 

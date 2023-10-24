@@ -12,6 +12,7 @@
 
 | # | Problem | Difficulty | Notes | Solution |
 | --- | --- | --- | --- | --- |
+| 515 | [Find Largest Value in Each Tree Row](/leetcode/515.%20Find%20Largest%20Value%20in%20Each%20Tree%20Row/largestValues.md) | Medium | - | [:red_circle:](/leetcode/515.%20Find%20Largest%20Value%20in%20Each%20Tree%20Row/largestValues.js) |
 | 1458 | [Max Dot Product of Two Subsequences](/leetcode/1458.%20Max%20Dot%20Product%20of%20Two%20Subsequences/maxDotProduct.md) | Hard | - | [:red_circle:](/leetcode/1458.%20Max%20Dot%20Product%20of%20Two%20Subsequences/maxDotProduct.js) |
 | 1420 | [Build Array Where You Find The Maximum Exactly K Comparisons](/leetcode/1420.%20Build%20Array%20Where%20You%20Can%20Find%20The%20Maximum%20Exactly%20K%20Comparisons/numOfArrays.md) | Hard | - | [:red_circle:](/leetcode/1420.%20Build%20Array%20Where%20You%20Can%20Find%20The%20Maximum%20Exactly%20K%20Comparisons/numOfArrays.js) |
 | 343 | [Integer Break](/leetcode/343.%20Integer%20Break/integerBreak.md) | Medium | DP | [:yellow_circle:](/leetcode/343.%20Integer%20Break/integerBreak.js) |

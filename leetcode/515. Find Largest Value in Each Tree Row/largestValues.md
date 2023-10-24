@@ -22,31 +22,34 @@ Given the `root` of a binary tree, return an array of the largest value in each 
 
 <img src='https://img.shields.io/badge/JavaScript-F7DF1E.svg?style=for-the-badge&logo=JavaScript&logoColor=black' />
 
-<!-- Add Metrics from LeetCode -->
 ### Stats
 | Type | Metric | Percentile |
 | --- | --- | --- |
-| Runtime |  |  |
-| Memory |  |  |
+| Runtime | 68 ms | 46.15% |
+| Memory | 47.12 MB | 35.29% |
 
-<!-- Change Time and Space Complexity -->
 ### Time and Space Complexity
   - Time Complexity: `O(n)`
+    - traversal through the nodes is linear
+    - reducing the nodes to max is linear
+    - congruent functions means that the overall time complexity is linear
   - Space Complexity: `O(n)`
+    - at most, we will store the length of all the nodes in the tree, so this is also linear
 
-<!-- Planning -->
 ### Input, Output, Constraints, Edge (IOCE)
 
-  - I:
-  - O:
-  - C:
+  - I: TreeNode
+  - O: number[] containing the largest value in each row of the tree
+  - C: N/A
   - E:
+    - empty tree => empty array
+    - negative values in present
 
-### Strategy
--
-
-### Pseudocode
--
+### Strategy / Pseudocode
+- Plan A (stackish)
+  - convert the tree to a matrix
+    - iterate down the binary treee until all the values are placed onto the matrix
+    - return the map the matrix to a new array with only the max values of each row
 
 ## <a href='largestValues.test.js'>About the Tests</a>
 
